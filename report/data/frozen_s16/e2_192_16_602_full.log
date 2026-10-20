@@ -1,0 +1,20 @@
+### e2_192_16_602_full 2026-10-15T14:03:29Z
+k4full spec=full n=192 L=16/16 seed=602 cpu torch.float64: final 1.6711e-06 t=108s gpu_peak=0.0G host_maxrss=2.3G births=0G | 1.7e-08 2.6e-08 1.3e-07 3.6e-07 1.1e-06 1.7e-06
+      110.70 real       117.39 user        17.99 sys
+          2435235840  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             1883630  page reclaims
+                2577  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   1  signals received
+                9101  voluntary context switches
+             1047268  involuntary context switches
+            15293585  instructions retired
+             8520051  cycles elapsed
+              983352  peak memory footprint

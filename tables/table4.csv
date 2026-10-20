@@ -1,0 +1,179 @@
+key,value,unit,what,source
+lb_s01_adj,5.418e-09,score,"#332957 504aldo V29 as published; raw 2.133e-08, C/B 0.254",AIcrowd submission #332957
+lb_s03_adj,5.021e-09,score,"#334962 + Strassen leaf 8, join products in the Strassen family; raw 2.13e-08, C/B 0.236",AIcrowd submission #334962
+lb_s05_adj,4.791e-09,score,"#334987 Strassen leaf 8 + output rows of dead neurons trimmed; raw 2.134e-08, C/B 0.225",AIcrowd submission #334987
+lb_s06_adj,4.449e-09,score,"#334990 s03 + s05 + five cost blocks of acco-cyber V37; raw 2.099e-08, C/B 0.212",AIcrowd submission #334990
+lb_s07_adj,4.286e-09,score,"#335127 + 6th hub Strassen level, residual SVD r8, shared basis 352, feedback SVD r16; raw 2.128e-08, C/B 0.201",AIcrowd submission #335127
+lb_s11_adj,4.258e-09,score,"#335162 + wall-clock work (materialized operands, in-place products); raw 2.129e-08, C/B 0.2",AIcrowd submission #335162
+lb_s14_adj,4.03e-09,score,"#335185 + SSC closure (Puffi) on the regeneration channel, 9 coefficients refit; raw 2.014e-08, C/B 0.2",AIcrowd submission #335185
+lb_s17_adj,3.525e-09,score,"#335300 chain A: + young-atom pruning, active-set trimming, Morton wall-clock blocks; raw 2.067e-08, C/B 0.169",AIcrowd submission #335300
+lb_s18_adj,3.494e-09,score,"#335301 chain B: + feedback thin legs at rank 4; raw 2.09e-08, C/B 0.166",AIcrowd submission #335301
+lb_s21_adj,3.181e-09,score,"#335351 B + learned per-layer corrector, 1,000 training networks; raw 1.872e-08, C/B 0.169",AIcrowd submission #335351
+lb_s22_adj,7.248e-09,score,"#335713 B + K=4 star term (four distinct indices, age 4); raw 2.076e-08, C/B 0.349",AIcrowd submission #335713
+lb_s23_adj,3.188e-09,score,"#336536 B + wider corrector (state 64, hidden 192), 3,048 training networks; raw 1.857e-08, C/B 0.171",AIcrowd submission #336536
+lb_s24_adj,3.145e-09,score,"#336537 B + learned per-layer corrector, 3,048 training networks; raw 1.853e-08, C/B 0.169",AIcrowd submission #336537
+grader_335301_raw_min,1.666e-08,MSE,"#335301 smallest per-network raw, 50 public",runs/local/compute-s8/res_335301.json (grader receipt)
+grader_335301_raw_max,2.651e-08,MSE,"#335301 largest per-network raw, 50 public",runs/local/compute-s8/res_335301.json (grader receipt)
+grader_335301_cb_min,0.163495,C/B,"#335301 smallest per-network C/B, 100 networks",runs/local/compute-s8/res_335301.json (grader receipt)
+grader_335301_cb_max,0.175007,C/B,#335301 largest per-network C/B,runs/local/compute-s8/res_335301.json (grader receipt)
+grader_335301_wall_median,80.4511,s,#335301 median wall time per network,runs/local/compute-s8/res_335301.json (grader receipt)
+grader_335301_wall_max,85.5527,s,#335301 slowest network,runs/local/compute-s8/res_335301.json (grader receipt)
+grader_335301_residual_max,0.310599,s,#335301 largest residual time (cap 0.4 s),runs/local/compute-s8/res_335301.json (grader receipt)
+grader_335301_failed,0,count,#335301 failed networks,runs/local/compute-s8/res_335301.json (grader receipt)
+grader_335351_raw_min,1.513e-08,MSE,"#335351 smallest per-network raw, 50 public",runs/local/compute-s8/res_335351.json (grader receipt)
+grader_335351_raw_max,2.454e-08,MSE,"#335351 largest per-network raw, 50 public",runs/local/compute-s8/res_335351.json (grader receipt)
+grader_335351_cb_min,0.165912,C/B,"#335351 smallest per-network C/B, 100 networks",runs/local/compute-s8/res_335351.json (grader receipt)
+grader_335351_cb_max,0.177643,C/B,#335351 largest per-network C/B,runs/local/compute-s8/res_335351.json (grader receipt)
+grader_335351_wall_median,82.0323,s,#335351 median wall time per network,runs/local/compute-s8/res_335351.json (grader receipt)
+grader_335351_wall_max,89.207,s,#335351 slowest network,runs/local/compute-s8/res_335351.json (grader receipt)
+grader_335351_residual_max,0.325032,s,#335351 largest residual time (cap 0.4 s),runs/local/compute-s8/res_335351.json (grader receipt)
+grader_335351_failed,0,count,#335351 failed networks,runs/local/compute-s8/res_335351.json (grader receipt)
+grader_335713_raw_min,1.676e-08,MSE,"#335713 smallest per-network raw, 50 public",report/data/res_335713.json (grader receipt)
+grader_335713_raw_max,2.631e-08,MSE,"#335713 largest per-network raw, 50 public",report/data/res_335713.json (grader receipt)
+grader_335713_cb_min,0.345482,C/B,"#335713 smallest per-network C/B, 100 networks",report/data/res_335713.json (grader receipt)
+grader_335713_cb_max,0.356893,C/B,#335713 largest per-network C/B,report/data/res_335713.json (grader receipt)
+grader_335713_wall_median,82.7593,s,#335713 median wall time per network,report/data/res_335713.json (grader receipt)
+grader_335713_wall_max,85.2372,s,#335713 slowest network,report/data/res_335713.json (grader receipt)
+grader_335713_residual_max,0.316601,s,#335713 largest residual time (cap 0.4 s),report/data/res_335713.json (grader receipt)
+grader_335713_failed,0,count,#335713 failed networks,report/data/res_335713.json (grader receipt)
+grader_336536_raw_min,1.457e-08,MSE,"#336536 smallest per-network raw, 50 public",report/data/res_336536.json (grader receipt)
+grader_336536_raw_max,2.332e-08,MSE,"#336536 largest per-network raw, 50 public",report/data/res_336536.json (grader receipt)
+grader_336536_cb_min,0.168001,C/B,"#336536 smallest per-network C/B, 100 networks",report/data/res_336536.json (grader receipt)
+grader_336536_cb_max,0.179732,C/B,#336536 largest per-network C/B,report/data/res_336536.json (grader receipt)
+grader_336536_wall_median,84.3954,s,#336536 median wall time per network,report/data/res_336536.json (grader receipt)
+grader_336536_wall_max,89.7605,s,#336536 slowest network,report/data/res_336536.json (grader receipt)
+grader_336536_residual_max,0.350604,s,#336536 largest residual time (cap 0.4 s),report/data/res_336536.json (grader receipt)
+grader_336536_failed,0,count,#336536 failed networks,report/data/res_336536.json (grader receipt)
+grader_336537_raw_min,1.473e-08,MSE,"#336537 smallest per-network raw, 50 public",report/data/res_336537.json (grader receipt)
+grader_336537_raw_max,2.361e-08,MSE,"#336537 largest per-network raw, 50 public",report/data/res_336537.json (grader receipt)
+grader_336537_cb_min,0.165919,C/B,"#336537 smallest per-network C/B, 100 networks",report/data/res_336537.json (grader receipt)
+grader_336537_cb_max,0.17765,C/B,#336537 largest per-network C/B,report/data/res_336537.json (grader receipt)
+grader_336537_wall_median,85.528,s,#336537 median wall time per network,report/data/res_336537.json (grader receipt)
+grader_336537_wall_max,102.106,s,#336537 slowest network,report/data/res_336537.json (grader receipt)
+grader_336537_residual_max,0.35664,s,#336537 largest residual time (cap 0.4 s),report/data/res_336537.json (grader receipt)
+grader_336537_failed,0,count,#336537 failed networks,report/data/res_336537.json (grader receipt)
+lt2_holdout_ratio,0.8729,x,"learned corrector on chain B: raw on the 100 public mini networks (selection set) / chain B (trained on 3,048 networks: full split and corpus 0-2047)",runs/cloud/corpus-s6/result.json
+lt2_grader_ratio,0.886603,x,#336537 raw / #335301 raw on the grader,"AIcrowd submissions #335301, #336537"
+lt2_inputs_per_neuron,134,count,"corrector inputs per neuron and layer, the 16-way layer one-hot included",runs/cloud/corpus-s6/retrieved/runs/E32/train.log
+lt2_trained_parameters,54561,count,"corrector: trained parameters (134 -> 128 -> 128 -> 128 -> 33, GELU)",runs/cloud/corpus-s6/retrieved/runs/E32/train.log
+lt2_epochs,30,count,"corrector: epochs through the recurrence (Adam, one-cycle to the peak rate)",runs/cloud/corpus-s6/retrieved/runs/E32/train.log
+lt2_peak_lr,0.002,lr,corrector: one-cycle peak learning rate (15% warm-up),runs/cloud/corpus-s6/retrieved/runs/E32/train.log
+lt2_batch_networks,4,count,corrector: networks per batch,runs/cloud/corpus-s6/retrieved/runs/E32/train.log
+lt2_train_networks,3048,count,corrector: training networks (public full 0-999 and corpus 0-2047),runs/cloud/corpus-s6/retrieved/runs/E32/train.log
+lt2_corpus_networks,2048,count,corrector: training networks from Keenan Pepper's public corpus (indices 0-2047),runs/cloud/corpus-s6/retrieved/runs/E32/train.log
+lt2_steps,22860,count,corrector: optimizer steps,runs/cloud/corpus-s6/retrieved/runs/E32/train.log
+lt2_target_rms_layer1,2.942e-05,mean,RMS of the new mean error at layer 1 over the training set (the target's scale),runs/cloud/corpus-s6/retrieved/runs/E32/train.log
+lt2_target_rms_layer15,6.54e-05,mean,"same at layer 15, the output",runs/cloud/corpus-s6/retrieved/runs/E32/train.log
+lt2_holdout_ratio_epoch1,0.9472,x,mini (selection set) raw ratio after the first epoch,runs/cloud/corpus-s6/retrieved/runs/E32/train.log
+lt2_train_wall_s,2219,s,"corrector: training wall time, 30 epochs, one 48 GB A40",runs/cloud/corpus-s6/retrieved/runs/E32/train.log
+lt2_holdout_better,100,count,mini networks of 100 where the corrector lowers raw,runs/cloud/corpus-s6/retrieved/runs/E32/result.json
+lt2_holdout_ratio_min,0.762672,x,mini: smallest per-network raw ratio,runs/cloud/corpus-s6/retrieved/runs/E32/result.json
+lt2_holdout_ratio_max,0.980236,x,mini: largest per-network raw ratio,runs/cloud/corpus-s6/retrieved/runs/E32/result.json
+lt2_left_layer1,0.498822,x,mini: share of the new error's energy left at layer 1,runs/cloud/corpus-s6/retrieved/runs/E32/result.json
+lt2_left_layer15,0.93846,x,mini: share of the new error's energy left at layer 15,runs/cloud/corpus-s6/retrieved/runs/E32/result.json
+lt2_small_holdout_ratio,0.882005,x,"#335351's corrector (1,000 training networks): mini raw / chain B",runs/cloud/lt-s5/runs/Eg/result.json
+lt2_small_grader_ratio,0.895694,x,#335351 raw / #335301 raw on the grader,"AIcrowd submissions #335301, #335351"
+lt2_small_holdout_ratio_epoch1,0.9727,x,#335351's corrector: mini raw ratio after the first epoch,runs/cloud/lt-s5/runs/Eg/train.log
+lt2_seed0_holdout_ratio,0.882005,x,#335351's corrector retrained with seed 0: mini raw / chain B,runs/cloud/lt-seeds/Eg_s0/result.json
+lt2_seed0_holdout_better,100,count,"same, seed 0: mini networks of 100 where the corrector lowers raw",runs/cloud/lt-seeds/Eg_s0/result.json
+lt2_seed1_holdout_ratio,0.881364,x,#335351's corrector retrained with seed 1: mini raw / chain B,runs/cloud/lt-seeds/Eg_s1/result.json
+lt2_seed1_holdout_better,100,count,"same, seed 1: mini networks of 100 where the corrector lowers raw",runs/cloud/lt-seeds/Eg_s1/result.json
+lt2_seed2_holdout_ratio,0.882296,x,#335351's corrector retrained with seed 2: mini raw / chain B,runs/cloud/lt-seeds/Eg_s2/result.json
+lt2_seed2_holdout_better,100,count,"same, seed 2: mini networks of 100 where the corrector lowers raw",runs/cloud/lt-seeds/Eg_s2/result.json
+lt2_seed_spread,0.000932281,x,"#335351's corrector, seeds 0-2: largest minus smallest mini ratio",derived
+lt2_corpus_mini_ratio,0.989442,x,"mini: corrected raw with 3,048 training networks / with 1,000, mean over 100","runs/cloud/corpus-s6/retrieved/runs/E32/result.json, runs/cloud/lt-s5/runs/Eg/result.json"
+lt2_corpus_mini_better,83,count,"mini networks of 100 where 3,048 training networks beat 1,000",derived
+lt2_shipped_numbers,58376,count,"float32 numbers embedded in #336537: weights, per-layer biases, standardisation tables",runs/cloud/corpus-s6/retrieved/runs/E32/lt2_weights.npz
+lt2_parity_max_rel,0.00483,x,"NumPy forward of the export against PyTorch, max |du| / max |u|, mini 0-1",runs/cloud/corpus-s6/retrieved/logs/parity-E32.log
+lt2_const_column_scale,817648,x,standardisation scale of input column 3 at layer 0 in #336537's export,runs/cloud/corpus-s6/retrieved/runs/E32/lt2_weights.npz
+lt2_const_column_sd,1.22302e-06,x,"same column: standard deviation over the 3,048 training networks",derived
+lt2_local_mini0_raw,1.9341e-08,MSE,"#336537's file on mini 0, one laptop process",report/data/s24_mini0_local.log
+lt2_train_path_mini0_raw,1.95254e-08,MSE,training path's corrected raw on mini 0 (dense products),runs/cloud/corpus-s6/retrieved/runs/E32/result.json
+lt2_dump_wall_min,34.5,s,"chain B trajectory export, fastest network (one CPU thread)",runs/cloud/corpus-s6/retrieved/logs/
+lt2_dump_wall_max,177,s,"same, slowest network",runs/cloud/corpus-s6/retrieved/logs/
+lt2_run_hours,1.99472,h,"launch to both embedded files, one 2 x A40 machine at $0.85 an hour, one restart included","runs/cloud/corpus-s6/create.json, retrieved/remote.log"
+lt2_grader_better,50,count,grader's 50 public networks where #336537 raw < #335301 raw,"runs/local/compute-s8/res_335301.json, report/data/res_336537.json (grader receipts)"
+lt2_grader_ratio_min,0.81287,x,grader: smallest per-network #336537 / #335301 raw,"runs/local/compute-s8/res_335301.json, report/data/res_336537.json (grader receipts)"
+lt2_grader_ratio_max,0.971605,x,grader: largest per-network #336537 / #335301 raw,"runs/local/compute-s8/res_335301.json, report/data/res_336537.json (grader receipts)"
+young_keep_mass_335301,0.995,x,#335301: young atoms kept until this share of the score sum (rounded up to 32),subs/s18_cmp13/estimator.py
+young_keep_mass_335351,0.995,x,#335351: young atoms kept until this share of the score sum (rounded up to 32),subs/s21_cmp13_lt2_E/estimator.py
+young_keep_mass_335187,0.996,x,#335187: young atoms kept until this share of the score sum (rounded up to 32),subs/s15_lt_young/estimator.py
+young_keep_mass_336537,0.995,x,#336537: young atoms kept until this share of the score sum (rounded up to 32),subs/s24_cmp13_corpus_E32/estimator.py
+lad50_step2_adj_ratio_of_means,0.821199,x,"step 2 (#334990 over #332957): mean adj over the previous mean adj, grader's 50 public networks","report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_step2_ci_lo,0.81316,x,"step 2 (#334990 over #332957): 95% paired network-resample interval, lo",derived
+lad50_step2_ci_hi,0.829538,x,"step 2 (#334990 over #332957): 95% paired network-resample interval, hi",derived
+lad50_step2_better,50,count,step 2 (#334990 over #332957): networks of 50 with lower adj,"report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_step2_net_min,0.774553,x,step 2 (#334990 over #332957): smallest per-network adj ratio,"report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_step2_net_max,0.898824,x,step 2 (#334990 over #332957): largest per-network adj ratio,"report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_step3_adj_ratio_of_means,0.963339,x,"step 3 (#335127 over #334990): mean adj over the previous mean adj, grader's 50 public networks","report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_step3_ci_lo,0.956458,x,"step 3 (#335127 over #334990): 95% paired network-resample interval, lo",derived
+lad50_step3_ci_hi,0.97018,x,"step 3 (#335127 over #334990): 95% paired network-resample interval, hi",derived
+lad50_step3_better,47,count,step 3 (#335127 over #334990): networks of 50 with lower adj,"report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_step3_net_min,0.901999,x,step 3 (#335127 over #334990): smallest per-network adj ratio,"report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_step3_net_max,1.02035,x,step 3 (#335127 over #334990): largest per-network adj ratio,"report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_step4_adj_ratio_of_means,0.993309,x,"step 4 (#335162 over #335127): mean adj over the previous mean adj, grader's 50 public networks","report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_step4_ci_lo,0.992731,x,"step 4 (#335162 over #335127): 95% paired network-resample interval, lo",derived
+lad50_step4_ci_hi,0.993951,x,"step 4 (#335162 over #335127): 95% paired network-resample interval, hi",derived
+lad50_step4_better,49,count,step 4 (#335162 over #335127): networks of 50 with lower adj,"report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_step4_net_min,0.986364,x,step 4 (#335162 over #335127): smallest per-network adj ratio,"report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_step4_net_max,1.00256,x,step 4 (#335162 over #335127): largest per-network adj ratio,"report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_step5_adj_ratio_of_means,0.946491,x,"step 5 (#335185 over #335162): mean adj over the previous mean adj, grader's 50 public networks","report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_step5_ci_lo,0.941802,x,"step 5 (#335185 over #335162): 95% paired network-resample interval, lo",derived
+lad50_step5_ci_hi,0.951448,x,"step 5 (#335185 over #335162): 95% paired network-resample interval, hi",derived
+lad50_step5_better,49,count,step 5 (#335185 over #335162): networks of 50 with lower adj,"report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_step5_net_min,0.912587,x,step 5 (#335185 over #335162): smallest per-network adj ratio,"report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_step5_net_max,1.00725,x,step 5 (#335185 over #335162): largest per-network adj ratio,"report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_step6_adj_ratio_of_means,0.874674,x,"step 6 (#335300 over #335185): mean adj over the previous mean adj, grader's 50 public networks","report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_step6_ci_lo,0.867092,x,"step 6 (#335300 over #335185): 95% paired network-resample interval, lo",derived
+lad50_step6_ci_hi,0.8822,x,"step 6 (#335300 over #335185): 95% paired network-resample interval, hi",derived
+lad50_step6_better,50,count,step 6 (#335300 over #335185): networks of 50 with lower adj,"report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_step6_net_min,0.824225,x,step 6 (#335300 over #335185): smallest per-network adj ratio,"report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_step6_net_max,0.927498,x,step 6 (#335300 over #335185): largest per-network adj ratio,"report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_step7_adj_ratio_of_means,0.991233,x,"step 7 (#335301 over #335300): mean adj over the previous mean adj, grader's 50 public networks","report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_step7_ci_lo,0.986633,x,"step 7 (#335301 over #335300): 95% paired network-resample interval, lo",derived
+lad50_step7_ci_hi,0.995374,x,"step 7 (#335301 over #335300): 95% paired network-resample interval, hi",derived
+lad50_step7_better,37,count,step 7 (#335301 over #335300): networks of 50 with lower adj,"report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_step7_net_min,0.92843,x,step 7 (#335301 over #335300): smallest per-network adj ratio,"report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_step7_net_max,1.01925,x,step 7 (#335301 over #335300): largest per-network adj ratio,"report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_step8_adj_ratio_of_means,0.900185,x,"step 8 (#336537 over #335301): mean adj over the previous mean adj, grader's 50 public networks","report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_step8_ci_lo,0.889838,x,"step 8 (#336537 over #335301): 95% paired network-resample interval, lo",derived
+lad50_step8_ci_hi,0.910654,x,"step 8 (#336537 over #335301): 95% paired network-resample interval, hi",derived
+lad50_step8_better,49,count,step 8 (#336537 over #335301): networks of 50 with lower adj,"report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_step8_net_min,0.833678,x,step 8 (#336537 over #335301): smallest per-network adj ratio,"report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_step8_net_max,1.00168,x,step 8 (#336537 over #335301): largest per-network adj ratio,"report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_own_steps_adj_ratio_of_means,0.829632,x,"steps 3, 4, 6, 7 (our changes only), product: mean adj over the previous mean adj, grader's 50 public networks","report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_own_steps_ci_lo,0.820375,x,"steps 3, 4, 6, 7 (our changes only), product: 95% paired network-resample interval, lo",derived
+lad50_own_steps_ci_hi,0.838936,x,"steps 3, 4, 6, 7 (our changes only), product: 95% paired network-resample interval, hi",derived
+lad50_own_steps_better,50,count,"steps 3, 4, 6, 7 (our changes only), product: networks of 50 with lower adj","report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_own_steps_net_min,0.769414,x,"steps 3, 4, 6, 7 (our changes only), product: smallest per-network adj ratio","report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_own_steps_net_max,0.891872,x,"steps 3, 4, 6, 7 (our changes only), product: largest per-network adj ratio","report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_v29_to_b_adj_ratio_of_means,0.644838,x,"chain B #335301 over V29 #332957: mean adj over the previous mean adj, grader's 50 public networks","report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_v29_to_b_ci_lo,0.637019,x,"chain B #335301 over V29 #332957: 95% paired network-resample interval, lo",derived
+lad50_v29_to_b_ci_hi,0.653001,x,"chain B #335301 over V29 #332957: 95% paired network-resample interval, hi",derived
+lad50_v29_to_b_better,50,count,chain B #335301 over V29 #332957: networks of 50 with lower adj,"report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_v29_to_b_net_min,0.573884,x,chain B #335301 over V29 #332957: smallest per-network adj ratio,"report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_v29_to_b_net_max,0.716989,x,chain B #335301 over V29 #332957: largest per-network adj ratio,"report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_corpus_adj_ratio_of_means,0.988764,x,"#336537 (3,048 training networks) over #335351 (1,000): mean adj over the previous mean adj, grader's 50 public networks","report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_corpus_ci_lo,0.983721,x,"#336537 (3,048 training networks) over #335351 (1,000): 95% paired network-resample interval, lo",derived
+lad50_corpus_ci_hi,0.993788,x,"#336537 (3,048 training networks) over #335351 (1,000): 95% paired network-resample interval, hi",derived
+lad50_corpus_better,37,count,"#336537 (3,048 training networks) over #335351 (1,000): networks of 50 with lower adj","report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_corpus_net_min,0.94518,x,"#336537 (3,048 training networks) over #335351 (1,000): smallest per-network adj ratio","report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_corpus_net_max,1.03632,x,"#336537 (3,048 training networks) over #335351 (1,000): largest per-network adj ratio","report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_wide_adj_ratio_of_means,1.00232,x,"#336536 (wider corrector, 3,048 networks) over #335351: mean adj over the previous mean adj, grader's 50 public networks","report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_wide_ci_lo,0.997088,x,"#336536 (wider corrector, 3,048 networks) over #335351: 95% paired network-resample interval, lo",derived
+lad50_wide_ci_hi,1.00751,x,"#336536 (wider corrector, 3,048 networks) over #335351: 95% paired network-resample interval, hi",derived
+lad50_wide_better,22,count,"#336536 (wider corrector, 3,048 networks) over #335351: networks of 50 with lower adj","report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_wide_net_min,0.957706,x,"#336536 (wider corrector, 3,048 networks) over #335351: smallest per-network adj ratio","report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_wide_net_max,1.04335,x,"#336536 (wider corrector, 3,048 networks) over #335351: largest per-network adj ratio","report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_corpus_raw_ratio_of_means,0.989554,x,"#336537 mean raw / #335351 mean raw, grader's 50 public networks","report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_corpus_raw_ci_lo,0.985397,x,"same, 95% paired network-resample interval, lo",derived
+lad50_corpus_raw_ci_hi,0.99374,x,"same, 95% paired network-resample interval, hi",derived
+lad50_corpus_raw_better,37,count,networks of 50 where #336537 raw < #335351 raw,"report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_wide_raw_ratio_of_means,0.991466,x,"#336536 mean raw / #335351 mean raw, grader's 50 public networks","report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+lad50_wide_raw_ci_lo,0.986412,x,"same, 95% paired network-resample interval, lo",derived
+lad50_wide_raw_ci_hi,0.996226,x,"same, 95% paired network-resample interval, hi",derived
+lad50_wide_raw_better,34,count,networks of 50 where #336536 raw < #335351 raw,"report/data/res_{332957,334990,335127,335162,335185,335300,336536,336537}.json, runs/local/compute-s8/res_{335301,335351}.json (grader receipts)"
+grader_335301_cb_mean,0.166093,C/B,#335301 mean metered C/B over all 100 networks,runs/local/compute-s8/res_335301.json (grader receipt)
+grader_335351_cb_mean,0.16879,C/B,#335351 mean metered C/B over all 100 networks,runs/local/compute-s8/res_335351.json (grader receipt)
+grader_336536_cb_mean,0.170709,C/B,#336536 mean metered C/B over all 100 networks,report/data/res_336536.json (grader receipt)
+grader_336537_cb_mean,0.168618,C/B,#336537 mean metered C/B over all 100 networks,report/data/res_336537.json (grader receipt)

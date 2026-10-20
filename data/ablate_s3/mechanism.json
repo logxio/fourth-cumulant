@@ -1,0 +1,96 @@
+{
+  "top20_neurons": [
+    95,
+    18,
+    485,
+    458,
+    297,
+    607,
+    438,
+    906,
+    172,
+    365,
+    471,
+    201,
+    867,
+    290,
+    662,
+    624,
+    512,
+    509,
+    376,
+    367
+  ],
+  "top20_share_of_b_minus_active_squared_error": 0.7959573469570326,
+  "b_layer14_mse": 1.7306737344596365e-08,
+  "b_layer15_mse": 5.707618795112271e-08,
+  "arms": {
+    "active_off": {
+      "layer14_mse": 1.7277348296837874e-08,
+      "layer15_mse": 1.9234226548992564e-08,
+      "top20_removed_share": 0.7959573469570326
+    },
+    "young_off": {
+      "layer14_mse": 1.681377024372785e-08,
+      "layer15_mse": 1.820753226731278e-08,
+      "top20_removed_share": 0.7960568783998888
+    },
+    "old384": {
+      "layer14_mse": 1.6790490675040145e-08,
+      "layer15_mse": 1.8206186785561137e-08,
+      "top20_removed_share": 0.7972044898351768
+    },
+    "res16": {
+      "layer14_mse": 1.6851578117032473e-08,
+      "layer15_mse": 1.8235850074482708e-08,
+      "top20_removed_share": 0.7962178299683793
+    },
+    "fb16": {
+      "layer14_mse": 1.655959502669084e-08,
+      "layer15_mse": 1.7619054147659112e-08,
+      "top20_removed_share": 0.7961676643354444
+    },
+    "repr_off": {
+      "layer14_mse": 1.567600082074949e-08,
+      "layer15_mse": 1.7024307964963924e-08,
+      "top20_removed_share": 0.7978847952129995
+    },
+    "all_off": {
+      "layer14_mse": 1.583320007902299e-08,
+      "layer15_mse": 1.7613263632975702e-08,
+      "top20_removed_share": 0.797051909777181
+    }
+  },
+  "trace_parity": {
+    "comparisons": {
+      "control_vs_old": {
+        "max_abs": 0.0021270886063575745,
+        "rms": 7.374890302992755e-05,
+        "layer15_max_abs": 0.0021270886063575745
+      },
+      "copy_trace_vs_control": {
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "layer15_max_abs": 0.0
+      },
+      "reference_trace_vs_control": {
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "layer15_max_abs": 0.0
+      }
+    },
+    "accepted_same_machine_trace": "trace2",
+    "usable_for_old_s1_arm_table": null
+  },
+  "new_machine_trace": {
+    "kept_columns": 800,
+    "dropped_columns": 224,
+    "dropped_w1_median": 8.233485277742147e-05,
+    "dropped_w1_max": 0.012859545648097992,
+    "dropped_below_0_014": 224,
+    "top20_cut_projection_rms": 4.375822300062282e-06,
+    "all_cut_projection_rms": 4.77191633763141e-06,
+    "b_layer14_mse": 1.718840997039983e-08,
+    "b_layer15_mse": 1.853712458024493e-08
+  }
+}

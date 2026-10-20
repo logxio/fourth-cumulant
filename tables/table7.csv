@@ -1,0 +1,121 @@
+key,value,unit,what,source
+ledger_old_feedback_core_k3_128_,45,units,old feedback core (k3=128),"lab/k4n3_young_direct_chain.py (counted matmuls, 1 unit = 2n^3)"
+ledger_young_feedback_tree_terms_direct,386,units,"young feedback, tree terms direct","lab/k4n3_young_direct_chain.py (counted matmuls, 1 unit = 2n^3)"
+ledger_young_feedback_into_core,88,units,young feedback into core,"lab/k4n3_young_direct_chain.py (counted matmuls, 1 unit = 2n^3)"
+late_B_alone_net0,2.2621e-08,MSE,"chain B alone (no K=4), net 0",runs/cloud/k4s5/runs/k4s5/B_mini0.json
+late_start4_net0,5.41805e-09,MSE,"B to layer 4, then portable K=4 seeded with B's K=4 slices, net 0",runs/cloud/k4s5/runs/k4s5/B_seed_start4_mini0.json
+late_start6_net0,7.63557e-09,MSE,"B to layer 6, then portable K=4 seeded with B's K=4 slices, net 0",runs/cloud/k4s5/runs/k4s5/B_seed_start6_mini0.json
+late_start8_net0,1.19151e-08,MSE,"B to layer 8, then portable K=4 seeded with B's K=4 slices, net 0",runs/cloud/k4s5/runs/k4s5/B_seed_start8_mini0.json
+late_start8_empty_net0,1.75573e-07,MSE,"same, start 8, fourth cumulant emptied at the switch",runs/cloud/k4s5/runs/k4s5/B_start8_mini0.json
+late_start4_oldslice_k64_net0,2.76415e-07,MSE,"start 4, old slice groups in a k=64 transport-energy basis",runs/cloud/k4s5/runs/k4s5/B_slice_mini0.json
+late_cost_s0_B,168,units,counted K=4 pieces with first birth at layer 0: B,runs/cloud/k4s5/cost.json
+late_cost_s0_source_microbenchmark_prefix,510.049,units,counted K=4 pieces with first birth at layer 0: source_microbenchmark_prefix,runs/cloud/k4s5/cost.json
+late_cost_s0_old_feedback_proxy,45.015,units,counted K=4 pieces with first birth at layer 0: old_feedback_proxy,runs/cloud/k4s5/cost.json
+late_cost_s0_young_tree,386,units,counted K=4 pieces with first birth at layer 0: young_tree,runs/cloud/k4s5/cost.json
+late_cost_s0_young_projection_proxy,88,units,counted K=4 pieces with first birth at layer 0: young_projection_proxy,runs/cloud/k4s5/cost.json
+late_cost_s0_incomplete_subtotal,1197.06,units,counted K=4 pieces with first birth at layer 0: incomplete_subtotal,runs/cloud/k4s5/cost.json
+late_cost_s0_old_slices_dense,2730,units,counted K=4 pieces with first birth at layer 0: old_slices_dense,runs/cloud/k4s5/cost.json
+late_cost_s0_subtotal_with_old_slices,3927.06,units,counted K=4 pieces with first birth at layer 0: subtotal_with_old_slices,runs/cloud/k4s5/cost.json
+late_cost_s4_B,168,units,counted K=4 pieces with first birth at layer 4: B,runs/cloud/k4s5/cost.json
+late_cost_s4_source_microbenchmark_prefix,310.874,units,counted K=4 pieces with first birth at layer 4: source_microbenchmark_prefix,runs/cloud/k4s5/cost.json
+late_cost_s4_old_feedback_proxy,33.011,units,counted K=4 pieces with first birth at layer 4: old_feedback_proxy,runs/cloud/k4s5/cost.json
+late_cost_s4_young_tree,286,units,counted K=4 pieces with first birth at layer 4: young_tree,runs/cloud/k4s5/cost.json
+late_cost_s4_young_projection_proxy,64.5333,units,counted K=4 pieces with first birth at layer 4: young_projection_proxy,runs/cloud/k4s5/cost.json
+late_cost_s4_incomplete_subtotal,862.419,units,counted K=4 pieces with first birth at layer 4: incomplete_subtotal,runs/cloud/k4s5/cost.json
+late_cost_s4_old_slices_dense,1430,units,counted K=4 pieces with first birth at layer 4: old_slices_dense,runs/cloud/k4s5/cost.json
+late_cost_s4_subtotal_with_old_slices,2292.42,units,counted K=4 pieces with first birth at layer 4: subtotal_with_old_slices,runs/cloud/k4s5/cost.json
+late_cost_s6_B,168,units,counted K=4 pieces with first birth at layer 6: B,runs/cloud/k4s5/cost.json
+late_cost_s6_source_microbenchmark_prefix,226.99,units,counted K=4 pieces with first birth at layer 6: source_microbenchmark_prefix,runs/cloud/k4s5/cost.json
+late_cost_s6_old_feedback_proxy,27.009,units,counted K=4 pieces with first birth at layer 6: old_feedback_proxy,runs/cloud/k4s5/cost.json
+late_cost_s6_young_tree,234,units,counted K=4 pieces with first birth at layer 6: young_tree,runs/cloud/k4s5/cost.json
+late_cost_s6_young_projection_proxy,52.8,units,counted K=4 pieces with first birth at layer 6: young_projection_proxy,runs/cloud/k4s5/cost.json
+late_cost_s6_incomplete_subtotal,708.799,units,counted K=4 pieces with first birth at layer 6: incomplete_subtotal,runs/cloud/k4s5/cost.json
+late_cost_s6_old_slices_dense,936,units,counted K=4 pieces with first birth at layer 6: old_slices_dense,runs/cloud/k4s5/cost.json
+late_cost_s6_subtotal_with_old_slices,1644.8,units,counted K=4 pieces with first birth at layer 6: subtotal_with_old_slices,runs/cloud/k4s5/cost.json
+late_cost_s8_B,168,units,counted K=4 pieces with first birth at layer 8: B,runs/cloud/k4s5/cost.json
+late_cost_s8_source_microbenchmark_prefix,153.497,units,counted K=4 pieces with first birth at layer 8: source_microbenchmark_prefix,runs/cloud/k4s5/cost.json
+late_cost_s8_old_feedback_proxy,21.007,units,counted K=4 pieces with first birth at layer 8: old_feedback_proxy,runs/cloud/k4s5/cost.json
+late_cost_s8_young_tree,182,units,counted K=4 pieces with first birth at layer 8: young_tree,runs/cloud/k4s5/cost.json
+late_cost_s8_young_projection_proxy,41.0667,units,counted K=4 pieces with first birth at layer 8: young_projection_proxy,runs/cloud/k4s5/cost.json
+late_cost_s8_incomplete_subtotal,565.571,units,counted K=4 pieces with first birth at layer 8: incomplete_subtotal,runs/cloud/k4s5/cost.json
+late_cost_s8_old_slices_dense,546,units,counted K=4 pieces with first birth at layer 8: old_slices_dense,runs/cloud/k4s5/cost.json
+late_cost_s8_subtotal_with_old_slices,1111.57,units,counted K=4 pieces with first birth at layer 8: subtotal_with_old_slices,runs/cloud/k4s5/cost.json
+late_start4_noCk3_star_net0,1.12918e-08,MSE,"B to layer 4, then K=4 'star,slice4+slice31,!slice22+slice211' (no C·κ3 births), net 0",runs/cloud/k4s6/verified.json
+late_start4_noCk3_slices_net0,1.24496e-08,MSE,"B to layer 4, then K=4 'slice4+slice31,!slice22+slice211' (no C·κ3 births), net 0",runs/cloud/k4s6/verified.json
+late_start4_old_tree_slices_units,1170,units,"old slice groups, 26-matmul per-age direct form, start 4, last-layer read removed",runs/cloud/k4s6/cost.json
+ledger_s0_chain_B_metered,168,units,complete chain from layer 0: chain B (metered),"runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+ledger_s0_K_4_sources_kappa3_legs_n_wide,510.049,units,"complete chain from layer 0: K=4 sources, kappa3 legs n wide","runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+ledger_s0_young_leg_transport,234,units,complete chain from layer 0: young-leg transport,"runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+ledger_s0_feedback,519.015,units,complete chain from layer 0: feedback,"runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+ledger_s0_old_slice_reads,2730,units,complete chain from layer 0: old slice reads,"runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+ledger_s0_C_k3_births_at_real_kappa3_width_beyond_n_wide_legs,28028,units,"complete chain from layer 0: C.k3 births at real kappa3 width, beyond n-wide legs","runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+ledger_s0_C_k3_crossing_at_rank_16,5824,units,complete chain from layer 0: C.k3 crossing at rank 16,"runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+ledger_s0_non_tree_first_reads_dense_classes_merged,39916.5,units,"complete chain from layer 0: non-tree first reads, dense, classes merged","runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+ledger_s0_pairs,105,count,"(birth, read) pairs, births at layers 0-13 read up to layer 14","runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+ledger_s0_total,77929.6,units,complete call ledger from layer 0 at real kappa3 width,"runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+ledger_s0_gain_share,0.946605,x,share of that total in C.k3 and non-tree rows,"runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+ledger_s0_tie_units,1024,units,units at which raw 3.03e-09 ties chain B's net-0 score 3.751e-09 (capped at the budget),runs/cloud/k4s5/runs/k4s5/B_mini0.json + raw above
+ledger_s4_chain_B_metered,168,units,complete chain from layer 4: chain B (metered),"runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+ledger_s4_K_4_sources_kappa3_legs_n_wide,310.874,units,"complete chain from layer 4: K=4 sources, kappa3 legs n wide","runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+ledger_s4_young_leg_transport,162,units,complete chain from layer 4: young-leg transport,"runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+ledger_s4_feedback,383.544,units,complete chain from layer 4: feedback,"runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+ledger_s4_old_slice_reads,1430,units,complete chain from layer 4: old slice reads,"runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+ledger_s4_C_k3_births_at_real_kappa3_width_beyond_n_wide_legs,23870,units,"complete chain from layer 4: C.k3 births at real kappa3 width, beyond n-wide legs","runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+ledger_s4_C_k3_crossing_at_rank_16,3520,units,complete chain from layer 4: C.k3 crossing at rank 16,"runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+ledger_s4_non_tree_first_reads_dense_classes_merged,30705,units,"complete chain from layer 4: non-tree first reads, dense, classes merged","runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+ledger_s4_pairs,55,count,"(birth, read) pairs, births at layers 4-13 read up to layer 14","runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+ledger_s4_total,60549.4,units,complete call ledger from layer 4 at real kappa3 width,"runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+ledger_s4_gain_share,0.959464,x,share of that total in C.k3 and non-tree rows,"runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+ledger_s4_tie_units,708.851,units,units at which raw 5.42e-09 ties chain B's net-0 score 3.751e-09 (capped at the budget),runs/cloud/k4s5/runs/k4s5/B_mini0.json + raw above
+ledger_s6_chain_B_metered,168,units,complete chain from layer 6: chain B (metered),"runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+ledger_s6_K_4_sources_kappa3_legs_n_wide,226.99,units,"complete chain from layer 6: K=4 sources, kappa3 legs n wide","runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+ledger_s6_young_leg_transport,126,units,complete chain from layer 6: young-leg transport,"runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+ledger_s6_feedback,313.809,units,complete chain from layer 6: feedback,"runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+ledger_s6_old_slice_reads,936,units,complete chain from layer 6: old slice reads,"runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+ledger_s6_C_k3_births_at_real_kappa3_width_beyond_n_wide_legs,18648,units,"complete chain from layer 6: C.k3 births at real kappa3 width, beyond n-wide legs","runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+ledger_s6_C_k3_crossing_at_rank_16,2304,units,complete chain from layer 6: C.k3 crossing at rank 16,"runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+ledger_s6_non_tree_first_reads_dense_classes_merged,24564,units,"complete chain from layer 6: non-tree first reads, dense, classes merged","runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+ledger_s6_pairs,36,count,"(birth, read) pairs, births at layers 6-13 read up to layer 14","runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+ledger_s6_total,47286.8,units,complete call ledger from layer 6 at real kappa3 width,"runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+ledger_s6_gain_share,0.962552,x,share of that total in C.k3 and non-tree rows,"runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+ledger_s6_tie_units,502.987,units,units at which raw 7.64e-09 ties chain B's net-0 score 3.751e-09 (capped at the budget),runs/cloud/k4s5/runs/k4s5/B_mini0.json + raw above
+ledger_s8_chain_B_metered,168,units,complete chain from layer 8: chain B (metered),"runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+ledger_s8_K_4_sources_kappa3_legs_n_wide,153.497,units,"complete chain from layer 8: K=4 sources, kappa3 legs n wide","runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+ledger_s8_young_leg_transport,90,units,complete chain from layer 8: young-leg transport,"runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+ledger_s8_feedback,244.074,units,complete chain from layer 8: feedback,"runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+ledger_s8_old_slice_reads,546,units,complete chain from layer 8: old slice reads,"runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+ledger_s8_C_k3_births_at_real_kappa3_width_beyond_n_wide_legs,12642,units,"complete chain from layer 8: C.k3 births at real kappa3 width, beyond n-wide legs","runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+ledger_s8_C_k3_crossing_at_rank_16,1344,units,complete chain from layer 8: C.k3 crossing at rank 16,"runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+ledger_s8_non_tree_first_reads_dense_classes_merged,18423,units,"complete chain from layer 8: non-tree first reads, dense, classes merged","runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+ledger_s8_pairs,21,count,"(birth, read) pairs, births at layers 8-13 read up to layer 14","runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+ledger_s8_total,33610.6,units,complete call ledger from layer 8 at real kappa3 width,"runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+ledger_s8_gain_share,0.96425,x,share of that total in C.k3 and non-tree rows,"runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+ledger_s8_tie_units,322.329,units,units at which raw 1.19e-08 ties chain B's net-0 score 3.751e-09 (capped at the budget),runs/cloud/k4s5/runs/k4s5/B_mini0.json + raw above
+ledger_pair_square_units,3.19232,units,"square-matmul remainder of one transport + one read (metered, b = 6)",runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json
+exec_s4_total_units,1.78395e+06,units,s0 = 4 configuration run end to end: chain B prefix metered + every traced operation priced,runs/cloud/k4s9/r4/summary.json
+exec_s4_chain_B_to_layer_4_its_kappa3_expanded_once_seeds_transport,46777.1,units,"s0 = 4 run end to end: chain B to layer 4, its kappa3 expanded once, seeds, transport",runs/cloud/k4s9/r4/summary.json
+exec_s4_reads_of_every_source,1.7011e+06,units,s0 = 4 run end to end: reads of every source,runs/cloud/k4s9/r4/summary.json
+exec_s4_shared_basis_solve_project_rebuild,33794.7,units,"s0 = 4 run end to end: shared basis: solve, project, rebuild",runs/cloud/k4s9/r4/summary.json
+exec_s4_C_k3_birth_loops_repeated_index_corrections_coupling_other_nonlinear,2279.69,units,"s0 = 4 run end to end: C.k3 birth loops, repeated-index corrections, coupling, other nonlinear",runs/cloud/k4s9/r4/summary.json
+exec_s4_birth_three2_units,35,units,"s0 = 4 run end to end, whole chain: C.k3 birth loops",runs/cloud/k4s9/r4/summary.json
+exec_s4_repeat_units,71.9745,units,"s0 = 4 run end to end, whole chain: repeated-index corrections",runs/cloud/k4s9/r4/summary.json
+exec_s4_reference_loworder_coupling_units,1302.81,units,"s0 = 4 run end to end, whole chain: coupling of the K=4 state to chain B's lower moments",runs/cloud/k4s9/r4/summary.json
+exec_s4_fourth_nonlinear_units,869.905,units,"s0 = 4 run end to end, whole chain: rest of the fourth-order nonlinearity and birth construction",runs/cloud/k4s9/r4/summary.json
+exec_s4_basis_units,33794.7,units,"s0 = 4 run end to end, whole chain: shared basis: solve, project, rebuild n x n",runs/cloud/k4s9/r4/summary.json
+exec_s4_transport_units,34348.7,units,"s0 = 4 run end to end, whole chain: transport",runs/cloud/k4s9/r4/summary.json
+exec_s4_raw,6.37851e-09,MSE,"s0 = 4 configuration run end to end, net 0, final raw",runs/cloud/k4s9/r4/summary.json
+exec_s4_read_share,0.953557,x,share of that total in source reads,runs/cloud/k4s9/r4/summary.json
+exec_s4_traced_calls,203289,count,"traced tensor operations, all priced",runs/cloud/k4s9/r4/summary.json
+exec_s4_gpu_peak_gib,56.7171,GiB,peak GPU memory allocated,runs/cloud/k4s9/r4/summary.json
+exec_s4_host_peak_gib,181.552,GiB,peak host memory (RSS),runs/cloud/k4s9/r4/summary.json
+exec_s4_seconds,443.668,s,wall time after chain B's state is loaded,runs/cloud/k4s9/r4/summary.json
+exec_s4_prefix_units,24.7405,units,"chain B to layer 4, metered",runs/cloud/k4s9/r4/summary.json
+exec_s4_not_in_lower_bound_units,2279.69,units,"pieces the lower bound leaves out, basis refit aside",runs/cloud/k4s9/r4/summary.json
+exec_s4_extra_over_lower_bound,0.03765,x,those pieces over the layer-4 lower bound of Table 7,"runs/cloud/k4s9/r4/summary.json; runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"
+exec_s4_over_lower_bound,29.4627,x,dense run end to end over the compact lower bound,runs/cloud/k4s9/r4/summary.json
+ledger_s0_tie_units_compressed,887.824,units,units at which the compressed raw 4.33e-09 ties chain B's net-0 score 3.751e-09,runs/cloud/k4s5/runs/k4s5/B_mini0.json + runs/cloud/archived-source-f/young_direct_verified.json
+ledger_s4_tie_units_compressed,602.115,units,units at which the compressed raw 6.38e-09 ties chain B's net-0 score 3.751e-09,runs/cloud/k4s5/runs/k4s5/B_mini0.json + runs/cloud/k4s9/r4/summary.json
+exec_s4_compression_cost,1.17727,x,s0 = 4: compressed run over old pieces exact,runs/cloud/k4s9/r4/summary.json
+ledger_s4_total_with_pairs,30401.3,units,"Table 7 from layer 4, non-tree row replaced by rank-1 matrix pairs","runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8); runs/cloud/k4s11/summary.json"
+ledger_s4_ck3_share_with_pairs,0.900949,x,share of that total in the two C.k3 rows,"runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8); runs/cloud/k4s11/summary.json"
+ledger_s4_nontree_share,0.507106,x,share of the layer-4 ledger in dense non-tree first reads,"runs/cloud/k4s5/cost.json, runs/cloud/k4s5/runs/k4s5/B_birth6_meter.json; 9n columns per live kappa3 source (b_prefix export at b = 4/6/8)"

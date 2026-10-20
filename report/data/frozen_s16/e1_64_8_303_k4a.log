@@ -1,0 +1,22 @@
+### e1_64_8_303_k4a 2026-10-15T13:38:37Z
+  print(f"MC N={done:.2e} t={time.time()-t0:.0f}s avg final var {var_final.mean():.4f} noise-floor MSE~{var_final.mean()/done:.2e}", flush=True)
+MC N=0.00e+00 t=0s avg final var 0.1525 noise-floor MSE~inf
+k4a: final MSE 1.625e-04 (norm 1.06e-03) t=62.0s | layers 1.4e-08 1.4e-06 5.7e-05
+       65.09 real        84.19 user        10.40 sys
+          1928888320  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              647838  page reclaims
+                1255  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   1  signals received
+                1480  voluntary context switches
+             1104117  involuntary context switches
+            16668854  instructions retired
+            11385176  cycles elapsed
+              983352  peak memory footprint

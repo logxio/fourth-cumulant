@@ -1,0 +1,19 @@
+claim,number,script,data_key
+full K=4 at 1024,1.72e-9,lab/k4full.py,k4_full_1024_nets0_4
+K=3 augmented at 1024,2.03e-8,lab/ref1024.py,k3aug_1024_nets0_4
+"width, depth, n/L",Figure 1,lab/kscan.py; lab/depth_s1/ref_depth.py,nl64_512x8_equiv_bound
+K=4 ablations,Table 3,lab/k4full.py,abl01_full
+frozen checks,"Tables 2b, 3",report/data/frozen_s16/run.sh; research/frozen_s16.py,fz_
+frozen at 1024,Table 3,lab/k4full.py; research/v19_evidence.py,fz1024_
+star weights,Section 3,report/data/c45/arms.py; report/data/c45/build.py; research/v21_evidence.py,c45_
+cubic form,1e-18,lab/k4n3.py,
+young feedback,4.2e-15,lab/k4n3_young_direct_chain.py,
+oracle patches,Figure 3a,lab/var_k4_channel.py,oracle_C_k4
+late start,Figure 3b,lab/cand_k4x/b_suffix.py,late_start4_net0
+frozen retest,Table 6,lab/cand_k4x/r3/run_one.py,frozen8_
+ledger and dense run,Table 7,lab/cand_k4x/meter_b_birth.py,exec_s4_traced_calls
+non-tree births,Table 8,lab/cand_k4x/annealed; lab/cand_k4x/s11; lab/cand_k4x/s12,kdir_ceiling_best_gain
+bottleneck reduction,Tables 9-10; Figure 5,lab/reduce_s1/select_run.py; lab/reduce_s1/ledger.py; lab/reduce_s1/make_readout.py,red_points_n
+scored entries,Table 4,data/grader_step_scores.csv; research/v15_evidence.py,lad50_own_steps_adj_ratio_of_means
+own pieces switched off,Table 5,lab/ablate_s1/eval.py; lab/ablate_s2/eval.py; lab/ablate_s3/eval.py; ablation/run.py --arm col_off; research/v19_evidence.py,abl50_plain_young_off_adj_ratio_of_means
+learned corrector,Table A3,lab/lt2_train.py; research/v13_evidence.py; research/v21_evidence.py,lt2_grader_better

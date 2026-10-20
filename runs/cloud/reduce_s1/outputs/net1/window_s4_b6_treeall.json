@@ -1,0 +1,281 @@
+{
+  "plan": {
+    "name": "window_s4_b6_treeall",
+    "start": 4,
+    "last_birth": 13,
+    "life": {
+      "star": {
+        "4": 10,
+        "5": 9,
+        "6": 8
+      },
+      "ck3": {},
+      "tree": {
+        "4": 10,
+        "5": 9,
+        "6": 8,
+        "7": 7,
+        "8": 6,
+        "9": 5,
+        "10": 4,
+        "11": 3,
+        "12": 2,
+        "13": 1
+      },
+      "nontree": {
+        "4": 10,
+        "5": 9,
+        "6": 8
+      }
+    }
+  },
+  "index": 1,
+  "start": 4,
+  "synthetic": 0,
+  "bridge": {
+    "d3_max_abs": 3.725290298461914e-08,
+    "d3_relative_norm": 4.492469827255263e-07,
+    "d21_max_abs_before_interface_clip": 0.02960134670138359
+  },
+  "seconds": 188.32551406417042,
+  "memory": "gpu_peak=64.6G host_maxrss=109.4G births=108G",
+  "layers": [
+    {
+      "layer": 4,
+      "seconds": 12.625493945088238,
+      "memory": "gpu_peak=64.3G host_maxrss=21.4G births=20G",
+      "dropped": 0,
+      "live": {
+        "seed": 1,
+        "star": 1,
+        "tree": 2,
+        "nontree": 1
+      },
+      "split": {
+        "total": 8.731325149536133,
+        "tree": 5.858495712280273,
+        "non_tree": 8.1659517288208
+      },
+      "mse": 2.7029400056746697e-09
+    },
+    {
+      "layer": 5,
+      "seconds": 13.995226077968255,
+      "memory": "gpu_peak=64.3G host_maxrss=37.4G births=36G",
+      "dropped": 0,
+      "live": {
+        "seed": 1,
+        "star": 2,
+        "tree": 4,
+        "nontree": 2
+      },
+      "split": {
+        "total": 6.681413650512695,
+        "tree": 4.273364543914795,
+        "non_tree": 6.271662712097168
+      },
+      "mse": 3.3810857119114246e-09
+    },
+    {
+      "layer": 6,
+      "seconds": 15.654977424070239,
+      "memory": "gpu_peak=64.4G host_maxrss=53.4G births=52G",
+      "dropped": 0,
+      "live": {
+        "seed": 1,
+        "star": 3,
+        "tree": 6,
+        "nontree": 3
+      },
+      "split": {
+        "total": 5.101546287536621,
+        "tree": 3.249664545059204,
+        "non_tree": 4.829870223999023
+      },
+      "mse": 4.331219531485118e-09
+    },
+    {
+      "layer": 7,
+      "seconds": 12.48286766000092,
+      "memory": "gpu_peak=64.4G host_maxrss=61.4G births=60G",
+      "dropped": 0,
+      "live": {
+        "seed": 1,
+        "star": 3,
+        "tree": 8,
+        "nontree": 3
+      },
+      "split": {
+        "total": 4.283689498901367,
+        "tree": 2.7019999027252197,
+        "non_tree": 3.109811305999756
+      },
+      "mse": 5.236129238998563e-09
+    },
+    {
+      "layer": 8,
+      "seconds": 13.359290767926723,
+      "memory": "gpu_peak=64.4G host_maxrss=69.4G births=68G",
+      "dropped": 0,
+      "live": {
+        "seed": 1,
+        "star": 3,
+        "tree": 10,
+        "nontree": 3
+      },
+      "split": {
+        "total": 3.5992271900177,
+        "tree": 2.244492769241333,
+        "non_tree": 2.623659610748291
+      },
+      "mse": 6.232913548423436e-09
+    },
+    {
+      "layer": 9,
+      "seconds": 14.23658618889749,
+      "memory": "gpu_peak=64.5G host_maxrss=77.4G births=76G",
+      "dropped": 0,
+      "live": {
+        "seed": 1,
+        "star": 3,
+        "tree": 12,
+        "nontree": 3
+      },
+      "split": {
+        "total": 3.05360746383667,
+        "tree": 1.9082953929901123,
+        "non_tree": 2.205568313598633
+      },
+      "mse": 6.08881256403462e-09
+    },
+    {
+      "layer": 10,
+      "seconds": 15.115207493072376,
+      "memory": "gpu_peak=64.5G host_maxrss=85.4G births=84G",
+      "dropped": 0,
+      "live": {
+        "seed": 1,
+        "star": 3,
+        "tree": 14,
+        "nontree": 3
+      },
+      "split": {
+        "total": 2.714517831802368,
+        "tree": 1.6621391773223877,
+        "non_tree": 1.9726064205169678
+      },
+      "mse": 7.342188314992621e-09
+    },
+    {
+      "layer": 11,
+      "seconds": 15.935161306988448,
+      "memory": "gpu_peak=64.5G host_maxrss=93.4G births=92G",
+      "dropped": 0,
+      "live": {
+        "seed": 1,
+        "star": 3,
+        "tree": 16,
+        "nontree": 3
+      },
+      "split": {
+        "total": 2.451444387435913,
+        "tree": 1.5090712308883667,
+        "non_tree": 1.749730110168457
+      },
+      "mse": 8.910825486856883e-09
+    },
+    {
+      "layer": 12,
+      "seconds": 16.742007240187377,
+      "memory": "gpu_peak=64.5G host_maxrss=101.4G births=100G",
+      "dropped": 0,
+      "live": {
+        "seed": 1,
+        "star": 3,
+        "tree": 18,
+        "nontree": 3
+      },
+      "split": {
+        "total": 2.43595552444458,
+        "tree": 1.487277626991272,
+        "non_tree": 1.723713755607605
+      },
+      "mse": 1.1150542281659602e-08
+    },
+    {
+      "layer": 13,
+      "seconds": 17.635714194970205,
+      "memory": "gpu_peak=64.6G host_maxrss=109.4G births=108G",
+      "dropped": 0,
+      "live": {
+        "seed": 1,
+        "star": 3,
+        "tree": 20,
+        "nontree": 3
+      },
+      "split": {
+        "total": 2.2027909755706787,
+        "tree": 1.3180949687957764,
+        "non_tree": 1.576870083808899
+      },
+      "mse": 1.4155440113417915e-08
+    },
+    {
+      "layer": 14,
+      "seconds": 14.004433777183294,
+      "memory": "gpu_peak=64.6G host_maxrss=109.4G births=108G",
+      "dropped": 0,
+      "live": {
+        "seed": 1,
+        "star": 3,
+        "tree": 20,
+        "nontree": 3
+      },
+      "split": null,
+      "mse": 1.623016828078626e-08
+    },
+    {
+      "layer": 15,
+      "seconds": 14.006236892892048,
+      "memory": "gpu_peak=64.6G host_maxrss=109.4G births=108G",
+      "dropped": 0,
+      "live": {
+        "seed": 1,
+        "star": 3,
+        "tree": 20,
+        "nontree": 3
+      },
+      "split": null,
+      "mse": 1.826286178120998e-08
+    }
+  ],
+  "mse": 1.826286178120998e-08,
+  "per_layer_mse": [
+    6.406510356937734e-10,
+    7.237617361996062e-10,
+    1.066229783457737e-09,
+    1.7827965447487897e-09,
+    2.7029400056746697e-09,
+    3.3810857119114246e-09,
+    4.331219531485118e-09,
+    5.236129238998563e-09,
+    6.232913548423436e-09,
+    6.08881256403462e-09,
+    7.342188314992621e-09,
+    8.910825486856883e-09,
+    1.1150542281659602e-08,
+    1.4155440113417915e-08,
+    1.623016828078626e-08,
+    1.826286178120998e-08
+  ],
+  "units": 11296.349830200135,
+  "unit_rows": {
+    "chain B (metered)": 168,
+    "K=4 sources": 76.30549686680209,
+    "young-leg transport": 27.0,
+    "feedback": 383.5443333333333,
+    "tree slice reads": 1430.0,
+    "C.k3 births and crossing": 0.0,
+    "non-tree first reads": 9211.5
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "config": {
+    "name": "B_pre4_K4_shared128_m0_2_feedback128_m0f_1",
+    "width": 1024,
+    "layers": 16,
+    "index": 0,
+    "start": 4,
+    "seed_b_slices": true,
+    "spec": "star,three2,slice4+slice31,!slice22+slice211",
+    "old_source_m0": 2,
+    "old_source_rank": 128,
+    "old_feedback_m0f": 1,
+    "old_feedback_rank": 128,
+    "source_age_rule": "post-nonlinear layer-birth > m0, exactly the historical convention",
+    "feedback_age_rule": "at SK4._dslices read, layer-birth > m0f; project only old slice211 output",
+    "seed_birth_rule": "B preactivation seed has birth=start and age zero at switch",
+    "store": "host",
+    "chunk": 128,
+    "threads": 4,
+    "audit_layer": 6,
+    "dtype": "float32"
+  },
+  "config_sha256": "29290b98375f38401c3ff302c5860bad734634d133eba52c49aa7a2e91cca754",
+  "snapshot": "runs/cloud/k4s9/r4/seed_states/B_mini0_pre4.npz",
+  "bridge": {
+    "d3_max_abs": 3.725290298461914e-08,
+    "d3_relative_norm": 4.65783301706324e-07,
+    "d21_max_abs_before_interface_clip": 0.03348451480269432
+  },
+  "prefix": "actual B pre4 with B K4 consumer slices and lambda_feed radial seed",
+  "final_mse": 6.378506404129938e-09,
+  "per_layer_mse": [
+    6.978057368045576e-10,
+    7.612343877578705e-10,
+    1.1915424247567263e-09,
+    2.210175257881156e-09,
+    3.0886835073558976e-09,
+    4.243686444328224e-09,
+    4.467033676228381e-09,
+    4.562323483872023e-09,
+    4.522386237813248e-09,
+    4.565702352403616e-09,
+    5.103271273243084e-09,
+    5.337945720437227e-09,
+    5.5195459137179384e-09,
+    5.491973043313733e-09,
+    6.2248000267252505e-09,
+    6.378506404129938e-09
+  ],
+  "layers": [
+    {
+      "layer": 4,
+      "feedback_reads": [],
+      "seconds": 19.184694916941226,
+      "old_source_groups": 0,
+      "groups": 5,
+      "memory": {
+        "host_peak_rss_gib": 21.39221954345703,
+        "gpu_peak_allocated_gib": 56.10573196411133,
+        "gpu_peak_reserved_gib": 60.068359375
+      }
+    },
+    {
+      "layer": 5,
+      "feedback_reads": [],
+      "seconds": 22.938056843006052,
+      "old_source_groups": 0,
+      "groups": 9,
+      "memory": {
+        "host_peak_rss_gib": 37.40288162231445,
+        "gpu_peak_allocated_gib": 56.1643271446228,
+        "gpu_peak_reserved_gib": 60.068359375
+      }
+    },
+    {
+      "layer": 6,
+      "feedback_reads": [
+        {
+          "old_groups": 2,
+          "relative_loss": 0.33795857429504395
+        }
+      ],
+      "seconds": 27.524695892003365,
+      "old_source_groups": 0,
+      "groups": 13,
+      "memory": {
+        "host_peak_rss_gib": 53.48797607421875,
+        "gpu_peak_allocated_gib": 56.2195029258728,
+        "gpu_peak_reserved_gib": 60.068359375
+      }
+    },
+    {
+      "layer": 7,
+      "feedback_reads": [
+        {
+          "old_groups": 3,
+          "relative_loss": 0.49064767360687256
+        }
+      ],
+      "seconds": 30.701685231993906,
+      "old_source_groups": 2,
+      "groups": 17,
+      "memory": {
+        "host_peak_rss_gib": 69.52291107177734,
+        "gpu_peak_allocated_gib": 56.27468252182007,
+        "gpu_peak_reserved_gib": 60.068359375
+      }
+    },
+    {
+      "layer": 8,
+      "feedback_reads": [
+        {
+          "old_groups": 4,
+          "relative_loss": 0.4669209122657776
+        }
+      ],
+      "seconds": 35.194962917943485,
+      "old_source_groups": 4,
+      "groups": 21,
+      "memory": {
+        "host_peak_rss_gib": 85.52679443359375,
+        "gpu_peak_allocated_gib": 56.33431386947632,
+        "gpu_peak_reserved_gib": 60.0703125
+      }
+    },
+    {
+      "layer": 9,
+      "feedback_reads": [
+        {
+          "old_groups": 5,
+          "relative_loss": 0.4546663165092468
+        }
+      ],
+      "seconds": 34.60667964594904,
+      "old_source_groups": 6,
+      "groups": 25,
+      "memory": {
+        "host_peak_rss_gib": 101.53139877319336,
+        "gpu_peak_allocated_gib": 56.39290761947632,
+        "gpu_peak_reserved_gib": 60.0703125
+      }
+    },
+    {
+      "layer": 10,
+      "feedback_reads": [
+        {
+          "old_groups": 6,
+          "relative_loss": 0.4415222108364105
+        }
+      ],
+      "seconds": 37.87524821306579,
+      "old_source_groups": 8,
+      "groups": 29,
+      "memory": {
+        "host_peak_rss_gib": 117.53235244750977,
+        "gpu_peak_allocated_gib": 56.45150136947632,
+        "gpu_peak_reserved_gib": 60.0703125
+      }
+    },
+    {
+      "layer": 11,
+      "feedback_reads": [
+        {
+          "old_groups": 7,
+          "relative_loss": 0.43626758456230164
+        }
+      ],
+      "seconds": 42.55891916702967,
+      "old_source_groups": 10,
+      "groups": 33,
+      "memory": {
+        "host_peak_rss_gib": 133.53532028198242,
+        "gpu_peak_allocated_gib": 56.51009511947632,
+        "gpu_peak_reserved_gib": 60.0703125
+      }
+    },
+    {
+      "layer": 12,
+      "feedback_reads": [
+        {
+          "old_groups": 8,
+          "relative_loss": 0.430402010679245
+        }
+      ],
+      "seconds": 44.45536921499297,
+      "old_source_groups": 12,
+      "groups": 37,
+      "memory": {
+        "host_peak_rss_gib": 149.53680801391602,
+        "gpu_peak_allocated_gib": 56.56868886947632,
+        "gpu_peak_reserved_gib": 60.0703125
+      }
+    },
+    {
+      "layer": 13,
+      "feedback_reads": [
+        {
+          "old_groups": 9,
+          "relative_loss": 0.42294755578041077
+        }
+      ],
+      "seconds": 47.08476866199635,
+      "old_source_groups": 14,
+      "groups": 41,
+      "memory": {
+        "host_peak_rss_gib": 165.53927612304688,
+        "gpu_peak_allocated_gib": 56.62728261947632,
+        "gpu_peak_reserved_gib": 60.0703125
+      }
+    },
+    {
+      "layer": 14,
+      "feedback_reads": [
+        {
+          "old_groups": 10,
+          "relative_loss": 0.42540889978408813
+        }
+      ],
+      "seconds": 50.341172448010184,
+      "old_source_groups": 16,
+      "groups": 45,
+      "memory": {
+        "host_peak_rss_gib": 181.5424919128418,
+        "gpu_peak_allocated_gib": 56.68587636947632,
+        "gpu_peak_reserved_gib": 60.072265625
+      }
+    },
+    {
+      "layer": 15,
+      "feedback_reads": [
+        {
+          "old_groups": 11,
+          "relative_loss": 0.4243704676628113
+        }
+      ],
+      "seconds": 42.93349133094307,
+      "old_source_groups": 18,
+      "groups": 45,
+      "memory": {
+        "host_peak_rss_gib": 181.5495147705078,
+        "gpu_peak_allocated_gib": 56.717130184173584,
+        "gpu_peak_reserved_gib": 60.072265625
+      }
+    }
+  ],
+  "elapsed_s": 443.66831689095125,
+  "memory": {
+    "host_peak_rss_gib": 181.55215072631836,
+    "gpu_peak_allocated_gib": 56.717130184173584,
+    "gpu_peak_reserved_gib": 60.072265625
+  },
+  "reference_memory": "gpu_peak=56.7G host_maxrss=181.6G births=180G",
+  "meaning": "Dense accuracy probe. Old K4 source Q projection plus old slice211 feedback-read projection; not whole-K3 compression or a flopscope bill."
+}

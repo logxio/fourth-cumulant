@@ -1,0 +1,12 @@
+{
+  "case": "base:1:all",
+  "index": 0,
+  "raw": 2.2642838241248805e-08,
+  "B_billed_U": 169.77965858811513,
+  "sidecar_matrix_U_upper": 0.0,
+  "paper_U": 172.77965858811513,
+  "wall": 58.860156951937824,
+  "peak_rss_gib": 5.244808197021484,
+  "norms": [],
+  "note": "Research hooks: raw and paper units only; not valid residual or full billing."
+}

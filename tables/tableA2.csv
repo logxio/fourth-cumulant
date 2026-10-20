@@ -1,0 +1,166 @@
+key,value,unit,what,source
+cross_three2_r1_net0,6.70449e-09,MSE,three2 crossed term truncated to rank 1,runs/cloud/archived-source-a/cross/cross.log
+cross_three2_r2_net0,6.62712e-09,MSE,three2 crossed term truncated to rank 2,runs/cloud/archived-source-a/cross/cross.log
+cross_three2_r4_net0,6.22655e-09,MSE,three2 crossed term truncated to rank 4,runs/cloud/archived-source-a/cross/cross.log
+cross_three2_r8_net0,5.55211e-09,MSE,three2 crossed term truncated to rank 8,runs/cloud/archived-source-a/cross/cross.log
+cross_three2_r16_net0,5.19658e-09,MSE,three2 crossed term truncated to rank 16,runs/cloud/archived-source-a/cross/cross.log
+cross_star_r1_net0,5.5653e-08,MSE,star crossed term truncated to rank 1,runs/cloud/archived-source-a/cross/cross.log
+cross_star_r2_net0,5.48944e-08,MSE,star crossed term truncated to rank 2,runs/cloud/archived-source-a/cross/cross.log
+cross_star_r4_net0,5.3289e-08,MSE,star crossed term truncated to rank 4,runs/cloud/archived-source-a/cross/cross.log
+cross_star_r8_net0,5.06509e-08,MSE,star crossed term truncated to rank 8,runs/cloud/archived-source-a/cross/cross.log
+cross_star_r16_net0,4.58296e-08,MSE,star crossed term truncated to rank 16,runs/cloud/archived-source-a/cross/cross.log
+portable_net0,3.0293e-09,MSE,"portable set, exact, net 0",runs/cloud/k4w/k4w.log
+portable_net1,2.7713e-09,MSE,"portable set, exact, net 1",runs/cloud/k4w/k4w.log
+knob_m2_k128_units,647.675,units,"compact K=4 sources, m0=2, k=128, C.k3 rank 1",runs/cloud/k4port_v2/life_r1_m2_k128.json
+knob_m2_k128_units_r4,1044.47,units,"same, C.k3 crossing at rank 4",runs/cloud/k4port_v2/life_r4_m2_k128.json
+knob_m2_k128_wall,80.4203,s,"same, wall time, 16 layers",runs/cloud/k4port_v2/life_r1_m2_k128.json
+knob_m2_k128_rss_gib,0.435722,GiB,"same, peak resident memory",runs/cloud/k4port_v2/life_r1_m2_k128.json
+knob_m2_k128_raw_net0,3.90304e-09,MSE,"research chain, old sources in a k=128 basis from age 2, net 0, re-scored",runs/cloud/archived-source-a/shared/old_m2_k128_mlp0.npy
+knob_m2_k128_raw_net1,3.96694e-09,MSE,"research chain, old sources in a k=128 basis from age 2, net 1, re-scored",runs/cloud/archived-source-a/shared/old_m2_k128_mlp1.npy
+knob_m2_k256_units,1052.05,units,"compact K=4 sources, m0=2, k=256, C.k3 rank 1",runs/cloud/k4port_v2/life_r1_m2_k256.json
+knob_m2_k256_units_r4,1593.91,units,"same, C.k3 crossing at rank 4",runs/cloud/k4port_v2/life_r4_m2_k256.json
+knob_m2_k256_wall,83.6717,s,"same, wall time, 16 layers",runs/cloud/k4port_v2/life_r1_m2_k256.json
+knob_m2_k256_rss_gib,0.477734,GiB,"same, peak resident memory",runs/cloud/k4port_v2/life_r1_m2_k256.json
+knob_m2_k256_raw_net0,3.03905e-09,MSE,"research chain, old sources in a k=256 basis from age 2, net 0, re-scored",runs/cloud/archived-source-a/shared/old_m2_k256_mlp0.npy
+knob_m2_k256_raw_net1,2.99072e-09,MSE,"research chain, old sources in a k=256 basis from age 2, net 1, re-scored",runs/cloud/archived-source-a/shared/old_m2_k256_mlp1.npy
+knob_m2_k384_units,1541.13,units,"compact K=4 sources, m0=2, k=384, C.k3 rank 1",runs/cloud/k4port_v2/life_r1_m2_k384.json
+knob_m2_k384_units_r4,2279.24,units,"same, C.k3 crossing at rank 4",runs/cloud/k4port_v2/life_r4_m2_k384.json
+knob_m2_k384_wall,87.405,s,"same, wall time, 16 layers",runs/cloud/k4port_v2/life_r1_m2_k384.json
+knob_m2_k384_rss_gib,0.513515,GiB,"same, peak resident memory",runs/cloud/k4port_v2/life_r1_m2_k384.json
+knob_m2_k384_raw_net0,3.05232e-09,MSE,"research chain, old sources in a k=384 basis from age 2, net 0, re-scored",runs/cloud/archived-source-a/shared/old_m2_k384_mlp0.npy
+knob_m2_k384_raw_net1,2.81447e-09,MSE,"research chain, old sources in a k=384 basis from age 2, net 1, re-scored",runs/cloud/archived-source-a/shared/old_m2_k384_mlp1.npy
+knob_m3_k128_units,677.603,units,"compact K=4 sources, m0=3, k=128, C.k3 rank 1",runs/cloud/k4port_v2/life_r1_m3_k128.json
+knob_m3_k128_units_r4,1147.84,units,"same, C.k3 crossing at rank 4",runs/cloud/k4port_v2/life_r4_m3_k128.json
+knob_m3_k128_wall,95.2743,s,"same, wall time, 16 layers",runs/cloud/k4port_v2/life_r1_m3_k128.json
+knob_m3_k128_rss_gib,0.443661,GiB,"same, peak resident memory",runs/cloud/k4port_v2/life_r1_m3_k128.json
+knob_m3_k128_raw_net0,3.37952e-09,MSE,"research chain, old sources in a k=128 basis from age 3, net 0, re-scored",runs/cloud/archived-source-a/shared/old_m3_k128_mlp0.npy
+knob_m3_k128_raw_net1,3.17523e-09,MSE,"research chain, old sources in a k=128 basis from age 3, net 1, re-scored",runs/cloud/archived-source-a/shared/old_m3_k128_mlp1.npy
+knob_m3_k256_units,1027.41,units,"compact K=4 sources, m0=3, k=256, C.k3 rank 1",runs/cloud/k4port_v2/life_r1_m3_k256.json
+knob_m3_k256_units_r4,1621.99,units,"same, C.k3 crossing at rank 4",runs/cloud/k4port_v2/life_r4_m3_k256.json
+knob_m3_k256_wall,98.3552,s,"same, wall time, 16 layers",runs/cloud/k4port_v2/life_r1_m3_k256.json
+knob_m3_k256_rss_gib,0.479,GiB,"same, peak resident memory",runs/cloud/k4port_v2/life_r1_m3_k256.json
+knob_m3_k256_raw_net0,2.98919e-09,MSE,"research chain, old sources in a k=256 basis from age 3, net 0, re-scored",runs/cloud/archived-source-a/shared/old_m3_k256_mlp0.npy
+knob_m3_k256_raw_net1,2.90196e-09,MSE,"research chain, old sources in a k=256 basis from age 3, net 1, re-scored",runs/cloud/archived-source-a/shared/old_m3_k256_mlp1.npy
+knob_m3_k384_units,1449.77,units,"compact K=4 sources, m0=3, k=384, C.k3 rank 1",runs/cloud/k4port_v2/life_r1_m3_k384.json
+knob_m3_k384_units_r4,2212.56,units,"same, C.k3 crossing at rank 4",runs/cloud/k4port_v2/life_r4_m3_k384.json
+knob_m3_k384_wall,102.749,s,"same, wall time, 16 layers",runs/cloud/k4port_v2/life_r1_m3_k384.json
+knob_m3_k384_rss_gib,0.513821,GiB,"same, peak resident memory",runs/cloud/k4port_v2/life_r1_m3_k384.json
+knob_m3_k384_raw_net0,3.01558e-09,MSE,"research chain, old sources in a k=384 basis from age 3, net 0, re-scored",runs/cloud/archived-source-a/shared/old_m3_k384_mlp0.npy
+knob_m3_k384_raw_net1,2.77672e-09,MSE,"research chain, old sources in a k=384 basis from age 3, net 1, re-scored",runs/cloud/archived-source-a/shared/old_m3_k384_mlp1.npy
+knob_m4_k128_units,704.933,units,"compact K=4 sources, m0=4, k=128, C.k3 rank 1",runs/cloud/k4port_v2/life_r1_m4_k128.json
+knob_m4_k128_units_r4,1242.96,units,"same, C.k3 crossing at rank 4",runs/cloud/k4port_v2/life_r4_m4_k128.json
+knob_m4_k128_wall,109.015,s,"same, wall time, 16 layers",runs/cloud/k4port_v2/life_r1_m4_k128.json
+knob_m4_k128_rss_gib,0.445618,GiB,"same, peak resident memory",runs/cloud/k4port_v2/life_r1_m4_k128.json
+knob_m4_k128_raw_net0,3.18719e-09,MSE,"research chain, old sources in a k=128 basis from age 4, net 0, re-scored",runs/cloud/archived-source-a/shared/old_m4_k128_mlp0.npy
+knob_m4_k128_raw_net1,2.90555e-09,MSE,"research chain, old sources in a k=128 basis from age 4, net 1, re-scored",runs/cloud/archived-source-a/shared/old_m4_k128_mlp1.npy
+knob_m4_k256_units,1004.08,units,"compact K=4 sources, m0=4, k=256, C.k3 rank 1",runs/cloud/k4port_v2/life_r1_m4_k256.json
+knob_m4_k256_units_r4,1647.32,units,"same, C.k3 crossing at rank 4",runs/cloud/k4port_v2/life_r4_m4_k256.json
+knob_m4_k256_wall,112.387,s,"same, wall time, 16 layers",runs/cloud/k4port_v2/life_r1_m4_k256.json
+knob_m4_k256_rss_gib,0.479527,GiB,"same, peak resident memory",runs/cloud/k4port_v2/life_r1_m4_k256.json
+knob_m4_k256_raw_net0,3.01468e-09,MSE,"research chain, old sources in a k=256 basis from age 4, net 0, re-scored",runs/cloud/archived-source-a/shared/old_m4_k256_mlp0.npy
+knob_m4_k256_raw_net1,2.85485e-09,MSE,"research chain, old sources in a k=256 basis from age 4, net 1, re-scored",runs/cloud/archived-source-a/shared/old_m4_k256_mlp1.npy
+knob_m4_k384_units,1364.56,units,"compact K=4 sources, m0=4, k=384, C.k3 rank 1",runs/cloud/k4port_v2/life_r1_m4_k384.json
+knob_m4_k384_units_r4,2150.13,units,"same, C.k3 crossing at rank 4",runs/cloud/k4port_v2/life_r4_m4_k384.json
+knob_m4_k384_wall,114.839,s,"same, wall time, 16 layers",runs/cloud/k4port_v2/life_r1_m4_k384.json
+knob_m4_k384_rss_gib,0.511955,GiB,"same, peak resident memory",runs/cloud/k4port_v2/life_r1_m4_k384.json
+knob_m4_k384_raw_net0,3.02347e-09,MSE,"research chain, old sources in a k=384 basis from age 4, net 0, re-scored",runs/cloud/archived-source-a/shared/old_m4_k384_mlp0.npy
+knob_m4_k384_raw_net1,2.77163e-09,MSE,"research chain, old sources in a k=384 basis from age 4, net 1, re-scored",runs/cloud/archived-source-a/shared/old_m4_k384_mlp1.npy
+knob_fused_m2_k128_units,566.436,units,"batched compact K=4 sources, m0=2, k=128: units",runs/cloud/k4port_v2/fused_r1_m2_k128.json
+knob_fused_m2_k128_wall,72.9637,s,"batched compact K=4 sources, m0=2, k=128: wall",runs/cloud/k4port_v2/fused_r1_m2_k128.json
+knob_fused_m2_k128_residual,0.330233,s,"batched compact K=4 sources, m0=2, k=128: residual",runs/cloud/k4port_v2/fused_r1_m2_k128.json
+knob_fused_m1_k128_units,522.063,units,"batched compact K=4 sources, m0=1, k=128: units",runs/cloud/k4port_v2/fused_r1_m1_k128.json
+knob_fused_m1_k128_wall,58.6789,s,"batched compact K=4 sources, m0=1, k=128: wall",runs/cloud/k4port_v2/fused_r1_m1_k128.json
+knob_fused_m1_k128_residual,0.326954,s,"batched compact K=4 sources, m0=1, k=128: residual",runs/cloud/k4port_v2/fused_r1_m1_k128.json
+knob_fused_m0_k112_units,431.892,units,"batched compact K=4 sources, m0=0, k=112: units",runs/cloud/k4port_v2/fused_r1_m0_k112.json
+knob_fused_m0_k112_wall,42.8346,s,"batched compact K=4 sources, m0=0, k=112: wall",runs/cloud/k4port_v2/fused_r1_m0_k112.json
+knob_fused_m0_k112_residual,0.327648,s,"batched compact K=4 sources, m0=0, k=112: residual",runs/cloud/k4port_v2/fused_r1_m0_k112.json
+feedback_birthproj_k3_64,5.57447e-09,MSE,"feedback projected into 3-axis core at birth, k3=64",runs/cloud/archived-source-d/tucker/official0/tucker_k64_mlp0.json
+feedback_birthproj_k3_128,5.4557e-09,MSE,"feedback projected into 3-axis core at birth, k3=128",runs/cloud/archived-source-d/tucker/official0/tucker_k128_mlp0.json
+feedback_birthproj_k3_256,5.09903e-09,MSE,"feedback projected into 3-axis core at birth, k3=256",runs/cloud/archived-source-d/tucker/official0/tucker_k256_mlp0.json
+feedback_age1_k3_128,4.17226e-09,MSE,"feedback age gate m0f=1, k3=128",runs/cloud/archived-source-e/tucker-age/official0/verified_results_and_cost.json
+feedback_age2_k3_128,4.01774e-09,MSE,"feedback age gate m0f=2, k3=128",runs/cloud/archived-source-e/tucker-age/official0/verified_results_and_cost.json
+feedback_age2_k3_64,4.11156e-09,MSE,"feedback age gate m0f=2, k3=64",runs/cloud/archived-source-e/tucker-age/official0/verified_results_and_cost.json
+feedback_cp_c128_units,195308,units,feedback as CP columns truncated to 128 (torch matmul units),runs/cloud/archived-source-a/feedback_v1/mlp0-m2-k256-c128/chain.log
+feedback_cp_c128_mse,6.7572e-07,MSE,"same run, final MSE",runs/cloud/archived-source-a/feedback_v1/mlp0-m2-k256-c128/stats-l0-16.json
+pair_n64_seed5_floor_over_gain,8.15077e-07,x,n64_seed5: MC truth noise / non-tree gain,runs/cloud/k4s11/summary.json
+pair_n64_seed5_exact,0.00215581,MSE,"n64_seed5: exact non-tree births, final raw",runs/cloud/k4s11/summary.json
+pair_n64_seed5_tree,0.0891558,MSE,"n64_seed5: tree non-tree births, final raw",runs/cloud/k4s11/summary.json
+pair_n64_seed5_random_r4_recovered,0.592777,x,"n64_seed5: random_r4, share of the non-tree gain kept",runs/cloud/k4s11/summary.json
+pair_n64_seed5_random_r4_mse,0.0375842,MSE,"n64_seed5: random_r4, final raw",runs/cloud/k4s11/summary.json
+pair_n64_seed5_random_r1_recovered,0.403482,x,"n64_seed5: random_r1, share of the non-tree gain kept",runs/cloud/k4s11/summary.json
+pair_n64_seed5_random_r1_mse,0.0540529,MSE,"n64_seed5: random_r1, final raw",runs/cloud/k4s11/summary.json
+pair_n64_seed5_random_r1_sketch222_recovered,-1.20522,x,"n64_seed5: random_r1_sketch222, share of the non-tree gain kept",runs/cloud/k4s11/summary.json
+pair_n64_seed5_random_r1_sketch222_mse,0.19401,MSE,"n64_seed5: random_r1_sketch222, final raw",runs/cloud/k4s11/summary.json
+pair_n64_seed5_random_r2_recovered,-0.625694,x,"n64_seed5: random_r2, share of the non-tree gain kept",runs/cloud/k4s11/summary.json
+pair_n64_seed5_random_r2_mse,0.143591,MSE,"n64_seed5: random_r2, final raw",runs/cloud/k4s11/summary.json
+pair_n64_seed5_svd_r4_recovered,1.01003,x,"n64_seed5: svd_r4, share of the non-tree gain kept",runs/cloud/k4s11/summary.json
+pair_n64_seed5_svd_r4_mse,0.00128355,MSE,"n64_seed5: svd_r4, final raw",runs/cloud/k4s11/summary.json
+pair_n64_seed5_random_r1_sketch333_recovered,-9.36461,x,"n64_seed5: random_r1_sketch333, share of the non-tree gain kept",runs/cloud/k4s11/summary.json
+pair_n64_seed5_random_r1_sketch333_mse,0.903876,MSE,"n64_seed5: random_r1_sketch333, final raw",runs/cloud/k4s11/summary.json
+pair_n64_seed5_random_r1_sketch444_recovered,-0.981936,x,"n64_seed5: random_r1_sketch444, share of the non-tree gain kept",runs/cloud/k4s11/summary.json
+pair_n64_seed5_random_r1_sketch444_mse,0.174584,MSE,"n64_seed5: random_r1_sketch444, final raw",runs/cloud/k4s11/summary.json
+pair_n64_seed5_rsvd_r16_recovered,1.00264,x,"n64_seed5: rsvd_r16, share of the non-tree gain kept",runs/cloud/k4s11/summary.json
+pair_n64_seed5_rsvd_r16_mse,0.00192616,MSE,"n64_seed5: rsvd_r16, final raw",runs/cloud/k4s11/summary.json
+pair_n64_seed5_svd_r2_recovered,1.00836,x,"n64_seed5: svd_r2, share of the non-tree gain kept",runs/cloud/k4s11/summary.json
+pair_n64_seed5_svd_r2_mse,0.00142846,MSE,"n64_seed5: svd_r2, final raw",runs/cloud/k4s11/summary.json
+pair_n64_seed5_svd_r1_recovered,0.97584,x,"n64_seed5: svd_r1, share of the non-tree gain kept",runs/cloud/k4s11/summary.json
+pair_n64_seed5_svd_r1_mse,0.00425772,MSE,"n64_seed5: svd_r1, final raw",runs/cloud/k4s11/summary.json
+pair_n64_seed5_random_r4_sketch444_recovered,-1.49929,x,"n64_seed5: random_r4_sketch444, share of the non-tree gain kept",runs/cloud/k4s11/summary.json
+pair_n64_seed5_random_r4_sketch444_mse,0.219594,MSE,"n64_seed5: random_r4_sketch444, final raw",runs/cloud/k4s11/summary.json
+pair_n64_seed5_rsvd_r1_sketch444_recovered,0.991305,x,"n64_seed5: rsvd_r1_sketch444, share of the non-tree gain kept",runs/cloud/k4s11/summary.json
+pair_n64_seed5_rsvd_r1_sketch444_mse,0.00291227,MSE,"n64_seed5: rsvd_r1_sketch444, final raw",runs/cloud/k4s11/summary.json
+pair_n64_seed5_original_r1_recovered,1,x,"n64_seed5: original_r1, share of the non-tree gain kept",runs/cloud/k4s11/summary.json
+pair_n64_seed5_original_r1_mse,0.00215581,MSE,"n64_seed5: original_r1, final raw",runs/cloud/k4s11/summary.json
+pair_n64_seed5_random_r4_sketch333_recovered,-1.6671,x,"n64_seed5: random_r4_sketch333, share of the non-tree gain kept",runs/cloud/k4s11/summary.json
+pair_n64_seed5_random_r4_sketch333_mse,0.234193,MSE,"n64_seed5: random_r4_sketch333, final raw",runs/cloud/k4s11/summary.json
+pair_n64_seed5_rsvd_r1_sketch333_recovered,0.992867,x,"n64_seed5: rsvd_r1_sketch333, share of the non-tree gain kept",runs/cloud/k4s11/summary.json
+pair_n64_seed5_rsvd_r1_sketch333_mse,0.00277639,MSE,"n64_seed5: rsvd_r1_sketch333, final raw",runs/cloud/k4s11/summary.json
+pair_n64_seed5_svd_r16_recovered,1.00719,x,"n64_seed5: svd_r16, share of the non-tree gain kept",runs/cloud/k4s11/summary.json
+pair_n64_seed5_svd_r16_mse,0.00153027,MSE,"n64_seed5: svd_r16, final raw",runs/cloud/k4s11/summary.json
+pair_n64_seed5_rsvd_r2_recovered,1.01097,x,"n64_seed5: rsvd_r2, share of the non-tree gain kept",runs/cloud/k4s11/summary.json
+pair_n64_seed5_rsvd_r2_mse,0.00120185,MSE,"n64_seed5: rsvd_r2, final raw",runs/cloud/k4s11/summary.json
+pair_n64_seed5_tree_r1_recovered,0,x,"n64_seed5: tree_r1, share of the non-tree gain kept",runs/cloud/k4s11/summary.json
+pair_n64_seed5_tree_r1_mse,0.0891558,MSE,"n64_seed5: tree_r1, final raw",runs/cloud/k4s11/summary.json
+pair_n64_seed5_random_r16_recovered,0.919019,x,"n64_seed5: random_r16, share of the non-tree gain kept",runs/cloud/k4s11/summary.json
+pair_n64_seed5_random_r16_mse,0.00920119,MSE,"n64_seed5: random_r16, final raw",runs/cloud/k4s11/summary.json
+pair_n64_seed5_rsvd_r1_recovered,0.830758,x,"n64_seed5: rsvd_r1, share of the non-tree gain kept",runs/cloud/k4s11/summary.json
+pair_n64_seed5_rsvd_r1_mse,0.0168799,MSE,"n64_seed5: rsvd_r1, final raw",runs/cloud/k4s11/summary.json
+pair_n64_seed5_rsvd_r1_sketch222_recovered,0.989478,x,"n64_seed5: rsvd_r1_sketch222, share of the non-tree gain kept",runs/cloud/k4s11/summary.json
+pair_n64_seed5_rsvd_r1_sketch222_mse,0.00307125,MSE,"n64_seed5: rsvd_r1_sketch222, final raw",runs/cloud/k4s11/summary.json
+pair_n64_seed5_random_r4_sketch222_recovered,-108854,x,"n64_seed5: random_r4_sketch222, share of the non-tree gain kept",runs/cloud/k4s11/summary.json
+pair_n64_seed5_random_r4_sketch222_mse,9470.38,MSE,"n64_seed5: random_r4_sketch222, final raw",runs/cloud/k4s11/summary.json
+pair_n64_seed5_exact_r1_recovered,1,x,"n64_seed5: exact_r1, share of the non-tree gain kept",runs/cloud/k4s11/summary.json
+pair_n64_seed5_exact_r1_mse,0.00215581,MSE,"n64_seed5: exact_r1, final raw",runs/cloud/k4s11/summary.json
+pair_n64_seed5_rsvd_r4_recovered,0.990775,x,"n64_seed5: rsvd_r4, share of the non-tree gain kept",runs/cloud/k4s11/summary.json
+pair_n64_seed5_rsvd_r4_mse,0.00295837,MSE,"n64_seed5: rsvd_r4, final raw",runs/cloud/k4s11/summary.json
+pair_n64_seed5_layer8_recovered,0.699457,x,"n64 seed 5, layer 8: rank-1 matrix pairs, share of the gain kept",runs/cloud/k4s11/summary.json
+pair_n64_seed6_floor_over_gain,3.24506e-07,x,n64_seed6: MC truth noise / non-tree gain,runs/cloud/k4s11/summary.json
+pair_n64_seed6_exact,0.000339516,MSE,"n64_seed6: exact non-tree births, final raw",runs/cloud/k4s11/summary.json
+pair_n64_seed6_tree,0.239895,MSE,"n64_seed6: tree non-tree births, final raw",runs/cloud/k4s11/summary.json
+pair_n64_seed6_exact_r1_recovered,1,x,"n64_seed6: exact_r1, share of the non-tree gain kept",runs/cloud/k4s11/summary.json
+pair_n64_seed6_exact_r1_mse,0.000339516,MSE,"n64_seed6: exact_r1, final raw",runs/cloud/k4s11/summary.json
+pair_n64_seed6_rsvd_r1_recovered,0.786626,x,"n64_seed6: rsvd_r1, share of the non-tree gain kept",runs/cloud/k4s11/summary.json
+pair_n64_seed6_rsvd_r1_mse,0.0514545,MSE,"n64_seed6: rsvd_r1, final raw",runs/cloud/k4s11/summary.json
+pair_n64_seed6_tree_r1_recovered,0,x,"n64_seed6: tree_r1, share of the non-tree gain kept",runs/cloud/k4s11/summary.json
+pair_n64_seed6_tree_r1_mse,0.239895,MSE,"n64_seed6: tree_r1, final raw",runs/cloud/k4s11/summary.json
+pair_n64_seed7_floor_over_gain,7.22833e-05,x,n64_seed7: MC truth noise / non-tree gain,runs/cloud/k4s11/summary.json
+pair_n64_seed7_exact,0.000107922,MSE,"n64_seed7: exact non-tree births, final raw",runs/cloud/k4s11/summary.json
+pair_n64_seed7_tree,0.000531708,MSE,"n64_seed7: tree non-tree births, final raw",runs/cloud/k4s11/summary.json
+pair_n64_seed7_tree_r1_recovered,0,x,"n64_seed7: tree_r1, share of the non-tree gain kept",runs/cloud/k4s11/summary.json
+pair_n64_seed7_tree_r1_mse,0.000531708,MSE,"n64_seed7: tree_r1, final raw",runs/cloud/k4s11/summary.json
+pair_n64_seed7_rsvd_r1_recovered,0.842176,x,"n64_seed7: rsvd_r1, share of the non-tree gain kept",runs/cloud/k4s11/summary.json
+pair_n64_seed7_rsvd_r1_mse,0.000174806,MSE,"n64_seed7: rsvd_r1, final raw",runs/cloud/k4s11/summary.json
+pair_n64_seed7_exact_r1_recovered,1,x,"n64_seed7: exact_r1, share of the non-tree gain kept",runs/cloud/k4s11/summary.json
+pair_n64_seed7_exact_r1_mse,0.000107922,MSE,"n64_seed7: exact_r1, final raw",runs/cloud/k4s11/summary.json
+kdir_joint_r4_birth_units,9.08842,units,"one birth over all sources in a rank-4 joint space, n = 1024 (flopscope)",runs/cloud/k4s12/summary.json
+kdir_joint_r4_birth_kept,0.171198,x,"same, share of the all-source birth kept (1 - relative squared error), n = 512",runs/cloud/k4s12/summary.json
+kdir_joint_r8_birth_units,11.075,units,"one birth over all sources in a rank-8 joint space, n = 1024 (flopscope)",runs/cloud/k4s12/summary.json
+kdir_joint_r8_birth_kept,0.242819,x,"same, share of the all-source birth kept (1 - relative squared error), n = 512",runs/cloud/k4s12/summary.json
+kdir_joint_r16_birth_units,15.1303,units,"one birth over all sources in a rank-16 joint space, n = 1024 (flopscope)",runs/cloud/k4s12/summary.json
+kdir_joint_r16_birth_kept,0.366142,x,"same, share of the all-source birth kept (1 - relative squared error), n = 512",runs/cloud/k4s12/summary.json
+kdir_joint_r32_birth_units,23.8796,units,"one birth over all sources in a rank-32 joint space, n = 1024 (flopscope)",runs/cloud/k4s12/summary.json
+kdir_joint_r32_birth_kept,0.499475,x,"same, share of the all-source birth kept (1 - relative squared error), n = 512",runs/cloud/k4s12/summary.json
+kdir_joint_r64_birth_units,46.4115,units,"one birth over all sources in a rank-64 joint space, n = 1024 (flopscope)",runs/cloud/k4s12/summary.json
+kdir_joint_r64_birth_kept,0.70625,x,"same, share of the all-source birth kept (1 - relative squared error), n = 512",runs/cloud/k4s12/summary.json
+kdir_joint_r96_birth_units,80.3751,units,"one birth over all sources in a rank-96 joint space, n = 1024 (flopscope)",runs/cloud/k4s12/summary.json
+kdir_joint_r96_birth_kept,0.825137,x,"same, share of the all-source birth kept (1 - relative squared error), n = 512",runs/cloud/k4s12/summary.json

@@ -1,0 +1,91 @@
+{
+  "frozen_at": "2026-10-13T18:17:56.083281+09:00",
+  "selection_rule": "first eight full_truth rows by stored order, excluding mini0-3 by seed; chosen before prediction",
+  "cases": [
+    "base:1:all",
+    "base:1:all+s22",
+    "combo:4:all",
+    "star:4:all",
+    "slice31:4:all",
+    "pair:3:all",
+    "cross:2:all:4",
+    "mixshort:4:all:2"
+  ],
+  "full_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "networks": [
+    {
+      "full_index": 0,
+      "mlp_id": 0,
+      "name": "devin-stout",
+      "seed": 1778484118851160678
+    },
+    {
+      "full_index": 1,
+      "mlp_id": 1,
+      "name": "keith-jones",
+      "seed": 7145726208641497362
+    },
+    {
+      "full_index": 2,
+      "mlp_id": 2,
+      "name": "edward-martinez",
+      "seed": 4510517532996609261
+    },
+    {
+      "full_index": 3,
+      "mlp_id": 3,
+      "name": "jose-moran",
+      "seed": 5630802792492829981
+    },
+    {
+      "full_index": 4,
+      "mlp_id": 4,
+      "name": "timothy-wagner",
+      "seed": 2104337068682078303
+    },
+    {
+      "full_index": 5,
+      "mlp_id": 5,
+      "name": "sara-gill",
+      "seed": 8439961556383393043
+    },
+    {
+      "full_index": 6,
+      "mlp_id": 6,
+      "name": "james-pearson",
+      "seed": 4873444429857916219
+    },
+    {
+      "full_index": 7,
+      "mlp_id": 7,
+      "name": "samantha-combs",
+      "seed": 5804998492846128691
+    }
+  ],
+  "excluded_mini_seeds": [
+    2392109381927064353,
+    4030325997523501402,
+    6319981554997072999,
+    6959524404880716684
+  ],
+  "source_sha256": {
+    "base_b.py": "0c6be6cc41845643f46afd390e5ef89a7f5db0c0cebbfafa0ef41dded4462e57",
+    "estimator.py": "40852f6b94a4addb755f3a0a92a9dd29a7506ae9863f4cfbebb456dfe95a4f76",
+    "r2/probe_feedback.py": "ccea11f89a5b30ce863258cf73cf209c237f192220b8e4f04f48c5b8e7f7c00d",
+    "r2/cross_math.py": "f8c1ddaa2da0aebc9623d3a15b7365c91b95b614cae7eb1e6735e83566479e5a"
+  },
+  "data_sha256": "a175609d7d2c2c3d38266a3affe4b9dbf2b59a48a44211948b6efe27ff8dae20",
+  "subset_sha256": "6b9a21c0f50eb843b2eafa4a591d21a69d24609b0a99d836cd831aa8588d8b8e",
+  "estimand": "per-network final-layer MSE ratio to paired B; arithmetic mean, median, count ratio<1; all eight networks retained",
+  "scope": "configuration-held-out relative to rounds1-2; public data, not a claim of unseen B training data",
+  "budget_usd": 0.5
+}

@@ -1,0 +1,2 @@
+mini 0: max|u_np - u_torch| / max|u| = 4.83e-03  rms u 5.546e-05
+mini 1: max|u_np - u_torch| / max|u| = 3.38e-03  rms u 5.293e-05

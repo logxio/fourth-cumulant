@@ -1,0 +1,2 @@
+Source: https://discourse.aicrowd.com/raw/18252
+**Submission** #336225: adjusted 3.8132e-9, final-layer MSE 2.0994e-8, q 0.1816. Full write-up (PDF) attached.

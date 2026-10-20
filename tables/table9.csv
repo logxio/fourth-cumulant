@@ -1,0 +1,7 @@
+state_family,units,share,read_weight_v1_net0,layer4_ratio,layer4_definition,from_input_ratio,from_input_definition
+C.k3 births,27390.0,0.452358,0.331505,2.08411,without / with from layer 4,5.387489164981219,without C.k3 / full K4
+non-tree births,30705.0,0.507106,0.063762,1.95464,without / with from layer 4,1.5569471495064868,one non-tree class removed / portable K4
+tree slices and feedback,1813.54,0.0299515,0.303061,1.06742,tree alone / chain B,1.041201964750072,slice crossings removed / full K4
+"star births, sources and young legs",472.874,0.00780972,0.301672,1.10253,"without / with, C.k3 off",1.7911-2.05437,"no star / full K4, frozen mini 5-7 range"
+"chain B, metered",168.0,0.00277459,,,,,
+total,60549.4,1,,,,1.7305e-09,"full K4 raw MSE, nets 0-1"

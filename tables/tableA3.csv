@@ -1,0 +1,13 @@
+item,setting,evidence_key
+chain,Scored chain B with its learned corrector disabled during trajectory generation,lt2_grader_ratio
+networks,"Public full networks 0-999 and Keenan Pepper corpus networks 0-2047 for training (3048); public mini 0-99 chose #335351's configuration, kept unchanged, and are read after each epoch",lt2_corpus_networks
+target,"Per-layer added mean error divided by training RMS: layer 1 2.942e-05, layer 15 6.54e-05",lt2_target_rms_layer15
+inputs per neuron,"35 current-layer, 16 previous-layer, 64 state, 3 correction, 16 layer indicators; total 134",lt2_inputs_per_neuron
+normalization,Signed log1p transform then per-layer standardization of 51 chain columns; tanh state; correction scaled by layer RMS,lt2_target_rms_layer1
+network,"134 to 128 to 128 to 128 to 33, GELU; 54561 trained parameters",lt2_trained_parameters
+loss,Mean squared added-error loss over 16 layers with full recurrent backpropagation,lt2_epochs
+optimizer,"Adam one-cycle peak 0.002; 4 networks per batch, 30 epochs, 22860 steps, seed 0",lt2_steps
+selection,"Lowest mini raw ratio at epoch 30, the last; first epoch 0.9472, final 0.8729; #335351's corrector 0.8820",lt2_holdout_ratio_epoch1
+shipped,"58376 embedded numbers, bitwise equal to the archived weight export; NumPy against PyTorch 0.00483 of the largest correction",lt2_shipped_numbers
+cost,Training 2219 seconds on one A40; 2.0 h from launch to the embedded file; archived run log and weights supplied,lt2_train_wall_s
+result,"Mini improvement on 100/100; grader improvement on 50/50; against #335351 adj 0.9888, lower on 37/50; #335351's corrector retrained with seeds 0, 1, 2: mini 0.8820, 0.8814, 0.8823, lower on 100, 100, 100 of 100",lt2_grader_better

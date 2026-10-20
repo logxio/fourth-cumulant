@@ -1,0 +1,197 @@
+key,value,unit,what,source
+abl_plain_b_cb,0.164575,x,"chain B (plain), C/B, mean of nets 0-7",runs/cloud/ablate-s1/results/summary.json
+abl_plain_b_peak_gib,5.28031,GiB,"chain B (plain), largest peak memory over nets 0-7",runs/cloud/ablate-s1/results/summary.json
+abl_plain_active_off_adj_mean,1.08079,x,"adj active_off (plain) over chain B, nets 0-7: mean of per-network ratios",runs/cloud/ablate-s1/results/summary.json
+abl_plain_active_off_adj_median_ci_lo,1.11918,x,"adj active_off (plain) over chain B, nets 0-7: median, 95% paired network-resample interval, lo",derived
+abl_plain_active_off_adj_median_ci_hi,1.24526,x,"adj active_off (plain) over chain B, nets 0-7: median, 95% paired network-resample interval, hi",derived
+abl_plain_active_off_adj_mean_ci_lo,0.850614,x,"adj active_off (plain) over chain B, nets 0-7: mean of ratios, 95% paired network-resample interval, lo",derived
+abl_plain_active_off_adj_mean_ci_hi,1.22002,x,"adj active_off (plain) over chain B, nets 0-7: mean of ratios, 95% paired network-resample interval, hi",derived
+abl_plain_active_off_adj_ratio_of_means,0.913784,x,"adj active_off (plain) over chain B, nets 0-7: mean adj over chain B's mean adj",runs/cloud/ablate-s1/results/summary.json
+abl_plain_active_off_adj_ratio_of_means_ci_lo,0.611127,x,"adj active_off (plain) over chain B, nets 0-7: ratio of means, 95% paired network-resample interval, lo",derived
+abl_plain_active_off_adj_ratio_of_means_ci_hi,1.21773,x,"adj active_off (plain) over chain B, nets 0-7: ratio of means, 95% paired network-resample interval, hi",derived
+abl_plain_active_off_adj_median,1.15851,x,"adj active_off (plain) over chain B, nets 0-7: median",runs/cloud/ablate-s1/results/summary.json
+abl_plain_active_off_worse,7,count,"adj active_off (plain) over chain B, nets 0-7: networks worse of 8",runs/cloud/ablate-s1/results/summary.json
+abl_plain_active_off_cb,0.193505,x,"active_off (plain), C/B, mean of nets 0-7",runs/cloud/ablate-s1/results/summary.json
+abl_plain_active_off_peak_gib,6.5037,GiB,"active_off (plain), largest peak memory over nets 0-7",runs/cloud/ablate-s1/results/summary.json
+abl_plain_young_off_adj_mean,0.96105,x,"adj young_off (plain) over chain B, nets 0-7: mean of per-network ratios",runs/cloud/ablate-s1/results/summary.json
+abl_plain_young_off_adj_median_ci_lo,1.01164,x,"adj young_off (plain) over chain B, nets 0-7: median, 95% paired network-resample interval, lo",derived
+abl_plain_young_off_adj_median_ci_hi,1.0857,x,"adj young_off (plain) over chain B, nets 0-7: median, 95% paired network-resample interval, hi",derived
+abl_plain_young_off_adj_mean_ci_lo,0.76478,x,"adj young_off (plain) over chain B, nets 0-7: mean of ratios, 95% paired network-resample interval, lo",derived
+abl_plain_young_off_adj_mean_ci_hi,1.07005,x,"adj young_off (plain) over chain B, nets 0-7: mean of ratios, 95% paired network-resample interval, hi",derived
+abl_plain_young_off_adj_ratio_of_means,0.814604,x,"adj young_off (plain) over chain B, nets 0-7: mean adj over chain B's mean adj",runs/cloud/ablate-s1/results/summary.json
+abl_plain_young_off_adj_ratio_of_means_ci_lo,0.54805,x,"adj young_off (plain) over chain B, nets 0-7: ratio of means, 95% paired network-resample interval, lo",derived
+abl_plain_young_off_adj_ratio_of_means_ci_hi,1.06931,x,"adj young_off (plain) over chain B, nets 0-7: ratio of means, 95% paired network-resample interval, hi",derived
+abl_plain_young_off_adj_median,1.0502,x,"adj young_off (plain) over chain B, nets 0-7: median",runs/cloud/ablate-s1/results/summary.json
+abl_plain_young_off_worse,7,count,"adj young_off (plain) over chain B, nets 0-7: networks worse of 8",runs/cloud/ablate-s1/results/summary.json
+abl_plain_young_off_cb,0.176401,x,"young_off (plain), C/B, mean of nets 0-7",runs/cloud/ablate-s1/results/summary.json
+abl_plain_young_off_peak_gib,6.95235,GiB,"young_off (plain), largest peak memory over nets 0-7",runs/cloud/ablate-s1/results/summary.json
+abl_plain_repr_off_adj_mean,0.963121,x,"adj repr_off (plain) over chain B, nets 0-7: mean of per-network ratios",runs/cloud/ablate-s1/results/summary.json
+abl_plain_repr_off_adj_median_ci_lo,0.995857,x,"adj repr_off (plain) over chain B, nets 0-7: median, 95% paired network-resample interval, lo",derived
+abl_plain_repr_off_adj_median_ci_hi,1.099,x,"adj repr_off (plain) over chain B, nets 0-7: median, 95% paired network-resample interval, hi",derived
+abl_plain_repr_off_adj_mean_ci_lo,0.75784,x,"adj repr_off (plain) over chain B, nets 0-7: mean of ratios, 95% paired network-resample interval, lo",derived
+abl_plain_repr_off_adj_mean_ci_hi,1.08006,x,"adj repr_off (plain) over chain B, nets 0-7: mean of ratios, 95% paired network-resample interval, hi",derived
+abl_plain_repr_off_adj_ratio_of_means,0.81251,x,"adj repr_off (plain) over chain B, nets 0-7: mean adj over chain B's mean adj",runs/cloud/ablate-s1/results/summary.json
+abl_plain_repr_off_adj_ratio_of_means_ci_lo,0.532033,x,"adj repr_off (plain) over chain B, nets 0-7: ratio of means, 95% paired network-resample interval, lo",derived
+abl_plain_repr_off_adj_ratio_of_means_ci_hi,1.08067,x,"adj repr_off (plain) over chain B, nets 0-7: ratio of means, 95% paired network-resample interval, hi",derived
+abl_plain_repr_off_adj_median,1.06067,x,"adj repr_off (plain) over chain B, nets 0-7: median",runs/cloud/ablate-s1/results/summary.json
+abl_plain_repr_off_worse,6,count,"adj repr_off (plain) over chain B, nets 0-7: networks worse of 8",runs/cloud/ablate-s1/results/summary.json
+abl_plain_repr_off_cb,0.183401,x,"repr_off (plain), C/B, mean of nets 0-7",runs/cloud/ablate-s1/results/summary.json
+abl_plain_repr_off_peak_gib,7.44666,GiB,"repr_off (plain), largest peak memory over nets 0-7",runs/cloud/ablate-s1/results/summary.json
+abl_plain_all_off_adj_mean,1.18544,x,"adj all_off (plain) over chain B, nets 0-7: mean of per-network ratios",runs/cloud/ablate-s1/results/summary.json
+abl_plain_all_off_adj_median_ci_lo,1.17898,x,"adj all_off (plain) over chain B, nets 0-7: median, 95% paired network-resample interval, lo",derived
+abl_plain_all_off_adj_median_ci_hi,1.40113,x,"adj all_off (plain) over chain B, nets 0-7: median, 95% paired network-resample interval, hi",derived
+abl_plain_all_off_adj_mean_ci_lo,0.922082,x,"adj all_off (plain) over chain B, nets 0-7: mean of ratios, 95% paired network-resample interval, lo",derived
+abl_plain_all_off_adj_mean_ci_hi,1.35274,x,"adj all_off (plain) over chain B, nets 0-7: mean of ratios, 95% paired network-resample interval, hi",derived
+abl_plain_all_off_adj_ratio_of_means,0.996961,x,"adj all_off (plain) over chain B, nets 0-7: mean adj over chain B's mean adj",runs/cloud/ablate-s1/results/summary.json
+abl_plain_all_off_adj_ratio_of_means_ci_lo,0.651784,x,"adj all_off (plain) over chain B, nets 0-7: ratio of means, 95% paired network-resample interval, lo",derived
+abl_plain_all_off_adj_ratio_of_means_ci_hi,1.34877,x,"adj all_off (plain) over chain B, nets 0-7: ratio of means, 95% paired network-resample interval, hi",derived
+abl_plain_all_off_adj_median,1.29367,x,"adj all_off (plain) over chain B, nets 0-7: median",runs/cloud/ablate-s1/results/summary.json
+abl_plain_all_off_worse,7,count,"adj all_off (plain) over chain B, nets 0-7: networks worse of 8",runs/cloud/ablate-s1/results/summary.json
+abl_plain_all_off_cb,0.226008,x,"all_off (plain), C/B, mean of nets 0-7",runs/cloud/ablate-s1/results/summary.json
+abl_plain_all_off_peak_gib,14.6762,GiB,"all_off (plain), largest peak memory over nets 0-7",runs/cloud/ablate-s1/results/summary.json
+abl_lt2_b_cb,0.167087,x,"chain B (lt2), C/B, mean of nets 0-7",runs/cloud/ablate-s1/results/summary.json
+abl_lt2_b_peak_gib,5.21473,GiB,"chain B (lt2), largest peak memory over nets 0-7",runs/cloud/ablate-s1/results/summary.json
+abl_lt2_active_off_adj_mean,3.74261,x,"adj active_off (lt2) over chain B, nets 0-7: mean of per-network ratios",runs/cloud/ablate-s1/results/summary.json
+abl_lt2_active_off_adj_median_ci_lo,3.3101,x,"adj active_off (lt2) over chain B, nets 0-7: median, 95% paired network-resample interval, lo",derived
+abl_lt2_active_off_adj_median_ci_hi,4.47531,x,"adj active_off (lt2) over chain B, nets 0-7: median, 95% paired network-resample interval, hi",derived
+abl_lt2_active_off_adj_mean_ci_lo,3.35886,x,"adj active_off (lt2) over chain B, nets 0-7: mean of ratios, 95% paired network-resample interval, lo",derived
+abl_lt2_active_off_adj_mean_ci_hi,4.14456,x,"adj active_off (lt2) over chain B, nets 0-7: mean of ratios, 95% paired network-resample interval, hi",derived
+abl_lt2_active_off_adj_ratio_of_means,3.72325,x,"adj active_off (lt2) over chain B, nets 0-7: mean adj over chain B's mean adj",runs/cloud/ablate-s1/results/summary.json
+abl_lt2_active_off_adj_ratio_of_means_ci_lo,3.35622,x,"adj active_off (lt2) over chain B, nets 0-7: ratio of means, 95% paired network-resample interval, lo",derived
+abl_lt2_active_off_adj_ratio_of_means_ci_hi,4.11986,x,"adj active_off (lt2) over chain B, nets 0-7: ratio of means, 95% paired network-resample interval, hi",derived
+abl_lt2_active_off_adj_median,3.61548,x,"adj active_off (lt2) over chain B, nets 0-7: median",runs/cloud/ablate-s1/results/summary.json
+abl_lt2_active_off_worse,8,count,"adj active_off (lt2) over chain B, nets 0-7: networks worse of 8",runs/cloud/ablate-s1/results/summary.json
+abl_lt2_active_off_cb,0.199502,x,"active_off (lt2), C/B, mean of nets 0-7",runs/cloud/ablate-s1/results/summary.json
+abl_lt2_active_off_peak_gib,6.4525,GiB,"active_off (lt2), largest peak memory over nets 0-7",runs/cloud/ablate-s1/results/summary.json
+abl_lt2_young_off_adj_mean,1.9626,x,"adj young_off (lt2) over chain B, nets 0-7: mean of per-network ratios",runs/cloud/ablate-s1/results/summary.json
+abl_lt2_young_off_adj_median_ci_lo,1.57477,x,"adj young_off (lt2) over chain B, nets 0-7: median, 95% paired network-resample interval, lo",derived
+abl_lt2_young_off_adj_median_ci_hi,2.38321,x,"adj young_off (lt2) over chain B, nets 0-7: median, 95% paired network-resample interval, hi",derived
+abl_lt2_young_off_adj_mean_ci_lo,1.72734,x,"adj young_off (lt2) over chain B, nets 0-7: mean of ratios, 95% paired network-resample interval, lo",derived
+abl_lt2_young_off_adj_mean_ci_hi,2.19745,x,"adj young_off (lt2) over chain B, nets 0-7: mean of ratios, 95% paired network-resample interval, hi",derived
+abl_lt2_young_off_adj_ratio_of_means,1.9691,x,"adj young_off (lt2) over chain B, nets 0-7: mean adj over chain B's mean adj",runs/cloud/ablate-s1/results/summary.json
+abl_lt2_young_off_adj_ratio_of_means_ci_lo,1.72908,x,"adj young_off (lt2) over chain B, nets 0-7: ratio of means, 95% paired network-resample interval, lo",derived
+abl_lt2_young_off_adj_ratio_of_means_ci_hi,2.20306,x,"adj young_off (lt2) over chain B, nets 0-7: ratio of means, 95% paired network-resample interval, hi",derived
+abl_lt2_young_off_adj_median,1.94436,x,"adj young_off (lt2) over chain B, nets 0-7: median",runs/cloud/ablate-s1/results/summary.json
+abl_lt2_young_off_worse,8,count,"adj young_off (lt2) over chain B, nets 0-7: networks worse of 8",runs/cloud/ablate-s1/results/summary.json
+abl_lt2_young_off_cb,0.179968,x,"young_off (lt2), C/B, mean of nets 0-7",runs/cloud/ablate-s1/results/summary.json
+abl_lt2_young_off_peak_gib,6.93776,GiB,"young_off (lt2), largest peak memory over nets 0-7",runs/cloud/ablate-s1/results/summary.json
+abl_lt2_repr_off_adj_mean,1.02849,x,"adj repr_off (lt2) over chain B, nets 0-7: mean of per-network ratios",runs/cloud/ablate-s1/results/summary.json
+abl_lt2_repr_off_adj_median_ci_lo,1.00492,x,"adj repr_off (lt2) over chain B, nets 0-7: median, 95% paired network-resample interval, lo",derived
+abl_lt2_repr_off_adj_median_ci_hi,1.0602,x,"adj repr_off (lt2) over chain B, nets 0-7: median, 95% paired network-resample interval, hi",derived
+abl_lt2_repr_off_adj_mean_ci_lo,1.00809,x,"adj repr_off (lt2) over chain B, nets 0-7: mean of ratios, 95% paired network-resample interval, lo",derived
+abl_lt2_repr_off_adj_mean_ci_hi,1.05206,x,"adj repr_off (lt2) over chain B, nets 0-7: mean of ratios, 95% paired network-resample interval, hi",derived
+abl_lt2_repr_off_adj_ratio_of_means,1.02801,x,"adj repr_off (lt2) over chain B, nets 0-7: mean adj over chain B's mean adj",runs/cloud/ablate-s1/results/summary.json
+abl_lt2_repr_off_adj_ratio_of_means_ci_lo,1.00787,x,"adj repr_off (lt2) over chain B, nets 0-7: ratio of means, 95% paired network-resample interval, lo",derived
+abl_lt2_repr_off_adj_ratio_of_means_ci_hi,1.05163,x,"adj repr_off (lt2) over chain B, nets 0-7: ratio of means, 95% paired network-resample interval, hi",derived
+abl_lt2_repr_off_adj_median,1.0211,x,"adj repr_off (lt2) over chain B, nets 0-7: median",runs/cloud/ablate-s1/results/summary.json
+abl_lt2_repr_off_worse,7,count,"adj repr_off (lt2) over chain B, nets 0-7: networks worse of 8",runs/cloud/ablate-s1/results/summary.json
+abl_lt2_repr_off_cb,0.182683,x,"repr_off (lt2), C/B, mean of nets 0-7",runs/cloud/ablate-s1/results/summary.json
+abl_lt2_repr_off_peak_gib,7.57217,GiB,"repr_off (lt2), largest peak memory over nets 0-7",runs/cloud/ablate-s1/results/summary.json
+abl_lt2_all_off_adj_mean,4.15551,x,"adj all_off (lt2) over chain B, nets 0-7: mean of per-network ratios",runs/cloud/ablate-s1/results/summary.json
+abl_lt2_all_off_adj_median_ci_lo,3.50804,x,"adj all_off (lt2) over chain B, nets 0-7: median, 95% paired network-resample interval, lo",derived
+abl_lt2_all_off_adj_median_ci_hi,5.29282,x,"adj all_off (lt2) over chain B, nets 0-7: median, 95% paired network-resample interval, hi",derived
+abl_lt2_all_off_adj_mean_ci_lo,3.65137,x,"adj all_off (lt2) over chain B, nets 0-7: mean of ratios, 95% paired network-resample interval, lo",derived
+abl_lt2_all_off_adj_mean_ci_hi,4.72711,x,"adj all_off (lt2) over chain B, nets 0-7: mean of ratios, 95% paired network-resample interval, hi",derived
+abl_lt2_all_off_adj_ratio_of_means,4.1125,x,"adj all_off (lt2) over chain B, nets 0-7: mean adj over chain B's mean adj",runs/cloud/ablate-s1/results/summary.json
+abl_lt2_all_off_adj_ratio_of_means_ci_lo,3.64987,x,"adj all_off (lt2) over chain B, nets 0-7: ratio of means, 95% paired network-resample interval, lo",derived
+abl_lt2_all_off_adj_ratio_of_means_ci_hi,4.67608,x,"adj all_off (lt2) over chain B, nets 0-7: ratio of means, 95% paired network-resample interval, hi",derived
+abl_lt2_all_off_adj_median,3.94076,x,"adj all_off (lt2) over chain B, nets 0-7: median",runs/cloud/ablate-s1/results/summary.json
+abl_lt2_all_off_worse,8,count,"adj all_off (lt2) over chain B, nets 0-7: networks worse of 8",runs/cloud/ablate-s1/results/summary.json
+abl_lt2_all_off_cb,0.225834,x,"all_off (lt2), C/B, mean of nets 0-7",runs/cloud/ablate-s1/results/summary.json
+abl_lt2_all_off_peak_gib,14.6837,GiB,"all_off (lt2), largest peak memory over nets 0-7",runs/cloud/ablate-s1/results/summary.json
+abl_plain_all_off_adj_ratio_of_means_ex6,1.30651,x,"all three off, no corrector: mean adj over chain B's mean adj, nets 0-7 but 6",runs/cloud/ablate-s1/results/summary.json
+abl_plain_b_net6_adj_over_mean,2.53023,x,"chain B, no corrector: network 6's adj over the eight-network mean",runs/cloud/ablate-s1/results/summary.json
+abl_plain_all_off_adj_min_ex6,1.17898,x,"all three off, no corrector: smallest per-network adj ratio, nets 0-7 but 6",runs/cloud/ablate-s1/results/summary.json
+abl_plain_all_off_adj_max,1.44409,x,"all three off, no corrector: largest per-network adj ratio",runs/cloud/ablate-s1/results/summary.json
+abl_plain_all_off_raw_better,7,count,"all three off, no corrector: networks with lower raw",runs/cloud/ablate-s1/results/summary.json
+abl_plain_all_off_memory_ratio,2.77942,x,"all three off over chain B, largest peak memory, no corrector",runs/cloud/ablate-s1/results/summary.json
+abl_plain_b_peak_gib_min,5.15128,GiB,"b (plain), smallest peak memory over nets 0-7",runs/cloud/ablate-s1/results/summary.json
+abl_plain_all_off_peak_gib_min,14.6261,GiB,"all_off (plain), smallest peak memory over nets 0-7",runs/cloud/ablate-s1/results/summary.json
+abl_plain_net6_b_raw,7.39984e-08,MSE,"chain B, no corrector, net 6: raw",runs/cloud/ablate-s1/results/summary.json
+abl_plain_net6_relaxed_raw_min,1.83504e-08,MSE,"net 6, any one piece relaxed (incl. single representation parts): smallest raw",runs/cloud/ablate-s1/results/mini6_analysis.json
+abl_plain_net6_relaxed_raw_max,2.06562e-08,MSE,"same, largest raw",runs/cloud/ablate-s1/results/mini6_analysis.json
+abl_net6_b_layer14,1.73067e-08,MSE,"chain B, net 6, layer 14 of 16: MSE against the truth","runs/cloud/ablate-s1/results/{b,active_off,young_off,old384,res16,fb16,repr_off,all_off}-plain/mini6.npy + data/mini_truth.npz"
+abl_net6_relaxed_layer14_min,1.5676e-08,MSE,"net 6, layer 14: smallest MSE over the seven relaxed arms","runs/cloud/ablate-s1/results/{b,active_off,young_off,old384,res16,fb16,repr_off,all_off}-plain/mini6.npy + data/mini_truth.npz"
+abl_net6_relaxed_layer14_max,1.72773e-08,MSE,"net 6, layer 14: largest MSE over the seven relaxed arms","runs/cloud/ablate-s1/results/{b,active_off,young_off,old384,res16,fb16,repr_off,all_off}-plain/mini6.npy + data/mini_truth.npz"
+abl_net6_b_layer15,5.70762e-08,MSE,"chain B, net 6, layer 15 of 16: MSE against the truth","runs/cloud/ablate-s1/results/{b,active_off,young_off,old384,res16,fb16,repr_off,all_off}-plain/mini6.npy + data/mini_truth.npz"
+abl_net6_relaxed_layer15_min,1.70243e-08,MSE,"net 6, layer 15: smallest MSE over the seven relaxed arms","runs/cloud/ablate-s1/results/{b,active_off,young_off,old384,res16,fb16,repr_off,all_off}-plain/mini6.npy + data/mini_truth.npz"
+abl_net6_relaxed_layer15_max,1.92342e-08,MSE,"net 6, layer 15: largest MSE over the seven relaxed arms","runs/cloud/ablate-s1/results/{b,active_off,young_off,old384,res16,fb16,repr_off,all_off}-plain/mini6.npy + data/mini_truth.npz"
+abl_net6_b_layers1_14_over_others_max,1.00802,x,"chain B, net 6, layers 1-14: largest ratio of its MSE to the largest MSE of nets 0-7 but 6 at that layer","runs/cloud/ablate-s1/results/{b,active_off,young_off,old384,res16,fb16,repr_off,all_off}-plain/mini6.npy + data/mini_truth.npz"
+abl_net6_b_layer15_over_others_max,2.56778,x,"chain B, net 6, layer 15: its MSE over the largest of nets 0-7 but 6","runs/cloud/ablate-s1/results/{b,active_off,young_off,old384,res16,fb16,repr_off,all_off}-plain/mini6.npy + data/mini_truth.npz"
+abl_net6_layer15_top20_share,0.795957,x,"net 6, layer 15: share of chain B's excess squared error over active_off held by its 20 largest neurons","runs/cloud/ablate-s1/results/{b,active_off,young_off,old384,res16,fb16,repr_off,all_off}-plain/mini6.npy + data/mini_truth.npz"
+abl_lt2_active_off_raw_ratio_min,2.45256,x,active_off with the corrector: smallest per-network raw ratio,runs/cloud/ablate-s1/results/summary.json
+abl_lt2_active_off_raw_ratio_max,3.85489,x,active_off with the corrector: largest per-network raw ratio,runs/cloud/ablate-s1/results/summary.json
+abl_lt2_all_off_raw_ratio_min,2.4418,x,all_off with the corrector: smallest per-network raw ratio,runs/cloud/ablate-s1/results/summary.json
+abl_lt2_all_off_raw_ratio_max,3.85898,x,all_off with the corrector: largest per-network raw ratio,runs/cloud/ablate-s1/results/summary.json
+abl50_plain_b_cb,0.16482,x,"chain B, no corrector, C/B, mean of nets 0-49",runs/cloud/ablate-s2/results/all_rows.csv + runs/cloud/ablate-s2/results/summary.json
+abl50_plain_b_peak_gib,5.64375,GiB,"chain B, no corrector, largest peak memory over nets 0-49",runs/cloud/ablate-s2/results/all_rows.csv + runs/cloud/ablate-s2/results/summary.json
+abl50_plain_active_off_adj_ratio_of_means,1.16002,x,"adj active_off (no corrector) over chain B, nets 0-49: mean adj over chain B's mean adj",runs/cloud/ablate-s2/results/all_rows.csv + runs/cloud/ablate-s2/results/summary.json
+abl50_plain_active_off_adj_ratio_of_means_ci_lo,1.05265,x,"same, 95% paired network-resample interval, lo",runs/cloud/ablate-s2/results/all_rows.csv + runs/cloud/ablate-s2/results/summary.json
+abl50_plain_active_off_adj_ratio_of_means_ci_hi,1.22669,x,"same, 95% paired network-resample interval, hi",runs/cloud/ablate-s2/results/all_rows.csv + runs/cloud/ablate-s2/results/summary.json
+abl50_plain_active_off_adj_median,1.21291,x,"adj active_off (no corrector) over chain B, nets 0-49: median per-network ratio",runs/cloud/ablate-s2/results/all_rows.csv + runs/cloud/ablate-s2/results/summary.json
+abl50_plain_active_off_adj_mean,1.20023,x,"adj active_off (no corrector) over chain B, nets 0-49: mean of per-network ratios",runs/cloud/ablate-s2/results/all_rows.csv + runs/cloud/ablate-s2/results/summary.json
+abl50_plain_active_off_worse,49,count,"adj active_off (no corrector) over chain B, nets 0-49: networks worse of 50",runs/cloud/ablate-s2/results/all_rows.csv + runs/cloud/ablate-s2/results/summary.json
+abl50_plain_active_off_raw_lower,25,count,"active_off (no corrector), nets 0-49: networks with lower raw than chain B",runs/cloud/ablate-s2/results/all_rows.csv + runs/cloud/ablate-s2/results/summary.json
+abl50_plain_active_off_cb,0.199397,x,"active_off (no corrector), C/B, mean of nets 0-49",runs/cloud/ablate-s2/results/all_rows.csv + runs/cloud/ablate-s2/results/summary.json
+abl50_plain_active_off_peak_gib,7.22892,GiB,"active_off (no corrector), largest peak memory over nets 0-49",runs/cloud/ablate-s2/results/all_rows.csv + runs/cloud/ablate-s2/results/summary.json
+abl42_plain_active_off_adj_ratio_of_means,1.22241,x,"active_off (no corrector), the 42 new networks 8-49 alone: ratio of means",runs/cloud/ablate-s2/results/all_rows.csv + runs/cloud/ablate-s2/results/summary.json
+abl42_plain_active_off_adj_ratio_of_means_ci_lo,1.21065,x,"same, 95% interval, lo",runs/cloud/ablate-s2/results/all_rows.csv + runs/cloud/ablate-s2/results/summary.json
+abl42_plain_active_off_adj_ratio_of_means_ci_hi,1.2345,x,"same, 95% interval, hi",runs/cloud/ablate-s2/results/all_rows.csv + runs/cloud/ablate-s2/results/summary.json
+abl42_plain_active_off_worse,42,count,"active_off (no corrector), networks worse of the 42 new",runs/cloud/ablate-s2/results/all_rows.csv + runs/cloud/ablate-s2/results/summary.json
+abl50_plain_active_off_adj_ratio_of_means_ex6,1.21719,x,"active_off (no corrector), nets 0-49 but 6: ratio of means",runs/cloud/ablate-s2/results/all_rows.csv + runs/cloud/ablate-s2/results/summary.json
+abl50_plain_all_off_adj_ratio_of_means,1.27815,x,"adj all_off (no corrector) over chain B, nets 0-49: mean adj over chain B's mean adj",runs/cloud/ablate-s2/results/all_rows.csv + runs/cloud/ablate-s2/results/summary.json
+abl50_plain_all_off_adj_ratio_of_means_ci_lo,1.15554,x,"same, 95% paired network-resample interval, lo",runs/cloud/ablate-s2/results/all_rows.csv + runs/cloud/ablate-s2/results/summary.json
+abl50_plain_all_off_adj_ratio_of_means_ci_hi,1.35493,x,"same, 95% paired network-resample interval, hi",runs/cloud/ablate-s2/results/all_rows.csv + runs/cloud/ablate-s2/results/summary.json
+abl50_plain_all_off_adj_median,1.33766,x,"adj all_off (no corrector) over chain B, nets 0-49: median per-network ratio",runs/cloud/ablate-s2/results/all_rows.csv + runs/cloud/ablate-s2/results/summary.json
+abl50_plain_all_off_adj_mean,1.32456,x,"adj all_off (no corrector) over chain B, nets 0-49: mean of per-network ratios",runs/cloud/ablate-s2/results/all_rows.csv + runs/cloud/ablate-s2/results/summary.json
+abl50_plain_all_off_worse,49,count,"adj all_off (no corrector) over chain B, nets 0-49: networks worse of 50",runs/cloud/ablate-s2/results/all_rows.csv + runs/cloud/ablate-s2/results/summary.json
+abl50_plain_all_off_raw_lower,47,count,"all_off (no corrector), nets 0-49: networks with lower raw than chain B",runs/cloud/ablate-s2/results/all_rows.csv + runs/cloud/ablate-s2/results/summary.json
+abl50_plain_all_off_cb,0.233738,x,"all_off (no corrector), C/B, mean of nets 0-49",runs/cloud/ablate-s2/results/all_rows.csv + runs/cloud/ablate-s2/results/summary.json
+abl50_plain_all_off_peak_gib,14.6808,GiB,"all_off (no corrector), largest peak memory over nets 0-49",runs/cloud/ablate-s2/results/all_rows.csv + runs/cloud/ablate-s2/results/summary.json
+abl42_plain_all_off_adj_ratio_of_means,1.3494,x,"all_off (no corrector), the 42 new networks 8-49 alone: ratio of means",runs/cloud/ablate-s2/results/all_rows.csv + runs/cloud/ablate-s2/results/summary.json
+abl42_plain_all_off_adj_ratio_of_means_ci_lo,1.33525,x,"same, 95% interval, lo",runs/cloud/ablate-s2/results/all_rows.csv + runs/cloud/ablate-s2/results/summary.json
+abl42_plain_all_off_adj_ratio_of_means_ci_hi,1.36407,x,"same, 95% interval, hi",runs/cloud/ablate-s2/results/all_rows.csv + runs/cloud/ablate-s2/results/summary.json
+abl42_plain_all_off_worse,42,count,"all_off (no corrector), networks worse of the 42 new",runs/cloud/ablate-s2/results/all_rows.csv + runs/cloud/ablate-s2/results/summary.json
+abl50_plain_all_off_adj_ratio_of_means_ex6,1.34307,x,"all_off (no corrector), nets 0-49 but 6: ratio of means",runs/cloud/ablate-s2/results/all_rows.csv + runs/cloud/ablate-s2/results/summary.json
+abl50_plain_b_net6_adj_over_mean,3.19686,x,"chain B, no corrector: network 6's adj over the fifty-network mean",runs/cloud/ablate-s2/results/all_rows.csv + runs/cloud/ablate-s2/results/summary.json
+abl50_plain_young_off_adj_ratio_of_means,1.04403,x,"young_off: mean adj over chain B, same-machine pairs on mini 0-49",runs/cloud/ablate-s3/results/all_rows.csv + runs/cloud/ablate-s3/results/summary.json
+abl50_plain_young_off_adj_ratio_of_means_ci_lo,0.948781,x,young_off: paired 95% network-bootstrap lo,runs/cloud/ablate-s3/results/all_rows.csv + runs/cloud/ablate-s3/results/summary.json
+abl50_plain_young_off_adj_ratio_of_means_ci_hi,1.10147,x,young_off: paired 95% network-bootstrap hi,runs/cloud/ablate-s3/results/all_rows.csv + runs/cloud/ablate-s3/results/summary.json
+abl50_plain_young_off_adj_median,1.09678,x,young_off: median paired adj ratio,runs/cloud/ablate-s3/results/all_rows.csv + runs/cloud/ablate-s3/results/summary.json
+abl50_plain_young_off_adj_ratio_of_means_ex6,1.09531,x,young_off: mean adj ratio excluding mini 6,runs/cloud/ablate-s3/results/all_rows.csv + runs/cloud/ablate-s3/results/summary.json
+abl50_plain_young_off_worse,49,count,young_off: mini networks with higher adj,runs/cloud/ablate-s3/results/all_rows.csv + runs/cloud/ablate-s3/results/summary.json
+abl50_plain_young_off_cb,0.182194,x,young_off: mean C/B on mini 0-49,runs/cloud/ablate-s3/results/all_rows.csv + runs/cloud/ablate-s3/results/summary.json
+abl50_plain_young_off_peak_gib,6.95235,GiB,young_off: peak memory on mini 0-49,runs/cloud/ablate-s3/results/all_rows.csv + runs/cloud/ablate-s3/results/summary.json
+abl50_plain_repr_off_adj_ratio_of_means,1.04936,x,"repr_off: mean adj over chain B, same-machine pairs on mini 0-49",runs/cloud/ablate-s3/results/all_rows.csv + runs/cloud/ablate-s3/results/summary.json
+abl50_plain_repr_off_adj_ratio_of_means_ci_lo,0.95084,x,repr_off: paired 95% network-bootstrap lo,runs/cloud/ablate-s3/results/all_rows.csv + runs/cloud/ablate-s3/results/summary.json
+abl50_plain_repr_off_adj_ratio_of_means_ci_hi,1.10906,x,repr_off: paired 95% network-bootstrap hi,runs/cloud/ablate-s3/results/all_rows.csv + runs/cloud/ablate-s3/results/summary.json
+abl50_plain_repr_off_adj_median,1.10037,x,repr_off: median paired adj ratio,runs/cloud/ablate-s3/results/all_rows.csv + runs/cloud/ablate-s3/results/summary.json
+abl50_plain_repr_off_adj_ratio_of_means_ex6,1.10264,x,repr_off: mean adj ratio excluding mini 6,runs/cloud/ablate-s3/results/all_rows.csv + runs/cloud/ablate-s3/results/summary.json
+abl50_plain_repr_off_worse,48,count,repr_off: mini networks with higher adj,runs/cloud/ablate-s3/results/all_rows.csv + runs/cloud/ablate-s3/results/summary.json
+abl50_plain_repr_off_cb,0.18976,x,repr_off: mean C/B on mini 0-49,runs/cloud/ablate-s3/results/all_rows.csv + runs/cloud/ablate-s3/results/summary.json
+abl50_plain_repr_off_peak_gib,7.8786,GiB,repr_off: peak memory on mini 0-49,runs/cloud/ablate-s3/results/all_rows.csv + runs/cloud/ablate-s3/results/summary.json
+abl_net6_old_b_layer15,5.70762e-08,MSE,old-machine chain B at layer 15 on mini 6,runs/cloud/ablate-s3/results/mechanism.json
+abl_net6_new_b_layer15,1.85371e-08,MSE,new-machine chain B at layer 15 on mini 6,runs/cloud/ablate-s3/results/mechanism.json
+abl_net6_cross_machine_max_abs,0.00212709,absolute,old- versus new-machine chain B prediction maximum difference,runs/cloud/ablate-s3/results/trace_parity.json
+abl_net6_same_machine_trace_max_abs,0,absolute,new-machine trace versus control maximum difference,runs/cloud/ablate-s3/results/trace_parity.json
+abl_net6_cut_columns,224,count,new-machine active-set columns removed out of 1024,runs/cloud/ablate-s3/results/mechanism.json
+abl_net6_top20_old_share,0.795957,x,old-machine top-20 share of B minus active-off squared-error excess,runs/cloud/ablate-s3/results/mechanism.json
+colcut50_adj_ratio_of_means,1.03461,x,"column cut off / chain B, mini 0-49: mean adj ratio",runs/kaggle/colsplit/summary.json
+colcut50_adj_ratio_of_means_ci_lo,1.03208,x,"same, 95% paired network-resample interval (20,000), lo",runs/kaggle/colsplit/summary.json
+colcut50_adj_ratio_of_means_ci_hi,1.03722,x,"same, 95% paired network-resample interval (20,000), hi",runs/kaggle/colsplit/summary.json
+colcut50_raw_ratio_of_means,0.997934,x,"column cut off / chain B, mini 0-49: mean raw ratio",runs/kaggle/colsplit/summary.json
+colcut50_raw_ratio_of_means_ci_lo,0.995661,x,"same, 95% paired network-resample interval (20,000), lo",runs/kaggle/colsplit/summary.json
+colcut50_raw_ratio_of_means_ci_hi,1.00021,x,"same, 95% paired network-resample interval (20,000), hi",runs/kaggle/colsplit/summary.json
+colcut50_cb_ratio_of_means,1.03677,x,"column cut off / chain B, mini 0-49: mean cb ratio",runs/kaggle/colsplit/summary.json
+colcut50_cb_ratio_of_means_ci_lo,1.03551,x,"same, 95% paired network-resample interval (20,000), lo",runs/kaggle/colsplit/summary.json
+colcut50_cb_ratio_of_means_ci_hi,1.03816,x,"same, 95% paired network-resample interval (20,000), hi",runs/kaggle/colsplit/summary.json
+colcut50_cb_B,0.164533,x,"chain B, C/B, mean of mini 0-49 (column-cut panel)",runs/kaggle/colsplit/summary.json
+colcut50_cb_off,0.170583,x,"column cut off, C/B, mean of mini 0-49",runs/kaggle/colsplit/summary.json
+colcut50_adj_median,1.03183,x,"column cut off / chain B, mini 0-49: median per-network adj ratio",derived
+colcut50_adj_net_min,1.01772,x,"same, smallest per-network adj ratio",derived
+colcut50_adj_net_max,1.0596,x,"same, largest per-network adj ratio",derived
+colcut50_worse,50,count,column cut off: networks of 50 with higher adj than chain B,runs/kaggle/colsplit/summary.json
+colcut50_raw_B_lower,20,count,networks of 50 where chain B's raw is below the column-cut-off raw,runs/kaggle/colsplit/summary.json
+colcut46_adj_ratio_of_means,1.03415,x,"column cut off / chain B, mini 4-49 (networks whose readings did not set the cut): mean adj ratio",derived
+colcut50_peak_gib_B,5.79327,GiB,"chain B, largest peak memory over mini 0-49, column-cut panel",runs/kaggle/colsplit/summary.json
+colcut50_peak_gib_off,5.90962,GiB,"column cut off, largest peak memory over mini 0-49",runs/kaggle/colsplit/summary.json

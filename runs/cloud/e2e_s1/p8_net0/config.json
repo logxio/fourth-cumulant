@@ -1,0 +1,20 @@
+{
+  "index": 0,
+  "start": 4,
+  "spec": "star+three2,slice4+slice31,!slice22+slice211",
+  "seed_spec": "slice4+slice31+slice22+slice211",
+  "pair_rank": 8,
+  "pair_iters": 2,
+  "pair_over": 4,
+  "core_rank": 128,
+  "m0": 2,
+  "dtype": "float32",
+  "meter": true,
+  "layers": 16,
+  "old_source_rule": "two-leg groups with layer-birth > m0 enter one shared k-basis core (r4 sketch rule)",
+  "slice_mode": "pairs",
+  "feedback_rank": 0,
+  "m0f": 1,
+  "slice211_rule": "(2,1,1) birth kernel compressed along its repeated-index axis, rank pair_rank, kept for life",
+  "feedback_rule": "no old-feedback projection"
+}

@@ -1,0 +1,227 @@
+key,value,unit,what,source
+width256_seed11_k3a,1.621e-06,MSE,"width 256, seed 11, k3a",runs/cloud/width-s1/batch1.log
+width256_seed11_k4,4.636e-07,MSE,"width 256, seed 11, k4",runs/cloud/width-s1/batch2.log
+width256_seed11_floor,1.79e-09,MSE,"width 256, seed 11, floor",runs/cloud/width-s1/batch1.log:1
+width256_seed12_k3a,1.156e-06,MSE,"width 256, seed 12, k3a",runs/cloud/width-s1/batch1.log
+width256_seed12_k4,2.403e-07,MSE,"width 256, seed 12, k4",runs/cloud/width-s1/batch2.log
+width256_seed12_floor,1.43e-09,MSE,"width 256, seed 12, floor",runs/cloud/width-s1/batch1.log:5
+width256_seed13_k3a,1.582e-06,MSE,"width 256, seed 13, k3a",report/data/width_k3a_256_13_rerun.log
+width256_seed13_k4,4.3529e-07,MSE,"width 256, seed 13, k4",runs/cloud/width-s1/k4full_256_13.raw
+width256_seed13_floor,1.49e-09,MSE,"width 256, seed 13, floor",runs/cloud/width-s1/mc_k3a_256_13.raw:1
+width256_k3a_mean,1.453e-06,MSE,"width 256, mean of 3 networks, k3a",derived from the rows above
+width256_k3a_ci_lo,8.12222e-07,MSE,"same, 95% Student t interval, lower",derived
+width256_k3a_ci_hi,2.09378e-06,MSE,"same, 95% Student t interval, upper",derived
+width256_k4_mean,3.7973e-07,MSE,"width 256, mean of 3 networks, k4",derived from the rows above
+width256_k4_ci_lo,7.77166e-08,MSE,"same, 95% Student t interval, lower",derived
+width256_k4_ci_hi,6.81743e-07,MSE,"same, 95% Student t interval, upper",derived
+width256_floor_mean,1.57e-09,MSE,"width 256, mean of 3 networks, floor",derived from the rows above
+width256_ratio,3.8264,x,mean K=3 aug / mean K=4 at width 256,derived
+width384_seed21_k3a,4.126e-07,MSE,"width 384, seed 21, k3a",runs/cloud/width-s1/batch1.log
+width384_seed21_k4,1.27e-07,MSE,"width 384, seed 21, k4",runs/cloud/width-s1/batch1.log
+width384_seed21_floor,1.6e-09,MSE,"width 384, seed 21, floor",runs/cloud/width-s1/batch1.log:23
+width384_seed22_k3a,3.929e-07,MSE,"width 384, seed 22, k3a",runs/cloud/width-s1/mc_k3a_384_22.raw
+width384_seed22_k4,9.978e-08,MSE,"width 384, seed 22, k4",runs/cloud/width-s1/k4full_384_22.raw
+width384_seed22_floor,1.87e-09,MSE,"width 384, seed 22, floor",runs/cloud/width-s1/mc_k3a_384_22.raw:1
+width384_seed23_k3a,4.592e-07,MSE,"width 384, seed 23, k3a",runs/cloud/width-s1/mc_k3a_384_23.raw
+width384_seed23_k4,8.5537e-08,MSE,"width 384, seed 23, k4",runs/cloud/width-s1/k4full_384_23.raw
+width384_seed23_floor,1.72e-09,MSE,"width 384, seed 23, floor",runs/cloud/width-s1/mc_k3a_384_23.raw:1
+width384_k3a_mean,4.21567e-07,MSE,"width 384, mean of 3 networks, k3a",derived from the rows above
+width384_k3a_ci_lo,3.36988e-07,MSE,"same, 95% Student t interval, lower",derived
+width384_k3a_ci_hi,5.06145e-07,MSE,"same, 95% Student t interval, upper",derived
+width384_k4_mean,1.04106e-07,MSE,"width 384, mean of 3 networks, k4",derived from the rows above
+width384_k4_ci_lo,5.17717e-08,MSE,"same, 95% Student t interval, lower",derived
+width384_k4_ci_hi,1.5644e-07,MSE,"same, 95% Student t interval, upper",derived
+width384_floor_mean,1.73e-09,MSE,"width 384, mean of 3 networks, floor",derived from the rows above
+width384_ratio,4.04941,x,mean K=3 aug / mean K=4 at width 384,derived
+width512_seed41_k3a,1.801e-07,MSE,"width 512, seed 41, k3a",runs/cloud/width-s1/gpu512.log
+width512_seed41_k4,2.711e-08,MSE,"width 512, seed 41, k4",runs/cloud/width-s1/batch9.log
+width512_seed41_floor,1.64e-09,MSE,"width 512, seed 41, floor",runs/cloud/width-s1/gpu512.log:1
+width512_seed42_k3a,2.126e-07,MSE,"width 512, seed 42, k3a",runs/cloud/width-s1/mc_k3a_512_42.raw
+width512_seed42_k4,2.9894e-08,MSE,"width 512, seed 42, k4",runs/cloud/width-s1/k4full_512_42.raw
+width512_seed42_floor,2.1e-09,MSE,"width 512, seed 42, floor",runs/cloud/width-s1/mc_k3a_512_42.raw:1
+width512_seed43_k3a,1.905e-07,MSE,"width 512, seed 43, k3a",runs/cloud/width-s1/mc_k3a_512_43.raw
+width512_seed43_k4,2.9412e-08,MSE,"width 512, seed 43, k4",runs/cloud/width-s1/k4full_512_43.raw
+width512_seed43_floor,2e-09,MSE,"width 512, seed 43, floor",runs/cloud/width-s1/mc_k3a_512_43.raw:1
+width512_k3a_mean,1.944e-07,MSE,"width 512, mean of 3 networks, k3a",derived from the rows above
+width512_k3a_ci_lo,1.5317e-07,MSE,"same, 95% Student t interval, lower",derived
+width512_k3a_ci_hi,2.3563e-07,MSE,"same, 95% Student t interval, upper",derived
+width512_k4_mean,2.88053e-08,MSE,"width 512, mean of 3 networks, k4",derived from the rows above
+width512_k4_ci_lo,2.51093e-08,MSE,"same, 95% Student t interval, lower",derived
+width512_k4_ci_hi,3.25014e-08,MSE,"same, 95% Student t interval, upper",derived
+width512_floor_mean,1.91333e-09,MSE,"width 512, mean of 3 networks, floor",derived from the rows above
+width512_ratio,6.74875,x,mean K=3 aug / mean K=4 at width 512,derived
+width1024_seed0_k3a,2.0559e-08,MSE,"width 1024, net 0, k3a",runs/cloud/width-s1/k4w_ref_k3a.raw
+width1024_seed0_k4,1.6508e-09,MSE,"width 1024, net 0, k4",runs/cloud/width-s1/k4w_full0.raw
+width1024_seed0_floor,7.86362e-11,MSE,"width 1024, net 0, floor",report/data/layer_noise.json
+width1024_seed1_k3a,1.9889e-08,MSE,"width 1024, net 1, k3a",runs/cloud/width-s1/ref_k3a_1024_1_4.raw
+width1024_seed1_k4,1.8102e-09,MSE,"width 1024, net 1, k4",runs/cloud/width-s1/k4w_full14.raw
+width1024_seed1_floor,8.60256e-11,MSE,"width 1024, net 1, floor",report/data/layer_noise.json
+width1024_seed2_k3a,2.0769e-08,MSE,"width 1024, net 2, k3a",runs/cloud/width-s1/ref_k3a_1024_1_4.raw
+width1024_seed2_k4,1.6789e-09,MSE,"width 1024, net 2, k4",runs/cloud/width-s1/k4w_full14.raw
+width1024_seed2_floor,9.64842e-11,MSE,"width 1024, net 2, floor",report/data/layer_noise.json
+width1024_seed3_k3a,2.1819e-08,MSE,"width 1024, net 3, k3a",runs/cloud/width-s1/ref_k3a_1024_1_4.raw
+width1024_seed3_k4,1.7981e-09,MSE,"width 1024, net 3, k4",runs/cloud/width-s1/k4w_full14.raw
+width1024_seed3_floor,8.70914e-11,MSE,"width 1024, net 3, floor",report/data/layer_noise.json
+width1024_seed4_k3a,1.8263e-08,MSE,"width 1024, net 4, k3a",runs/cloud/width-s1/ref_k3a_1024_1_4.raw
+width1024_seed4_k4,1.646e-09,MSE,"width 1024, net 4, k4",runs/cloud/width-s1/k4w_full14.raw
+width1024_seed4_floor,7.17705e-11,MSE,"width 1024, net 4, floor",report/data/layer_noise.json
+width1024_k3a_mean,2.02598e-08,MSE,"width 1024, mean of 5 networks, k3a",derived from the rows above
+width1024_k3a_ci_lo,1.86285e-08,MSE,"same, 95% Student t interval, lower",derived
+width1024_k3a_ci_hi,2.18911e-08,MSE,"same, 95% Student t interval, upper",derived
+width1024_k4_mean,1.7168e-09,MSE,"width 1024, mean of 5 networks, k4",derived from the rows above
+width1024_k4_ci_lo,1.61643e-09,MSE,"same, 95% Student t interval, lower",derived
+width1024_k4_ci_hi,1.81717e-09,MSE,"same, 95% Student t interval, upper",derived
+width1024_floor_mean,8.40016e-11,MSE,"width 1024, mean of 5 networks, floor",derived from the rows above
+width1024_ratio,11.8009,x,mean K=3 aug / mean K=4 at width 1024,derived
+width_exponent_k3a,3.07595,p,"k3a: MSE ~ n^-p, fit over widths 256-1024 at depth 16",derived
+width_exponent_k3a_ci_lo,2.94711,p,"same, 95% network-resample interval, lower",derived
+width_exponent_k3a_ci_hi,3.16631,p,"same, 95% network-resample interval, upper",derived
+width_exponent_k4,3.9462,p,"k4: MSE ~ n^-p, fit over widths 256-1024 at depth 16",derived
+width_exponent_k4_ci_lo,3.68059,p,"same, 95% network-resample interval, lower",derived
+width_exponent_k4_ci_hi,4.0846,p,"same, 95% network-resample interval, upper",derived
+width_exponent_gap,0.870251,p,K=4 exponent minus K=3 aug exponent,derived
+width_exponent_gap_ci_lo,0.741142,p,"same, 95% network-resample interval, lower",derived
+width_exponent_gap_ci_hi,0.955846,p,"same, 95% network-resample interval, upper",derived
+depth_ratio_layer8,22.4121,x,"(K=3 aug - noise)/(K=4 - noise) at layer 8, mean of nets 0-4",runs/cloud/k4w/k4w.log + runs/cloud/depth-s1/ref_depth.csv + report/data/layer_noise.json
+depth_ratio_layer8_min,18.9414,x,"same, smallest of nets 0-4",runs/cloud/k4w/k4w.log + runs/cloud/depth-s1/ref_depth.csv + report/data/layer_noise.json
+depth_ratio_layer8_max,24.9237,x,"same, largest of nets 0-4",runs/cloud/k4w/k4w.log + runs/cloud/depth-s1/ref_depth.csv + report/data/layer_noise.json
+depth_ratio_layer11,16.1308,x,"(K=3 aug - noise)/(K=4 - noise) at layer 11, mean of nets 0-4",runs/cloud/k4w/k4w.log + runs/cloud/depth-s1/ref_depth.csv + report/data/layer_noise.json
+depth_ratio_layer11_min,14.3541,x,"same, smallest of nets 0-4",runs/cloud/k4w/k4w.log + runs/cloud/depth-s1/ref_depth.csv + report/data/layer_noise.json
+depth_ratio_layer11_max,18.8117,x,"same, largest of nets 0-4",runs/cloud/k4w/k4w.log + runs/cloud/depth-s1/ref_depth.csv + report/data/layer_noise.json
+depth_ratio_layer12,15.7731,x,"(K=3 aug - noise)/(K=4 - noise) at layer 12, mean of nets 0-4",runs/cloud/k4w/k4w.log + runs/cloud/depth-s1/ref_depth.csv + report/data/layer_noise.json
+depth_ratio_layer12_min,13.7388,x,"same, smallest of nets 0-4",runs/cloud/k4w/k4w.log + runs/cloud/depth-s1/ref_depth.csv + report/data/layer_noise.json
+depth_ratio_layer12_max,18.6758,x,"same, largest of nets 0-4",runs/cloud/k4w/k4w.log + runs/cloud/depth-s1/ref_depth.csv + report/data/layer_noise.json
+depth_ratio_layer13,14.9391,x,"(K=3 aug - noise)/(K=4 - noise) at layer 13, mean of nets 0-4",runs/cloud/k4w/k4w.log + runs/cloud/depth-s1/ref_depth.csv + report/data/layer_noise.json
+depth_ratio_layer13_min,13.343,x,"same, smallest of nets 0-4",runs/cloud/k4w/k4w.log + runs/cloud/depth-s1/ref_depth.csv + report/data/layer_noise.json
+depth_ratio_layer13_max,17.5702,x,"same, largest of nets 0-4",runs/cloud/k4w/k4w.log + runs/cloud/depth-s1/ref_depth.csv + report/data/layer_noise.json
+depth_ratio_layer14,13.8401,x,"(K=3 aug - noise)/(K=4 - noise) at layer 14, mean of nets 0-4",runs/cloud/k4w/k4w.log + runs/cloud/depth-s1/ref_depth.csv + report/data/layer_noise.json
+depth_ratio_layer14_min,12.1888,x,"same, smallest of nets 0-4",runs/cloud/k4w/k4w.log + runs/cloud/depth-s1/ref_depth.csv + report/data/layer_noise.json
+depth_ratio_layer14_max,16.8857,x,"same, largest of nets 0-4",runs/cloud/k4w/k4w.log + runs/cloud/depth-s1/ref_depth.csv + report/data/layer_noise.json
+depth_ratio_layer15,12.9991,x,"(K=3 aug - noise)/(K=4 - noise) at layer 15, mean of nets 0-4",runs/cloud/k4w/k4w.log + runs/cloud/depth-s1/ref_depth.csv + report/data/layer_noise.json
+depth_ratio_layer15_min,12.3252,x,"same, smallest of nets 0-4",runs/cloud/k4w/k4w.log + runs/cloud/depth-s1/ref_depth.csv + report/data/layer_noise.json
+depth_ratio_layer15_max,14.8794,x,"same, largest of nets 0-4",runs/cloud/k4w/k4w.log + runs/cloud/depth-s1/ref_depth.csv + report/data/layer_noise.json
+depth_ratio_layer16,12.3587,x,"(K=3 aug - noise)/(K=4 - noise) at layer 16, mean of nets 0-4",runs/cloud/k4w/k4w.log + runs/cloud/depth-s1/ref_depth.csv + report/data/layer_noise.json
+depth_ratio_layer16_min,11.4879,x,"same, smallest of nets 0-4",runs/cloud/k4w/k4w.log + runs/cloud/depth-s1/ref_depth.csv + report/data/layer_noise.json
+depth_ratio_layer16_max,13.0578,x,"same, largest of nets 0-4",runs/cloud/k4w/k4w.log + runs/cloud/depth-s1/ref_depth.csv + report/data/layer_noise.json
+depth_slope_k4_L8_16,2.89987,p,"k4: log-log slope of noise-removed per-layer MSE, all nine layers 8-16, mean nets 0-4",runs/cloud/k4w/k4w.log + runs/cloud/depth-s1/ref_depth.csv + report/data/layer_noise.json
+depth_slope_k4_L8_16_min,2.67736,p,"same, smallest network",runs/cloud/k4w/k4w.log + runs/cloud/depth-s1/ref_depth.csv + report/data/layer_noise.json
+depth_slope_k4_L8_16_max,3.13399,p,"same, largest network",runs/cloud/k4w/k4w.log + runs/cloud/depth-s1/ref_depth.csv + report/data/layer_noise.json
+depth_slope_k3a_L8_16,2.10914,p,"k3a: log-log slope of noise-removed per-layer MSE, all nine layers 8-16, mean nets 0-4",runs/cloud/k4w/k4w.log + runs/cloud/depth-s1/ref_depth.csv + report/data/layer_noise.json
+depth_slope_k3a_L8_16_min,1.94673,p,"same, smallest network",runs/cloud/k4w/k4w.log + runs/cloud/depth-s1/ref_depth.csv + report/data/layer_noise.json
+depth_slope_k3a_L8_16_max,2.32715,p,"same, largest network",runs/cloud/k4w/k4w.log + runs/cloud/depth-s1/ref_depth.csv + report/data/layer_noise.json
+width_ratio_noise_removed_256,3.83814,x,"(mean K=3 aug - noise)/(mean K=4 - noise) at width 256, depth 16",derived from the width rows above
+width_ratio_noise_removed_256_min,3.50623,x,"same, smallest per-network ratio",derived
+width_ratio_noise_removed_256_max,4.83347,x,"same, largest per-network ratio",derived
+width_ratio_noise_removed_384,4.10094,x,"(mean K=3 aug - noise)/(mean K=4 - noise) at width 384, depth 16",derived from the width rows above
+width_ratio_noise_removed_384_min,3.27751,x,"same, smallest per-network ratio",derived
+width_ratio_noise_removed_384_max,5.45808,x,"same, largest per-network ratio",derived
+width_ratio_noise_removed_512,7.15777,x,"(mean K=3 aug - noise)/(mean K=4 - noise) at width 512, depth 16",derived from the width rows above
+width_ratio_noise_removed_512_min,6.87655,x,"same, smallest per-network ratio",derived
+width_ratio_noise_removed_512_max,7.57358,x,"same, largest per-network ratio",derived
+width_ratio_noise_removed_1024,12.3566,x,"(mean K=3 aug - noise)/(mean K=4 - noise) at width 1024, depth 16",derived from the width rows above
+width_ratio_noise_removed_1024_min,11.4855,x,"same, smallest per-network ratio",derived
+width_ratio_noise_removed_1024_max,13.0639,x,"same, largest per-network ratio",derived
+n_over_L_exponent_width,0.904273,p,"ratio ~ (n/L)^p along width, fit over widths 256-1024 at depth 16",derived
+n_over_L_exponent_depth,0.754007,p,"ratio ~ (n/L)^p along depth, least squares over layers 11-16 at width 1024",derived
+n_over_L_exponent_depth_from_layer8,0.802113,p,same fit over layers 8-16 (fit-window sensitivity),derived
+n_over_L_exponent_depth_from_layer9,0.740975,p,same fit over layers 9-16 (fit-window sensitivity),derived
+n_over_L_exponent_depth_from_layer10,0.703052,p,same fit over layers 10-16 (fit-window sensitivity),derived
+nl64_256x4_samples,1.50025e+09,samples,n/L=64 shape 256x4: MC truth samples per network,runs/cloud/width-s1/nl64/raw_mc3.csv + runs/cloud/width-s1/nl64/summary_mc3.json
+nl64_256x4_k3_mean,5.67116e-08,MSE,"n/L=64 shape 256x4: k3 direct MSE, t 95% mean",runs/cloud/width-s1/nl64/raw_mc3.csv + runs/cloud/width-s1/nl64/summary_mc3.json
+nl64_256x4_k3_ci_lo,3.48523e-08,MSE,"n/L=64 shape 256x4: k3 direct MSE, t 95% ci_lo",runs/cloud/width-s1/nl64/raw_mc3.csv + runs/cloud/width-s1/nl64/summary_mc3.json
+nl64_256x4_k3_ci_hi,7.8571e-08,MSE,"n/L=64 shape 256x4: k3 direct MSE, t 95% ci_hi",runs/cloud/width-s1/nl64/raw_mc3.csv + runs/cloud/width-s1/nl64/summary_mc3.json
+nl64_256x4_k4_mean,5.54229e-09,MSE,"n/L=64 shape 256x4: k4 direct MSE, t 95% mean",runs/cloud/width-s1/nl64/raw_mc3.csv + runs/cloud/width-s1/nl64/summary_mc3.json
+nl64_256x4_k4_ci_lo,3.54643e-09,MSE,"n/L=64 shape 256x4: k4 direct MSE, t 95% ci_lo",runs/cloud/width-s1/nl64/raw_mc3.csv + runs/cloud/width-s1/nl64/summary_mc3.json
+nl64_256x4_k4_ci_hi,7.53814e-09,MSE,"n/L=64 shape 256x4: k4 direct MSE, t 95% ci_hi",runs/cloud/width-s1/nl64/raw_mc3.csv + runs/cloud/width-s1/nl64/summary_mc3.json
+nl64_256x4_ratio_point,10.2325,x,"n/L=64 shape 256x4: K=3 aug / K=4 full, paired-resample 95% point",runs/cloud/width-s1/nl64/raw_mc3.csv + runs/cloud/width-s1/nl64/summary_mc3.json
+nl64_256x4_ratio_ci_lo,8.45387,x,"n/L=64 shape 256x4: K=3 aug / K=4 full, paired-resample 95% ci_lo",runs/cloud/width-s1/nl64/raw_mc3.csv + runs/cloud/width-s1/nl64/summary_mc3.json
+nl64_256x4_ratio_ci_hi,12.314,x,"n/L=64 shape 256x4: K=3 aug / K=4 full, paired-resample 95% ci_hi",runs/cloud/width-s1/nl64/raw_mc3.csv + runs/cloud/width-s1/nl64/summary_mc3.json
+nl64_256x4_floor_share,0.04113,x,n/L=64 shape 256x4: truth noise (var/N) over K=4 direct MSE,runs/cloud/width-s1/nl64/raw_mc3.csv + runs/cloud/width-s1/nl64/summary_mc3.json
+nl64_256x4_ratio_noise_removed,10.6286,x,n/L=64 shape 256x4: (K3 - noise)/(K4 - noise) of the means,runs/cloud/width-s1/nl64/raw_mc3.csv + runs/cloud/width-s1/nl64/summary_mc3.json
+nl64_256x4_ratio_unbiased_point,10.567,x,n/L=64 shape 256x4: two-batch unbiased K3/K4 point,runs/cloud/width-s1/nl64/raw_mc3.csv + runs/cloud/width-s1/nl64/summary_mc3.json
+nl64_256x4_ratio_unbiased_ci_lo,8.76506,x,n/L=64 shape 256x4: two-batch unbiased K3/K4 ci_lo,runs/cloud/width-s1/nl64/raw_mc3.csv + runs/cloud/width-s1/nl64/summary_mc3.json
+nl64_256x4_ratio_unbiased_ci_hi,12.8496,x,n/L=64 shape 256x4: two-batch unbiased K3/K4 ci_hi,runs/cloud/width-s1/nl64/raw_mc3.csv + runs/cloud/width-s1/nl64/summary_mc3.json
+nl64_512x8_samples,1.20023e+09,samples,n/L=64 shape 512x8: MC truth samples per network,runs/cloud/width-s1/nl64/raw_mc3.csv + runs/cloud/width-s1/nl64/summary_mc3.json
+nl64_512x8_k3_mean,3.99869e-08,MSE,"n/L=64 shape 512x8: k3 direct MSE, t 95% mean",runs/cloud/width-s1/nl64/raw_mc3.csv + runs/cloud/width-s1/nl64/summary_mc3.json
+nl64_512x8_k3_ci_lo,2.42777e-08,MSE,"n/L=64 shape 512x8: k3 direct MSE, t 95% ci_lo",runs/cloud/width-s1/nl64/raw_mc3.csv + runs/cloud/width-s1/nl64/summary_mc3.json
+nl64_512x8_k3_ci_hi,5.56961e-08,MSE,"n/L=64 shape 512x8: k3 direct MSE, t 95% ci_hi",runs/cloud/width-s1/nl64/raw_mc3.csv + runs/cloud/width-s1/nl64/summary_mc3.json
+nl64_512x8_k4_mean,3.47547e-09,MSE,"n/L=64 shape 512x8: k4 direct MSE, t 95% mean",runs/cloud/width-s1/nl64/raw_mc3.csv + runs/cloud/width-s1/nl64/summary_mc3.json
+nl64_512x8_k4_ci_lo,2.6069e-09,MSE,"n/L=64 shape 512x8: k4 direct MSE, t 95% ci_lo",runs/cloud/width-s1/nl64/raw_mc3.csv + runs/cloud/width-s1/nl64/summary_mc3.json
+nl64_512x8_k4_ci_hi,4.34405e-09,MSE,"n/L=64 shape 512x8: k4 direct MSE, t 95% ci_hi",runs/cloud/width-s1/nl64/raw_mc3.csv + runs/cloud/width-s1/nl64/summary_mc3.json
+nl64_512x8_ratio_point,11.5054,x,"n/L=64 shape 512x8: K=3 aug / K=4 full, paired-resample 95% point",runs/cloud/width-s1/nl64/raw_mc3.csv + runs/cloud/width-s1/nl64/summary_mc3.json
+nl64_512x8_ratio_ci_lo,10.7679,x,"n/L=64 shape 512x8: K=3 aug / K=4 full, paired-resample 95% ci_lo",runs/cloud/width-s1/nl64/raw_mc3.csv + runs/cloud/width-s1/nl64/summary_mc3.json
+nl64_512x8_ratio_ci_hi,12.1082,x,"n/L=64 shape 512x8: K=3 aug / K=4 full, paired-resample 95% ci_hi",runs/cloud/width-s1/nl64/raw_mc3.csv + runs/cloud/width-s1/nl64/summary_mc3.json
+nl64_512x8_floor_share,0.042836,x,n/L=64 shape 512x8: truth noise (var/N) over K=4 direct MSE,runs/cloud/width-s1/nl64/raw_mc3.csv + runs/cloud/width-s1/nl64/summary_mc3.json
+nl64_512x8_ratio_noise_removed,11.9756,x,n/L=64 shape 512x8: (K3 - noise)/(K4 - noise) of the means,runs/cloud/width-s1/nl64/raw_mc3.csv + runs/cloud/width-s1/nl64/summary_mc3.json
+nl64_512x8_ratio_unbiased_point,11.9208,x,n/L=64 shape 512x8: two-batch unbiased K3/K4 point,runs/cloud/width-s1/nl64/raw_mc3.csv + runs/cloud/width-s1/nl64/summary_mc3.json
+nl64_512x8_ratio_unbiased_ci_lo,11.3757,x,n/L=64 shape 512x8: two-batch unbiased K3/K4 ci_lo,runs/cloud/width-s1/nl64/raw_mc3.csv + runs/cloud/width-s1/nl64/summary_mc3.json
+nl64_512x8_ratio_unbiased_ci_hi,12.4177,x,n/L=64 shape 512x8: two-batch unbiased K3/K4 ci_hi,runs/cloud/width-s1/nl64/raw_mc3.csv + runs/cloud/width-s1/nl64/summary_mc3.json
+nl64_1024x16_samples,1e+09,samples,n/L=64 shape 1024x16: MC truth samples per network,runs/cloud/width-s1/nl64/raw_mc3.csv + runs/cloud/width-s1/nl64/summary_mc3.json
+nl64_1024x16_k3_mean,2.02598e-08,MSE,"n/L=64 shape 1024x16: k3 direct MSE, t 95% mean",runs/cloud/width-s1/nl64/raw_mc3.csv + runs/cloud/width-s1/nl64/summary_mc3.json
+nl64_1024x16_k3_ci_lo,1.86285e-08,MSE,"n/L=64 shape 1024x16: k3 direct MSE, t 95% ci_lo",runs/cloud/width-s1/nl64/raw_mc3.csv + runs/cloud/width-s1/nl64/summary_mc3.json
+nl64_1024x16_k3_ci_hi,2.18911e-08,MSE,"n/L=64 shape 1024x16: k3 direct MSE, t 95% ci_hi",runs/cloud/width-s1/nl64/raw_mc3.csv + runs/cloud/width-s1/nl64/summary_mc3.json
+nl64_1024x16_k4_mean,1.7168e-09,MSE,"n/L=64 shape 1024x16: k4 direct MSE, t 95% mean",runs/cloud/width-s1/nl64/raw_mc3.csv + runs/cloud/width-s1/nl64/summary_mc3.json
+nl64_1024x16_k4_ci_lo,1.61643e-09,MSE,"n/L=64 shape 1024x16: k4 direct MSE, t 95% ci_lo",runs/cloud/width-s1/nl64/raw_mc3.csv + runs/cloud/width-s1/nl64/summary_mc3.json
+nl64_1024x16_k4_ci_hi,1.81717e-09,MSE,"n/L=64 shape 1024x16: k4 direct MSE, t 95% ci_hi",runs/cloud/width-s1/nl64/raw_mc3.csv + runs/cloud/width-s1/nl64/summary_mc3.json
+nl64_1024x16_ratio_point,11.8009,x,"n/L=64 shape 1024x16: K=3 aug / K=4 full, paired-resample 95% point",runs/cloud/width-s1/nl64/raw_mc3.csv + runs/cloud/width-s1/nl64/summary_mc3.json
+nl64_1024x16_ratio_ci_lo,11.2649,x,"n/L=64 shape 1024x16: K=3 aug / K=4 full, paired-resample 95% ci_lo",runs/cloud/width-s1/nl64/raw_mc3.csv + runs/cloud/width-s1/nl64/summary_mc3.json
+nl64_1024x16_ratio_ci_hi,12.3529,x,"n/L=64 shape 1024x16: K=3 aug / K=4 full, paired-resample 95% ci_hi",runs/cloud/width-s1/nl64/raw_mc3.csv + runs/cloud/width-s1/nl64/summary_mc3.json
+nl64_1024x16_floor_share,0.0489292,x,n/L=64 shape 1024x16: truth noise (var/N) over K=4 direct MSE,runs/cloud/width-s1/nl64/raw_mc3.csv + runs/cloud/width-s1/nl64/summary_mc3.json
+nl64_1024x16_ratio_noise_removed,12.3566,x,n/L=64 shape 1024x16: (K3 - noise)/(K4 - noise) of the means,runs/cloud/width-s1/nl64/raw_mc3.csv + runs/cloud/width-s1/nl64/summary_mc3.json
+nl64_ratio_common_lo,11.2649,x,"n/L=64: common part of the three direct-ratio 95% intervals, lower",derived
+nl64_ratio_common_hi,12.1082,x,"n/L=64: common part of the three direct-ratio 95% intervals, upper",derived
+nl64_256x4_rel_1024,0.867097,x,n/L=64: 256x4 ratio over 1024x16 ratio,derived from nl64 rows
+nl64_256x4_rel_1024_ci90_lo,0.751926,x,"same, 90% network-resample interval, lower",derived
+nl64_256x4_rel_1024_ci90_hi,0.998767,x,"same, 90% network-resample interval, upper",derived
+nl64_256x4_equiv_bound,1.32992,x,256x4: smallest symmetric factor that holds the 90% interval (equivalence at 5%),derived
+nl64_256x4_width_only_rel,0.324246,x,if width alone set the ratio: width-256 ratio at depth 16 over width-1024 ratio,derived from the width rows
+nl64_512x8_rel_1024,0.974963,x,n/L=64: 512x8 ratio over 1024x16 ratio,derived from nl64 rows
+nl64_512x8_rel_1024_ci90_lo,0.913973,x,"same, 90% network-resample interval, lower",derived
+nl64_512x8_rel_1024_ci90_hi,1.03501,x,"same, 90% network-resample interval, upper",derived
+nl64_512x8_equiv_bound,1.09412,x,512x8: smallest symmetric factor that holds the 90% interval (equivalence at 5%),derived
+nl64_512x8_width_only_rel,0.571884,x,if width alone set the ratio: width-512 ratio at depth 16 over width-1024 ratio,derived from the width rows
+n_over_L_exponent_width_ci_lo,0.768705,p,"ratio ~ (n/L)^p along width, 95% network-resample interval, lower",derived
+n_over_L_exponent_width_ci_hi,0.991609,p,"ratio ~ (n/L)^p along width, 95% network-resample interval, upper",derived
+n_over_L_exponent_depth_ci_lo,0.551391,p,"ratio ~ (n/L)^p along depth, 95% network-resample interval, lower",derived
+n_over_L_exponent_depth_ci_hi,0.903072,p,"ratio ~ (n/L)^p along depth, 95% network-resample interval, upper",derived
+fz_e1_64x8_s301_truth_samples,1.68e+07,samples,E1 64x8 seed 301: Monte Carlo truth samples,report/data/frozen_s16/e1_64_8_301.log
+fz_e1_64x8_s301_k3a,3.217e-05,MSE,"E1 64x8 seed 301: ARC augmented K=3, final MSE",report/data/frozen_s16/e1_64_8_301.log
+fz_e1_64x8_s301_k4full,1.517e-05,MSE,E1 64x8 seed 301: ARC K=4 full (augment False),report/data/frozen_s16/e1_64_8_301.log
+fz_e1_64x8_s301_k3a_over_k4full,2.12063,x,E1 64x8 seed 301: K=3 aug / K=4 full,derived
+fz_e1_64x8_s301_k4aug,5.214e-05,MSE,E1 64x8 seed 301: augmented K=4 (F29's variant),report/data/frozen_s16/e1_64_8_301_k4a.log
+fz_e1_64x8_s301_k4aug_over_k3a,1.62076,x,E1 64x8 seed 301: augmented K=4 / K=3 aug,derived
+fz_e1_64x8_s301_k4aug_peak_gib,1.84515,GiB,E1 64x8 seed 301: augmented K=4 peak memory,report/data/frozen_s16/e1_64_8_301_k4a.log
+fz_e1_64x8_s302_truth_samples,1.68e+07,samples,E1 64x8 seed 302: Monte Carlo truth samples,report/data/frozen_s16/e1_64_8_302.log
+fz_e1_64x8_s302_k3a,5.471e-05,MSE,"E1 64x8 seed 302: ARC augmented K=3, final MSE",report/data/frozen_s16/e1_64_8_302.log
+fz_e1_64x8_s302_k4full,1.481e-05,MSE,E1 64x8 seed 302: ARC K=4 full (augment False),report/data/frozen_s16/e1_64_8_302.log
+fz_e1_64x8_s302_k3a_over_k4full,3.69413,x,E1 64x8 seed 302: K=3 aug / K=4 full,derived
+fz_e1_64x8_s302_k4aug,0.0001252,MSE,E1 64x8 seed 302: augmented K=4 (F29's variant),report/data/frozen_s16/e1_64_8_302_k4a.log
+fz_e1_64x8_s302_k4aug_over_k3a,2.28843,x,E1 64x8 seed 302: augmented K=4 / K=3 aug,derived
+fz_e1_64x8_s302_k4aug_peak_gib,1.70911,GiB,E1 64x8 seed 302: augmented K=4 peak memory,report/data/frozen_s16/e1_64_8_302_k4a.log
+fz_e1_64x8_s303_truth_samples,1.68e+07,samples,E1 64x8 seed 303: Monte Carlo truth samples,report/data/frozen_s16/e1_64_8_303.log
+fz_e1_64x8_s303_k3a,4.045e-05,MSE,"E1 64x8 seed 303: ARC augmented K=3, final MSE",report/data/frozen_s16/e1_64_8_303.log
+fz_e1_64x8_s303_k4full,1.479e-05,MSE,E1 64x8 seed 303: ARC K=4 full (augment False),report/data/frozen_s16/e1_64_8_303.log
+fz_e1_64x8_s303_k3a_over_k4full,2.73496,x,E1 64x8 seed 303: K=3 aug / K=4 full,derived
+fz_e1_64x8_s303_k4aug,0.0001625,MSE,E1 64x8 seed 303: augmented K=4 (F29's variant),report/data/frozen_s16/e1_64_8_303_k4a.log
+fz_e1_64x8_s303_k4aug_over_k3a,4.01731,x,E1 64x8 seed 303: augmented K=4 / K=3 aug,derived
+fz_e1_64x8_s303_k4aug_peak_gib,1.79642,GiB,E1 64x8 seed 303: augmented K=4 peak memory,report/data/frozen_s16/e1_64_8_303_k4a.log
+fz_e1_64x8_k3a_over_k4full_min,2.12063,x,"E1 64x8: K=3 aug / K=4 full, smallest of 3",derived
+fz_e1_64x8_k3a_over_k4full_max,3.69413,x,"E1 64x8: K=3 aug / K=4 full, largest of 3",derived
+fz_e1_64x8_k4full_better,3,count,E1 64x8: networks of 3 where K=4 full beats K=3 aug,derived
+fz_e1_96x12_s301_truth_samples,1.68e+07,samples,E1 96x12 seed 301: Monte Carlo truth samples,report/data/frozen_s16/e1_96_12_301.log
+fz_e1_96x12_s301_k3a,3.46e-05,MSE,"E1 96x12 seed 301: ARC augmented K=3, final MSE",report/data/frozen_s16/e1_96_12_301.log
+fz_e1_96x12_s301_k4full,1.37e-05,MSE,E1 96x12 seed 301: ARC K=4 full (augment False),report/data/frozen_s16/e1_96_12_301.log
+fz_e1_96x12_s301_k3a_over_k4full,2.52555,x,E1 96x12 seed 301: K=3 aug / K=4 full,derived
+fz_e1_96x12_s302_truth_samples,1.68e+07,samples,E1 96x12 seed 302: Monte Carlo truth samples,report/data/frozen_s16/e1_96_12_302.log
+fz_e1_96x12_s302_k3a,1.962e-05,MSE,"E1 96x12 seed 302: ARC augmented K=3, final MSE",report/data/frozen_s16/e1_96_12_302.log
+fz_e1_96x12_s302_k4full,9.625e-06,MSE,E1 96x12 seed 302: ARC K=4 full (augment False),report/data/frozen_s16/e1_96_12_302.log
+fz_e1_96x12_s302_k3a_over_k4full,2.03844,x,E1 96x12 seed 302: K=3 aug / K=4 full,derived
+fz_e1_96x12_s303_truth_samples,1.68e+07,samples,E1 96x12 seed 303: Monte Carlo truth samples,report/data/frozen_s16/e1_96_12_303.log
+fz_e1_96x12_s303_k3a,2.801e-05,MSE,"E1 96x12 seed 303: ARC augmented K=3, final MSE",report/data/frozen_s16/e1_96_12_303.log
+fz_e1_96x12_s303_k4full,9.384e-06,MSE,E1 96x12 seed 303: ARC K=4 full (augment False),report/data/frozen_s16/e1_96_12_303.log
+fz_e1_96x12_s303_k3a_over_k4full,2.98487,x,E1 96x12 seed 303: K=3 aug / K=4 full,derived
+fz_e1_96x12_k3a_over_k4full_min,2.03844,x,"E1 96x12: K=3 aug / K=4 full, smallest of 3",derived
+fz_e1_96x12_k3a_over_k4full_max,2.98487,x,"E1 96x12: K=3 aug / K=4 full, largest of 3",derived
+fz_e1_96x12_k4full_better,3,count,E1 96x12: networks of 3 where K=4 full beats K=3 aug,derived
+fz_e1_64x8_k4aug_over_k3a_min,1.62076,x,"E1 64x8: augmented K=4 / K=3 aug, smallest of 3",derived
+fz_e1_64x8_k4aug_over_k3a_max,4.01731,x,"E1 64x8: augmented K=4 / K=3 aug, largest of 3",derived

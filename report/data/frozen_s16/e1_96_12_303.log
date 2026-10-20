@@ -1,0 +1,22 @@
+### e1_96_12_303 2026-10-15T13:42:04Z
+MC N=1.68e+07 t=43s avg final var 0.1138 noise-floor MSE~6.78e-09
+k3a: final MSE 2.801e-05 (norm 2.46e-04) t=1.4s | layers 1.9e-08 1.4e-06 5.1e-06 1.1e-05
+k4s: final MSE 9.384e-06 (norm 8.25e-05) t=11.3s | layers 1.9e-08 3.8e-07 1.7e-06 4.3e-06
+       58.96 real        71.46 user         5.68 sys
+          3405283328  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              650327  page reclaims
+                 110  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   1  signals received
+                 885  voluntary context switches
+              618117  involuntary context switches
+            15044128  instructions retired
+             7161256  cycles elapsed
+              983352  peak memory footprint

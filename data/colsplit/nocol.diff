@@ -1,0 +1,8 @@
+7750a7751,7753
+> # column-split ablation: AW_NOCOL=1 turns off ONLY our D21 column cut (cmp8 wcol / cmp10 CS / cmp12 cw);
+> # V30_PRUNE=1 row pruning (V34: S_OUT, S_IN, (m_, m_) live block) stays. Default 0 = chain B.
+> NOCOL = _os.environ.get("AW_NOCOL", "0") == "1"
+9262c9265
+<                                             wcol=(int(S_IN[li]) if (prune and not trim and (ns < n or (int(S_IN[li]) < n and int(S_IN[li]) % 64 == 0))) else None))
+---
+>                                             wcol=(int(S_IN[li]) if (prune and not NOCOL and not trim and (ns < n or (int(S_IN[li]) < n and int(S_IN[li]) % 64 == 0))) else None))

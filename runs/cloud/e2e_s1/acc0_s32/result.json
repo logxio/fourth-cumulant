@@ -1,0 +1,434 @@
+{
+  "config": {
+    "index": 0,
+    "start": 4,
+    "spec": "star+three2,slice4+slice31,!slice22+slice211",
+    "seed_spec": "slice4+slice31+slice22+slice211",
+    "pair_rank": 32,
+    "pair_iters": 2,
+    "pair_over": 4,
+    "core_rank": 128,
+    "m0": 2,
+    "dtype": "float32",
+    "meter": false,
+    "layers": 16,
+    "old_source_rule": "two-leg groups with layer-birth > m0 enter one shared k-basis core (r4 sketch rule)",
+    "slice211_rule": "(2,1,1) birth kernel compressed along its repeated-index axis, rank pair_rank, kept for life",
+    "feedback_rule": "no separate old-feedback projection; slice groups are already compressed"
+  },
+  "snapshot": "out/snap0/B_mini0_pre4.npz",
+  "bridge": {
+    "d3_max_abs": 2.2351741790771484e-08,
+    "d3_relative_norm": 3.209689225514012e-07,
+    "d21_max_abs_before_interface_clip": 0.03348435461521149
+  },
+  "seed_pair_kept": [
+    0.9981135129928589
+  ],
+  "final_mse": 6.939055262459117e-09,
+  "per_layer_mse": [
+    6.978057368045576e-10,
+    7.61234102558489e-10,
+    1.191427828774723e-09,
+    2.2103505077081674e-09,
+    3.0855433395663775e-09,
+    4.089524150402865e-09,
+    4.45775824709038e-09,
+    4.555645331005853e-09,
+    4.688911062171518e-09,
+    4.814513045289292e-09,
+    5.475230918573622e-09,
+    5.7201364268837e-09,
+    6.127952542576136e-09,
+    6.208420061814901e-09,
+    7.3288252887741015e-09,
+    6.939055262459117e-09
+  ],
+  "suffix_units": NaN,
+  "prefix_units": 24.7422569738701,
+  "total_units": NaN,
+  "c_over_b": NaN,
+  "phase_units": {
+    "B_switch_expand": NaN,
+    "B_K4_seed": NaN
+  },
+  "suffix_wall_s": 9874.317465305328,
+  "host_peak_rss_gib": 82.41429901123047,
+  "threads": 16,
+  "layers": [
+    {
+      "layer": 4,
+      "seconds": 361.17086601257324,
+      "units_linear": NaN,
+      "units_nonlinear": NaN,
+      "units_projection": NaN,
+      "units_total_so_far": NaN,
+      "host_peak_rss_gib": 61.062355041503906,
+      "mse": 3.0855433395663775e-09,
+      "groups": {
+        "dense": 1,
+        "slice": 3,
+        "core": 0
+      },
+      "pair_kept": [
+        0.9981135129928589,
+        0.3626118004322052
+      ],
+      "projection": null,
+      "seconds_by_read": {
+        "read_slice": 37.54929757118225,
+        "read_dense": 18.105839014053345
+      }
+    },
+    {
+      "layer": 5,
+      "seconds": 635.7451682090759,
+      "units_linear": NaN,
+      "units_nonlinear": NaN,
+      "units_projection": NaN,
+      "units_total_so_far": NaN,
+      "host_peak_rss_gib": 66.1291275024414,
+      "mse": 4.089524150402865e-09,
+      "groups": {
+        "dense": 2,
+        "slice": 5,
+        "core": 0
+      },
+      "pair_kept": [
+        0.3768478333950043
+      ],
+      "projection": null,
+      "seconds_by_read": {
+        "read_slice": 68.4553587436676,
+        "read_dense": 66.98225855827332
+      }
+    },
+    {
+      "layer": 6,
+      "seconds": 660.5683832168579,
+      "units_linear": NaN,
+      "units_nonlinear": NaN,
+      "units_projection": NaN,
+      "units_total_so_far": NaN,
+      "host_peak_rss_gib": 70.93415832519531,
+      "mse": 4.45775824709038e-09,
+      "groups": {
+        "dense": 3,
+        "slice": 7,
+        "core": 0
+      },
+      "pair_kept": [
+        0.39284589886665344
+      ],
+      "projection": null,
+      "seconds_by_read": {
+        "read_slice": 88.47868585586548,
+        "read_dense": 96.96789193153381
+      }
+    },
+    {
+      "layer": 7,
+      "seconds": 865.7897455692291,
+      "units_linear": NaN,
+      "units_nonlinear": NaN,
+      "units_projection": NaN,
+      "units_total_so_far": NaN,
+      "host_peak_rss_gib": 75.7372932434082,
+      "mse": 4.555645331005853e-09,
+      "groups": {
+        "dense": 3,
+        "slice": 9,
+        "core": 1
+      },
+      "pair_kept": [
+        0.42005568742752075
+      ],
+      "projection": {
+        "entered": 1,
+        "births": [
+          4
+        ]
+      },
+      "seconds_by_read": {
+        "read_slice": 120.67278146743774,
+        "read_dense": 156.2152693271637,
+        "project_old": 17.94033718109131
+      }
+    },
+    {
+      "layer": 8,
+      "seconds": 1153.271415233612,
+      "units_linear": NaN,
+      "units_nonlinear": NaN,
+      "units_projection": NaN,
+      "units_total_so_far": NaN,
+      "host_peak_rss_gib": 77.69559478759766,
+      "mse": 4.688911062171518e-09,
+      "groups": {
+        "dense": 3,
+        "slice": 11,
+        "core": 1
+      },
+      "pair_kept": [
+        0.3928482234477997
+      ],
+      "projection": {
+        "entered": 1,
+        "births": [
+          4,
+          5
+        ]
+      },
+      "seconds_by_read": {
+        "read_slice": 236.71356391906738,
+        "read_dense": 231.29804754257202,
+        "read_core": 2.552194833755493,
+        "project_old": 26.47746229171753
+      }
+    },
+    {
+      "layer": 9,
+      "seconds": 939.0836727619171,
+      "units_linear": NaN,
+      "units_nonlinear": NaN,
+      "units_projection": NaN,
+      "units_total_so_far": NaN,
+      "host_peak_rss_gib": 78.48677062988281,
+      "mse": 4.814513045289292e-09,
+      "groups": {
+        "dense": 3,
+        "slice": 13,
+        "core": 1
+      },
+      "pair_kept": [
+        0.3920823037624359
+      ],
+      "projection": {
+        "entered": 1,
+        "births": [
+          4,
+          5,
+          6
+        ]
+      },
+      "seconds_by_read": {
+        "read_slice": 221.59325623512268,
+        "read_dense": 166.77737617492676,
+        "read_core": 4.0043346881866455,
+        "project_old": 13.209914684295654
+      }
+    },
+    {
+      "layer": 10,
+      "seconds": 756.9042508602142,
+      "units_linear": NaN,
+      "units_nonlinear": NaN,
+      "units_projection": NaN,
+      "units_total_so_far": NaN,
+      "host_peak_rss_gib": 79.27484130859375,
+      "mse": 5.475230918573622e-09,
+      "groups": {
+        "dense": 3,
+        "slice": 15,
+        "core": 1
+      },
+      "pair_kept": [
+        0.408378005027771
+      ],
+      "projection": {
+        "entered": 1,
+        "births": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "seconds_by_read": {
+        "read_slice": 194.67840671539307,
+        "read_dense": 128.96155285835266,
+        "read_core": 2.975717067718506,
+        "project_old": 16.630023956298828
+      }
+    },
+    {
+      "layer": 11,
+      "seconds": 824.1919944286346,
+      "units_linear": NaN,
+      "units_nonlinear": NaN,
+      "units_projection": NaN,
+      "units_total_so_far": NaN,
+      "host_peak_rss_gib": 80.05475616455078,
+      "mse": 5.7201364268837e-09,
+      "groups": {
+        "dense": 3,
+        "slice": 17,
+        "core": 1
+      },
+      "pair_kept": [
+        0.4255857765674591
+      ],
+      "projection": {
+        "entered": 1,
+        "births": [
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "seconds_by_read": {
+        "read_slice": 236.95507860183716,
+        "read_dense": 137.66843676567078,
+        "read_core": 2.9256176948547363,
+        "project_old": 18.64388918876648
+      }
+    },
+    {
+      "layer": 12,
+      "seconds": 891.4435439109802,
+      "units_linear": NaN,
+      "units_nonlinear": NaN,
+      "units_projection": NaN,
+      "units_total_so_far": NaN,
+      "host_peak_rss_gib": 80.84312057495117,
+      "mse": 6.127952542576136e-09,
+      "groups": {
+        "dense": 3,
+        "slice": 19,
+        "core": 1
+      },
+      "pair_kept": [
+        0.42926350235939026
+      ],
+      "projection": {
+        "entered": 1,
+        "births": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "seconds_by_read": {
+        "read_slice": 250.09209871292114,
+        "read_dense": 162.27430629730225,
+        "read_core": 3.808215856552124,
+        "project_old": 14.814939975738525
+      }
+    },
+    {
+      "layer": 13,
+      "seconds": 811.332729101181,
+      "units_linear": NaN,
+      "units_nonlinear": NaN,
+      "units_projection": NaN,
+      "units_total_so_far": NaN,
+      "host_peak_rss_gib": 81.62710189819336,
+      "mse": 6.208420061814901e-09,
+      "groups": {
+        "dense": 3,
+        "slice": 21,
+        "core": 1
+      },
+      "pair_kept": [
+        0.4576621949672699
+      ],
+      "projection": {
+        "entered": 1,
+        "births": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "seconds_by_read": {
+        "read_slice": 269.7892360687256,
+        "read_dense": 118.23273372650146,
+        "read_core": 4.010499954223633,
+        "project_old": 15.259837865829468
+      }
+    },
+    {
+      "layer": 14,
+      "seconds": 895.3543615341187,
+      "units_linear": NaN,
+      "units_nonlinear": NaN,
+      "units_projection": NaN,
+      "units_total_so_far": NaN,
+      "host_peak_rss_gib": 82.41429901123047,
+      "mse": 7.3288252887741015e-09,
+      "groups": {
+        "dense": 3,
+        "slice": 23,
+        "core": 1
+      },
+      "pair_kept": [
+        0.4584927260875702
+      ],
+      "projection": {
+        "entered": 1,
+        "births": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "seconds_by_read": {
+        "read_slice": 302.27091431617737,
+        "read_dense": 132.3325264453888,
+        "read_core": 3.344784736633301,
+        "project_old": 15.895704507827759
+      }
+    },
+    {
+      "layer": 15,
+      "seconds": 888.5469980239868,
+      "units_linear": NaN,
+      "units_nonlinear": NaN,
+      "units_projection": NaN,
+      "units_total_so_far": NaN,
+      "host_peak_rss_gib": 82.41429901123047,
+      "mse": 6.939055262459117e-09,
+      "groups": {
+        "dense": 2,
+        "slice": 23,
+        "core": 1
+      },
+      "pair_kept": [],
+      "projection": {
+        "entered": 1,
+        "births": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "seconds_by_read": {
+        "read_slice": 317.7640047073364,
+        "read_dense": 118.35468363761902,
+        "read_core": 3.0220139026641846,
+        "project_old": 12.761060237884521
+      }
+    }
+  ],
+  "op_report": null
+}

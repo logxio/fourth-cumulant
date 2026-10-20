@@ -1,0 +1,20 @@
+### e2_192_16_602_no_k3c 2026-10-15T14:05:20Z
+k4full spec=path+star,slice4+slice31+slice22+slice211 n=192 L=16/16 seed=602 cpu torch.float64: final 3.5248e-06 t=86s gpu_peak=0.0G host_maxrss=1.9G births=0G | 1.7e-08 3.9e-08 2.1e-07 5.3e-07 1.8e-06 3.5e-06
+       88.75 real       110.80 user        17.20 sys
+          2086207488  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             1615185  page reclaims
+                1891  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   1  signals received
+                1884  voluntary context switches
+             1011448  involuntary context switches
+            17686696  instructions retired
+            11153397  cycles elapsed
+              983352  peak memory footprint

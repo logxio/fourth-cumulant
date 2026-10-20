@@ -1,0 +1,8 @@
+computation,arithmetic_per_layer,state,reported_in
+full K=4,two dense fourth-order products per source and dense third-order transport,one cubic kernel per source,"Tables 1-3; Figures 1-2, 3a"
+K=4 subsets,the same chain with selected groups and crossings removed,same dense source state,"Tables 1, 3"
+cubic components,matrix products on source legs and shared bases,matrix legs and a shared basis,Sections 2.4-2.6; Table 7
+compact complete chain,cubic components plus dense first reads,"legs, bases and a third-order core",Table 7; Figure 4b
+late start,chain B followed by a full K=4 suffix,dense fourth-order suffix state,Figure 3b; Table 7
+chain B,factorized third-order chain,5.3 GiB per network,Tables 4-6
+non-tree pairs,rank-weighted cubic matrix reads,rank-weighted quadratic state per birth,Table 8

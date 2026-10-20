@@ -1,0 +1,1 @@
+k4full spec=star+three2,slice4+slice31+slice22+slice211 mlp 6 cuda torch.float32: final 2.0398e-09 all 9.084e-10 t=401s dslice=198s gpu_peak=60.4G host_maxrss=121.3G births=120G | 6.70e-10 4.59e-10 3.85e-10 3.45e-10 3.72e-10 4.52e-10 5.12e-10 6.00e-10 7.94e-10 1.01e-09 1.03e-09 1.12e-09 1.30e-09 1.65e-09 1.80e-09 2.04e-09

@@ -1,0 +1,808 @@
+{
+  "config": {
+    "index": 0,
+    "start": 4,
+    "spec": "star+three2,slice4+slice31,!slice22+slice211",
+    "seed_spec": "slice4+slice31+slice22+slice211",
+    "pair_rank": 8,
+    "pair_iters": 2,
+    "pair_over": 4,
+    "core_rank": 128,
+    "m0": 2,
+    "dtype": "float32",
+    "meter": true,
+    "layers": 16,
+    "old_source_rule": "two-leg groups with layer-birth > m0 enter one shared k-basis core (r4 sketch rule)",
+    "slice_mode": "dense",
+    "feedback_rank": 128,
+    "m0f": 1,
+    "slice211_rule": "groups holding slice211 keep the dense n^3 birth kernel (k4full)",
+    "feedback_rule": "r4 old-feedback projection: slice211 groups older than m0f read on a k3=128 Tucker basis"
+  },
+  "snapshot": "out/snap0/B_mini0_pre4.npz",
+  "bridge": {
+    "d3_max_abs": 2.2351741790771484e-08,
+    "d3_relative_norm": 3.278202882484038e-07,
+    "d21_max_abs_before_interface_clip": 0.03348435461521149
+  },
+  "seed_pair_kept": [
+    null
+  ],
+  "final_mse": 6.369401142363264e-09,
+  "per_layer_mse": [
+    6.978057368045576e-10,
+    7.61234102558489e-10,
+    1.191427828774723e-09,
+    2.2103505077081674e-09,
+    3.0856004397699177e-09,
+    4.242248154371232e-09,
+    4.463892692514366e-09,
+    4.56602146459429e-09,
+    4.525019301125986e-09,
+    4.5693197415420224e-09,
+    5.1091121450771105e-09,
+    5.342105930313744e-09,
+    5.51976451579667e-09,
+    5.493043870403426e-09,
+    6.2190588083207205e-09,
+    6.369401142363264e-09
+  ],
+  "suffix_units": 756594.8685784666,
+  "prefix_units": 24.7422569738701,
+  "total_units": 756619.6108354405,
+  "c_over_b": 738.8863387064848,
+  "phase_units": {
+    "B_switch_expand": 12388.630533693824,
+    "B_K4_seed": 14.518105981405824
+  },
+  "suffix_wall_s": 22311.59161710739,
+  "host_peak_rss_gib": 114.84732055664062,
+  "threads": 16,
+  "layers": [
+    {
+      "layer": 4,
+      "seconds": 1064.703070640564,
+      "units_linear": 0.0,
+      "units_nonlinear": 6348.345339782536,
+      "units_projection": 0.0,
+      "units_total_so_far": 18751.49398041144,
+      "host_peak_rss_gib": 61.00393295288086,
+      "mse": 3.0856004397699177e-09,
+      "groups": {
+        "dense": 3,
+        "slice": 1,
+        "core": 0
+      },
+      "pair_kept": [],
+      "feedback_reads": 0,
+      "projection": null,
+      "seconds_units_by_part": {
+        "read_dense_slice": [
+          120.554,
+          6162.509
+        ],
+        "birth_two_leg_store": [
+          2.17,
+          1.0
+        ],
+        "read_dense_age0": [
+          70.543,
+          7.014
+        ],
+        "birth_dense_slice": [
+          46.898,
+          5.5
+        ]
+      }
+    },
+    {
+      "layer": 5,
+      "seconds": 1182.4732043743134,
+      "units_linear": 3102.51222752966,
+      "units_nonlinear": 18679.380984313786,
+      "units_projection": 0.0,
+      "units_total_so_far": 40533.38719320856,
+      "host_peak_rss_gib": 69.08242416381836,
+      "mse": 4.242248154371232e-09,
+      "groups": {
+        "dense": 5,
+        "slice": 2,
+        "core": 0
+      },
+      "pair_kept": [],
+      "feedback_reads": 0,
+      "projection": null,
+      "seconds_units_by_part": {
+        "read_dense_slice": [
+          130.678,
+          10270.014
+        ],
+        "read_dense_two_leg": [
+          75.978,
+          6163.508
+        ],
+        "read_slice_legs": [
+          13.074,
+          2060.018
+        ],
+        "read_slice_pairs": [
+          0.0,
+          0.0
+        ],
+        "birth_two_leg_store": [
+          1.861,
+          1.0
+        ],
+        "read_dense_age0": [
+          76.865,
+          7.014
+        ],
+        "birth_dense_slice": [
+          47.444,
+          5.5
+        ]
+      }
+    },
+    {
+      "layer": 6,
+      "seconds": 1432.0619571208954,
+      "units_linear": 3106.51027440466,
+      "units_nonlinear": 34383.70612049848,
+      "units_projection": 0.0,
+      "units_total_so_far": 78023.60358906537,
+      "host_peak_rss_gib": 77.15508651733398,
+      "mse": 4.463892692514366e-09,
+      "groups": {
+        "dense": 7,
+        "slice": 3,
+        "core": 0
+      },
+      "pair_kept": [],
+      "feedback_reads": 1,
+      "projection": null,
+      "seconds_units_by_part": {
+        "read_dense_two_leg": [
+          159.574,
+          12327.017
+        ],
+        "read_slice_legs": [
+          30.91,
+          4120.036
+        ],
+        "read_slice_pairs": [
+          0.0,
+          0.0
+        ],
+        "read_dense_slice": [
+          175.106,
+          14377.52
+        ],
+        "feedback_projection": [
+          14.798,
+          3372.286
+        ],
+        "birth_two_leg_store": [
+          1.917,
+          1.0
+        ],
+        "read_dense_age0": [
+          79.674,
+          7.014
+        ],
+        "birth_dense_slice": [
+          60.697,
+          5.5
+        ]
+      }
+    },
+    {
+      "layer": 7,
+      "seconds": 1566.653205871582,
+      "units_linear": 3110.6333742081188,
+      "units_nonlinear": 46714.89720170526,
+      "units_projection": 404.8174036350101,
+      "units_total_so_far": 128253.95156956743,
+      "host_peak_rss_gib": 85.24478530883789,
+      "mse": 4.56602146459429e-09,
+      "groups": {
+        "dense": 8,
+        "slice": 4,
+        "core": 1
+      },
+      "pair_kept": [],
+      "feedback_reads": 1,
+      "projection": {
+        "entered": 1,
+        "births": [
+          4
+        ]
+      },
+      "seconds_units_by_part": {
+        "read_dense_two_leg": [
+          218.93,
+          18490.525
+        ],
+        "read_slice_legs": [
+          46.5,
+          6180.054
+        ],
+        "read_slice_pairs": [
+          0.0,
+          0.0
+        ],
+        "read_dense_slice": [
+          220.86,
+          18485.025
+        ],
+        "feedback_projection": [
+          14.35,
+          3372.442
+        ],
+        "birth_two_leg_store": [
+          1.904,
+          1.0
+        ],
+        "read_dense_age0": [
+          71.104,
+          7.014
+        ],
+        "birth_dense_slice": [
+          55.295,
+          5.5
+        ],
+        "project_old": [
+          13.482,
+          404.817
+        ]
+      }
+    },
+    {
+      "layer": 8,
+      "seconds": 1660.3758623600006,
+      "units_linear": 3113.7568483292125,
+      "units_nonlinear": 53299.83787553338,
+      "units_projection": 533.9033258762211,
+      "units_total_so_far": 185201.44962025993,
+      "host_peak_rss_gib": 90.3247184753418,
+      "mse": 4.525019301125986e-09,
+      "groups": {
+        "dense": 9,
+        "slice": 5,
+        "core": 1
+      },
+      "pair_kept": [],
+      "feedback_reads": 1,
+      "projection": {
+        "entered": 1,
+        "births": [
+          4,
+          5
+        ]
+      },
+      "seconds_units_by_part": {
+        "read_slice_legs": [
+          58.068,
+          8240.072
+        ],
+        "read_slice_pairs": [
+          0.0,
+          0.0
+        ],
+        "read_dense_two_leg": [
+          249.567,
+          18490.525
+        ],
+        "read_dense_slice": [
+          322.188,
+          22592.53
+        ],
+        "read_core": [
+          1.964,
+          417.414
+        ],
+        "feedback_projection": [
+          19.251,
+          3372.442
+        ],
+        "birth_two_leg_store": [
+          2.206,
+          1.0
+        ],
+        "read_dense_age0": [
+          68.918,
+          7.014
+        ],
+        "birth_dense_slice": [
+          49.426,
+          5.5
+        ],
+        "project_old": [
+          13.643,
+          533.903
+        ]
+      }
+    },
+    {
+      "layer": 9,
+      "seconds": 1675.6689159870148,
+      "units_linear": 3116.7553834854625,
+      "units_nonlinear": 59467.48924272088,
+      "units_projection": 534.0283258762211,
+      "units_total_so_far": 248319.72257329617,
+      "host_peak_rss_gib": 94.36896514892578,
+      "mse": 4.5693197415420224e-09,
+      "groups": {
+        "dense": 10,
+        "slice": 6,
+        "core": 1
+      },
+      "pair_kept": [],
+      "feedback_reads": 1,
+      "projection": {
+        "entered": 1,
+        "births": [
+          4,
+          5,
+          6
+        ]
+      },
+      "seconds_units_by_part": {
+        "read_slice_legs": [
+          70.916,
+          10300.09
+        ],
+        "read_slice_pairs": [
+          0.0,
+          0.0
+        ],
+        "read_dense_two_leg": [
+          235.165,
+          18490.525
+        ],
+        "read_dense_slice": [
+          348.774,
+          26700.036
+        ],
+        "read_core": [
+          2.645,
+          417.539
+        ],
+        "feedback_projection": [
+          13.027,
+          3372.442
+        ],
+        "birth_two_leg_store": [
+          2.042,
+          1.0
+        ],
+        "read_dense_age0": [
+          76.359,
+          7.014
+        ],
+        "birth_dense_slice": [
+          46.173,
+          5.5
+        ],
+        "project_old": [
+          12.714,
+          534.028
+        ]
+      }
+    },
+    {
+      "layer": 10,
+      "seconds": 1658.4686615467072,
+      "units_linear": 3119.7539186417125,
+      "units_nonlinear": 65635.01560990838,
+      "units_projection": 534.0283258762211,
+      "units_total_so_far": 317608.52042867616,
+      "host_peak_rss_gib": 98.45539093017578,
+      "mse": 5.1091121450771105e-09,
+      "groups": {
+        "dense": 11,
+        "slice": 7,
+        "core": 1
+      },
+      "pair_kept": [],
+      "feedback_reads": 1,
+      "projection": {
+        "entered": 1,
+        "births": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "seconds_units_by_part": {
+        "read_slice_legs": [
+          82.164,
+          12360.108
+        ],
+        "read_slice_pairs": [
+          0.0,
+          0.0
+        ],
+        "read_dense_two_leg": [
+          217.311,
+          18490.525
+        ],
+        "read_dense_slice": [
+          412.12,
+          30807.541
+        ],
+        "read_core": [
+          3.377,
+          417.539
+        ],
+        "feedback_projection": [
+          15.812,
+          3372.442
+        ],
+        "birth_two_leg_store": [
+          1.591,
+          1.0
+        ],
+        "read_dense_age0": [
+          63.03,
+          7.014
+        ],
+        "birth_dense_slice": [
+          45.27,
+          5.5
+        ],
+        "project_old": [
+          11.299,
+          534.028
+        ]
+      }
+    },
+    {
+      "layer": 11,
+      "seconds": 1833.7518241405487,
+      "units_linear": 3122.7524537979625,
+      "units_nonlinear": 71802.54197709588,
+      "units_projection": 534.0283258762211,
+      "units_total_so_far": 393067.8431863999,
+      "host_peak_rss_gib": 102.51948928833008,
+      "mse": 5.342105930313744e-09,
+      "groups": {
+        "dense": 12,
+        "slice": 8,
+        "core": 1
+      },
+      "pair_kept": [],
+      "feedback_reads": 1,
+      "projection": {
+        "entered": 1,
+        "births": [
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "seconds_units_by_part": {
+        "read_slice_legs": [
+          98.402,
+          14420.126
+        ],
+        "read_slice_pairs": [
+          0.0,
+          0.0
+        ],
+        "read_dense_two_leg": [
+          225.195,
+          18490.525
+        ],
+        "read_dense_slice": [
+          517.401,
+          34915.046
+        ],
+        "read_core": [
+          2.911,
+          417.539
+        ],
+        "feedback_projection": [
+          15.064,
+          3372.442
+        ],
+        "birth_two_leg_store": [
+          1.618,
+          1.0
+        ],
+        "read_dense_age0": [
+          77.85,
+          7.014
+        ],
+        "birth_dense_slice": [
+          39.371,
+          5.5
+        ],
+        "project_old": [
+          12.294,
+          534.028
+        ]
+      }
+    },
+    {
+      "layer": 12,
+      "seconds": 1721.1446526050568,
+      "units_linear": 3125.7509889542125,
+      "units_nonlinear": 77970.06834428338,
+      "units_projection": 534.0283258762211,
+      "units_total_so_far": 474697.6908464674,
+      "host_peak_rss_gib": 106.61621856689453,
+      "mse": 5.51976451579667e-09,
+      "groups": {
+        "dense": 13,
+        "slice": 9,
+        "core": 1
+      },
+      "pair_kept": [],
+      "feedback_reads": 1,
+      "projection": {
+        "entered": 1,
+        "births": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "seconds_units_by_part": {
+        "read_slice_legs": [
+          111.9,
+          16480.145
+        ],
+        "read_slice_pairs": [
+          0.0,
+          0.0
+        ],
+        "read_dense_two_leg": [
+          232.266,
+          18490.525
+        ],
+        "read_dense_slice": [
+          458.465,
+          39022.552
+        ],
+        "read_core": [
+          3.153,
+          417.539
+        ],
+        "feedback_projection": [
+          15.49,
+          3372.442
+        ],
+        "birth_two_leg_store": [
+          1.776,
+          1.0
+        ],
+        "read_dense_age0": [
+          57.145,
+          7.014
+        ],
+        "birth_dense_slice": [
+          41.391,
+          5.5
+        ],
+        "project_old": [
+          9.238,
+          534.028
+        ]
+      }
+    },
+    {
+      "layer": 13,
+      "seconds": 3284.378217935562,
+      "units_linear": 3128.7495241104625,
+      "units_nonlinear": 84137.59471147088,
+      "units_projection": 534.0283258762211,
+      "units_total_so_far": 562498.0634088786,
+      "host_peak_rss_gib": 110.6913948059082,
+      "mse": 5.493043870403426e-09,
+      "groups": {
+        "dense": 14,
+        "slice": 10,
+        "core": 1
+      },
+      "pair_kept": [],
+      "feedback_reads": 1,
+      "projection": {
+        "entered": 1,
+        "births": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "seconds_units_by_part": {
+        "read_slice_legs": [
+          200.627,
+          18540.163
+        ],
+        "read_slice_pairs": [
+          0.0,
+          0.0
+        ],
+        "read_dense_two_leg": [
+          382.043,
+          18490.525
+        ],
+        "read_dense_slice": [
+          870.957,
+          43130.057
+        ],
+        "read_core": [
+          4.61,
+          417.539
+        ],
+        "feedback_projection": [
+          31.516,
+          3372.442
+        ],
+        "birth_two_leg_store": [
+          2.904,
+          1.0
+        ],
+        "read_dense_age0": [
+          179.265,
+          7.014
+        ],
+        "birth_dense_slice": [
+          89.02,
+          5.5
+        ],
+        "project_old": [
+          25.674,
+          534.028
+        ]
+      }
+    },
+    {
+      "layer": 14,
+      "seconds": 2554.79483795166,
+      "units_linear": 3131.7480592667125,
+      "units_nonlinear": 90305.12107865838,
+      "units_projection": 534.0283258762211,
+      "units_total_so_far": 656468.9608736336,
+      "host_peak_rss_gib": 114.79159927368164,
+      "mse": 6.2190588083207205e-09,
+      "groups": {
+        "dense": 15,
+        "slice": 11,
+        "core": 1
+      },
+      "pair_kept": [],
+      "feedback_reads": 1,
+      "projection": {
+        "entered": 1,
+        "births": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "seconds_units_by_part": {
+        "read_slice_legs": [
+          193.501,
+          20600.181
+        ],
+        "read_slice_pairs": [
+          0.0,
+          0.0
+        ],
+        "read_dense_two_leg": [
+          283.557,
+          18490.525
+        ],
+        "read_dense_slice": [
+          810.842,
+          47237.562
+        ],
+        "read_core": [
+          3.097,
+          417.539
+        ],
+        "feedback_projection": [
+          15.011,
+          3372.442
+        ],
+        "birth_two_leg_store": [
+          1.926,
+          1.0
+        ],
+        "read_dense_age0": [
+          84.999,
+          7.014
+        ],
+        "birth_dense_slice": [
+          36.569,
+          5.5
+        ],
+        "project_old": [
+          11.31,
+          534.028
+        ]
+      }
+    },
+    {
+      "layer": 15,
+      "seconds": 2038.7519493103027,
+      "units_linear": 3134.7465944229625,
+      "units_nonlinear": 96457.1327835801,
+      "units_projection": 534.0283258762211,
+      "units_total_so_far": 756594.8685784666,
+      "host_peak_rss_gib": 114.84732055664062,
+      "mse": 6.369401142363264e-09,
+      "groups": {
+        "dense": 14,
+        "slice": 11,
+        "core": 1
+      },
+      "pair_kept": [],
+      "feedback_reads": 1,
+      "projection": {
+        "entered": 1,
+        "births": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "seconds_units_by_part": {
+        "read_slice_legs": [
+          139.013,
+          22660.199
+        ],
+        "read_slice_pairs": [
+          0.0,
+          0.0
+        ],
+        "read_dense_two_leg": [
+          201.486,
+          18490.525
+        ],
+        "read_dense_slice": [
+          790.722,
+          51345.068
+        ],
+        "read_core": [
+          3.057,
+          417.539
+        ],
+        "feedback_projection": [
+          13.544,
+          3372.442
+        ],
+        "birth_two_leg_store": [
+          0.0,
+          0.0
+        ],
+        "project_old": [
+          11.703,
+          534.028
+        ]
+      }
+    }
+  ]
+}

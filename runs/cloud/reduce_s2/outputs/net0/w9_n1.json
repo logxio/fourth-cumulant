@@ -1,0 +1,789 @@
+{
+  "plan": {
+    "name": "window_s4_b9_treeall",
+    "start": 4,
+    "last_birth": 13,
+    "life": {
+      "star": {
+        "4": 10,
+        "5": 9,
+        "6": 8,
+        "7": 7,
+        "8": 6,
+        "9": 5
+      },
+      "ck3": {},
+      "tree": {
+        "4": 10,
+        "5": 9,
+        "6": 8,
+        "7": 7,
+        "8": 6,
+        "9": 5,
+        "10": 4,
+        "11": 3,
+        "12": 2,
+        "13": 1
+      },
+      "nontree": {
+        "4": 10,
+        "5": 9,
+        "6": 8,
+        "7": 7,
+        "8": 6,
+        "9": 5
+      }
+    }
+  },
+  "index": 0,
+  "start": 4,
+  "synthetic": 0,
+  "bridge": {
+    "d3_max_abs": 4.0978193283081055e-08,
+    "d3_relative_norm": 4.645786191304069e-07,
+    "d21_max_abs_before_interface_clip": 0.03348434343934059
+  },
+  "seconds": 162.7598023810424,
+  "memory": "gpu_peak=64.7G host_maxrss=109.5G births=132G",
+  "layers": [
+    {
+      "layer": 4,
+      "seconds": 6.995774087030441,
+      "memory": "gpu_peak=64.3G host_maxrss=21.5G births=20G",
+      "dropped": 0,
+      "live": {
+        "seed": 1,
+        "star": 1,
+        "tree": 2,
+        "nontree": 1
+      },
+      "split": {
+        "total": 7.815281391143799,
+        "tree": 5.072250843048096,
+        "non_tree": 7.350091934204102
+      },
+      "mse": 3.088162497997317e-09
+    },
+    {
+      "layer": 5,
+      "seconds": 7.623362658079714,
+      "memory": "gpu_peak=64.3G host_maxrss=33.5G births=36G",
+      "dropped": 0,
+      "live": {
+        "seed": 1,
+        "star": 2,
+        "tree": 4,
+        "nontree": 2
+      },
+      "split": {
+        "total": 6.42323112487793,
+        "tree": 4.225714683532715,
+        "non_tree": 6.173131942749023
+      },
+      "mse": 4.516886304236271e-09
+    },
+    {
+      "layer": 6,
+      "seconds": 9.134117384091951,
+      "memory": "gpu_peak=64.4G host_maxrss=45.5G births=52G",
+      "dropped": 0,
+      "live": {
+        "seed": 1,
+        "star": 3,
+        "tree": 6,
+        "nontree": 3
+      },
+      "split": {
+        "total": 5.398427486419678,
+        "tree": 3.440321922302246,
+        "non_tree": 5.169138431549072
+      },
+      "mse": 5.4209620610209795e-09
+    },
+    {
+      "layer": 7,
+      "seconds": 10.652601175010204,
+      "memory": "gpu_peak=64.5G host_maxrss=57.5G births=68G",
+      "dropped": 0,
+      "live": {
+        "seed": 1,
+        "star": 4,
+        "tree": 8,
+        "nontree": 4
+      },
+      "split": {
+        "total": 4.0161213874816895,
+        "tree": 2.5550153255462646,
+        "non_tree": 3.7169599533081055
+      },
+      "mse": 6.5559022336621725e-09
+    },
+    {
+      "layer": 8,
+      "seconds": 12.182953226962127,
+      "memory": "gpu_peak=64.5G host_maxrss=69.5G births=84G",
+      "dropped": 0,
+      "live": {
+        "seed": 1,
+        "star": 5,
+        "tree": 10,
+        "nontree": 5
+      },
+      "split": {
+        "total": 2.9681904315948486,
+        "tree": 1.7770342826843262,
+        "non_tree": 2.8749327659606934
+      },
+      "mse": 8.023449911394595e-09
+    },
+    {
+      "layer": 9,
+      "seconds": 13.691839166916907,
+      "memory": "gpu_peak=64.6G host_maxrss=81.5G births=100G",
+      "dropped": 0,
+      "live": {
+        "seed": 1,
+        "star": 6,
+        "tree": 12,
+        "nontree": 6
+      },
+      "split": {
+        "total": 2.6769533157348633,
+        "tree": 1.5751259326934814,
+        "non_tree": 2.583264112472534
+      },
+      "mse": 1.0140006442950963e-08
+    },
+    {
+      "layer": 10,
+      "seconds": 13.074629363021813,
+      "memory": "gpu_peak=64.6G host_maxrss=85.5G births=108G",
+      "dropped": 0,
+      "live": {
+        "seed": 1,
+        "star": 6,
+        "tree": 14,
+        "nontree": 6
+      },
+      "split": {
+        "total": 2.4626941680908203,
+        "tree": 1.5142353773117065,
+        "non_tree": 1.8047670125961304
+      },
+      "mse": 1.2794414274263169e-08
+    },
+    {
+      "layer": 11,
+      "seconds": 14.609112933976576,
+      "memory": "gpu_peak=64.6G host_maxrss=93.5G births=116G",
+      "dropped": 0,
+      "live": {
+        "seed": 1,
+        "star": 6,
+        "tree": 16,
+        "nontree": 6
+      },
+      "split": {
+        "total": 2.0736091136932373,
+        "tree": 1.2446637153625488,
+        "non_tree": 1.5124101638793945
+      },
+      "mse": 1.407186579650022e-08
+    },
+    {
+      "layer": 12,
+      "seconds": 15.540291843935847,
+      "memory": "gpu_peak=64.6G host_maxrss=101.5G births=124G",
+      "dropped": 0,
+      "live": {
+        "seed": 1,
+        "star": 6,
+        "tree": 18,
+        "nontree": 6
+      },
+      "split": {
+        "total": 1.8211036920547485,
+        "tree": 1.0592076778411865,
+        "non_tree": 1.3313227891921997
+      },
+      "mse": 1.7434922038047474e-08
+    },
+    {
+      "layer": 13,
+      "seconds": 16.45684211200569,
+      "memory": "gpu_peak=64.7G host_maxrss=109.5G births=132G",
+      "dropped": 0,
+      "live": {
+        "seed": 1,
+        "star": 6,
+        "tree": 20,
+        "nontree": 6
+      },
+      "split": {
+        "total": 1.671270728111267,
+        "tree": 0.9582580327987671,
+        "non_tree": 1.2175346612930298
+      },
+      "mse": 1.9223634234315647e-08
+    },
+    {
+      "layer": 14,
+      "seconds": 15.693923129001632,
+      "memory": "gpu_peak=64.7G host_maxrss=109.5G births=132G",
+      "dropped": 0,
+      "live": {
+        "seed": 1,
+        "star": 6,
+        "tree": 20,
+        "nontree": 6
+      },
+      "split": null,
+      "mse": 2.020283372502091e-08
+    },
+    {
+      "layer": 15,
+      "seconds": 15.697452784981579,
+      "memory": "gpu_peak=64.7G host_maxrss=109.5G births=132G",
+      "dropped": 0,
+      "live": {
+        "seed": 1,
+        "star": 6,
+        "tree": 20,
+        "nontree": 6
+      },
+      "split": null,
+      "mse": 2.1289354645595674e-08
+    }
+  ],
+  "mse": 2.1289354645595674e-08,
+  "per_layer_mse": [
+    6.977247252182295e-10,
+    7.608055068656506e-10,
+    1.1891631126073319e-09,
+    2.2099546161665486e-09,
+    3.088162497997317e-09,
+    4.516886304236271e-09,
+    5.4209620610209795e-09,
+    6.5559022336621725e-09,
+    8.023449911394595e-09,
+    1.0140006442950963e-08,
+    1.2794414274263169e-08,
+    1.407186579650022e-08,
+    1.7434922038047474e-08,
+    1.9223634234315647e-08,
+    2.020283372502091e-08,
+    2.1289354645595674e-08
+  ],
+  "units": 2492.8055510494623,
+  "unit_rows": {
+    "chain B (metered)": 168,
+    "K=4 sources": 127.17582811133683,
+    "young-leg transport": 54.0,
+    "feedback": 383.5443333333333,
+    "tree slice reads": 1430.0,
+    "C.k3 births and crossing": 0.0,
+    "non-tree first reads": 0.0,
+    "nontree kernel compression + matrix-pair reads": 330.085389604792
+  },
+  "ranks": {
+    "nontree": 1,
+    "ck3": 0
+  },
+  "compression": [
+    {
+      "family": "nontree",
+      "birth": 4,
+      "rank": 1,
+      "kept": 0.018710844218730927
+    },
+    {
+      "family": "nontree",
+      "birth": 5,
+      "rank": 1,
+      "kept": 0.02736004814505577
+    },
+    {
+      "family": "nontree",
+      "birth": 6,
+      "rank": 1,
+      "kept": 0.033352747559547424
+    },
+    {
+      "family": "nontree",
+      "birth": 7,
+      "rank": 1,
+      "kept": 0.0337349958717823
+    },
+    {
+      "family": "nontree",
+      "birth": 8,
+      "rank": 1,
+      "kept": 0.04440314322710037
+    },
+    {
+      "family": "nontree",
+      "birth": 9,
+      "rank": 1,
+      "kept": 0.04314867779612541
+    }
+  ],
+  "replacement_events": [
+    {
+      "family": "nontree",
+      "birth": 4,
+      "layer": 4,
+      "phase": "compress",
+      "flops": 53733381969.99999,
+      "units": 25.021555819548663
+    },
+    {
+      "family": "nontree",
+      "birth": 4,
+      "layer": 5,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 5,
+      "layer": 5,
+      "phase": "compress",
+      "flops": 53733381969.99999,
+      "units": 25.021555819548663
+    },
+    {
+      "family": "nontree",
+      "birth": 4,
+      "layer": 6,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 5,
+      "layer": 6,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 6,
+      "layer": 6,
+      "phase": "compress",
+      "flops": 53733381969.99999,
+      "units": 25.021555819548663
+    },
+    {
+      "family": "nontree",
+      "birth": 4,
+      "layer": 7,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 5,
+      "layer": 7,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 6,
+      "layer": 7,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 7,
+      "layer": 7,
+      "phase": "compress",
+      "flops": 53733381969.99999,
+      "units": 25.021555819548663
+    },
+    {
+      "family": "nontree",
+      "birth": 4,
+      "layer": 8,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 5,
+      "layer": 8,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 6,
+      "layer": 8,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 7,
+      "layer": 8,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 8,
+      "layer": 8,
+      "phase": "compress",
+      "flops": 53733381969.99999,
+      "units": 25.021555819548663
+    },
+    {
+      "family": "nontree",
+      "birth": 4,
+      "layer": 9,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 5,
+      "layer": 9,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 6,
+      "layer": 9,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 7,
+      "layer": 9,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 8,
+      "layer": 9,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 9,
+      "layer": 9,
+      "phase": "compress",
+      "flops": 53733381969.99999,
+      "units": 25.021555819548663
+    },
+    {
+      "family": "nontree",
+      "birth": 4,
+      "layer": 10,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 5,
+      "layer": 10,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 6,
+      "layer": 10,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 7,
+      "layer": 10,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 8,
+      "layer": 10,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 9,
+      "layer": 10,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 4,
+      "layer": 11,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 5,
+      "layer": 11,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 6,
+      "layer": 11,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 7,
+      "layer": 11,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 8,
+      "layer": 11,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 9,
+      "layer": 11,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 4,
+      "layer": 12,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 5,
+      "layer": 12,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 6,
+      "layer": 12,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 7,
+      "layer": 12,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 8,
+      "layer": 12,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 9,
+      "layer": 12,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 4,
+      "layer": 13,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 5,
+      "layer": 13,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 6,
+      "layer": 13,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 7,
+      "layer": 13,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 8,
+      "layer": 13,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 9,
+      "layer": 13,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 4,
+      "layer": 14,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 5,
+      "layer": 14,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 6,
+      "layer": 14,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 7,
+      "layer": 14,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 8,
+      "layer": 14,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 9,
+      "layer": 14,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 4,
+      "layer": 15,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 5,
+      "layer": 15,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 6,
+      "layer": 15,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 7,
+      "layer": 15,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 8,
+      "layer": 15,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    },
+    {
+      "family": "nontree",
+      "birth": 9,
+      "layer": 15,
+      "phase": "read",
+      "flops": 8587837440,
+      "units": 3.9990234375
+    }
+  ],
+  "unit_convention": "Table7a unchanged rows + measured shape ledger for replacement kernels; not full-chain flopscope cost"
+}

@@ -1,0 +1,21 @@
+{
+  "comparisons": {
+    "control_vs_old": {
+      "max_abs": 0.0021270886063575745,
+      "rms": 7.374890302992755e-05,
+      "layer15_max_abs": 0.0021270886063575745
+    },
+    "copy_trace_vs_control": {
+      "max_abs": 0.0,
+      "rms": 0.0,
+      "layer15_max_abs": 0.0
+    },
+    "reference_trace_vs_control": {
+      "max_abs": 0.0,
+      "rms": 0.0,
+      "layer15_max_abs": 0.0
+    }
+  },
+  "accepted_same_machine_trace": "trace2",
+  "usable_for_old_s1_arm_table": null
+}

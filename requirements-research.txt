@@ -1,0 +1,6 @@
+-r requirements.txt
+torch>=2.8.0
+einops>=0.8.1
+jaxtyping>=0.3.2
+psutil>=6.0
+huggingface_hub>=0.24

@@ -1,0 +1,1 @@
+k4full spec=path+three2,slice4+slice31+slice22+slice211 mlp 7 cuda torch.float32: final 2.9347e-09 all 1.070e-09 t=271s dslice=106s gpu_peak=60.4G host_maxrss=121.2G births=120G | 6.60e-10 5.38e-10 4.09e-10 3.73e-10 3.64e-10 3.87e-10 4.37e-10 5.03e-10 6.03e-10 8.21e-10 1.04e-09 1.37e-09 1.87e-09 2.21e-09 2.59e-09 2.93e-09

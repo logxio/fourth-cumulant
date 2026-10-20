@@ -1,0 +1,22 @@
+key,value,unit,what,source
+k4_full_1024_nets0_4,1.7168e-09,MSE,"full K=4, 1024x16, official public nets 0-4",runs/cloud/k4w/k4w.log
+k3aug_1024_nets0_4,2.02598e-08,MSE,"factorized augmented K=3, ARC reference, nets 0-4",runs/cloud/width-s1/k4w_ref_k3a.raw + runs/cloud/width-s1/ref_k3a_1024_1_4.raw
+ratio_k3aug_over_k4_1024,11.8009,x,K=3 aug / full K=4 at 1024,derived
+k4_full_1024_net0,1.6508e-09,MSE,full K=4 net 0,runs/cloud/k4w/k4w.log
+k3aug_1024_net0,2.0559e-08,MSE,"K=3 aug net 0, ARC reference",runs/cloud/width-s1/k4w_ref_k3a.raw
+k4_cheap_1024_net0,1.0104e-08,MSE,cheap K=4 subset net 0,runs/cloud/k4w/k4w.log
+k4_full_1024_net1,1.8102e-09,MSE,full K=4 net 1,runs/cloud/k4w/k4w.log
+k3aug_1024_net1,1.9889e-08,MSE,"K=3 aug net 1, ARC reference",runs/cloud/width-s1/ref_k3a_1024_1_4.raw
+k4_cheap_1024_net1,1.162e-08,MSE,cheap K=4 subset net 1,runs/cloud/k4w/k4w.log
+k4_full_1024_net2,1.6789e-09,MSE,full K=4 net 2,runs/cloud/k4w/k4w.log
+k3aug_1024_net2,2.0769e-08,MSE,"K=3 aug net 2, ARC reference",runs/cloud/width-s1/ref_k3a_1024_1_4.raw
+k4_cheap_1024_net2,1.1299e-08,MSE,cheap K=4 subset net 2,runs/cloud/k4w/k4w.log
+k4_full_1024_net3,1.7981e-09,MSE,full K=4 net 3,runs/cloud/k4w/k4w.log
+k3aug_1024_net3,2.1819e-08,MSE,"K=3 aug net 3, ARC reference",runs/cloud/width-s1/ref_k3a_1024_1_4.raw
+k4_cheap_1024_net3,1.165e-08,MSE,cheap K=4 subset net 3,runs/cloud/k4w/k4w.log
+k4_full_1024_net4,1.646e-09,MSE,full K=4 net 4,runs/cloud/k4w/k4w.log
+k3aug_1024_net4,1.8263e-08,MSE,"K=3 aug net 4, ARC reference",runs/cloud/width-s1/ref_k3a_1024_1_4.raw
+k4_cheap_1024_net4,1.1047e-08,MSE,cheap K=4 subset net 4,runs/cloud/k4w/k4w.log
+k4_cheap_1024_nets0_4,1.1144e-08,MSE,cheap K=4 subset nets 0-4,runs/cloud/k4w/k4w.log
+k3simple_1024_nets0_2,4.25033e-08,MSE,"ARC reference K=3 simple, nets 0-2",runs/cloud/box1/ref1024.log
+k4_full_1024_nets0_2,1.7133e-09,MSE,full K=4 nets 0-2,runs/cloud/k4w/k4w.log

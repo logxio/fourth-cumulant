@@ -1,0 +1,20 @@
+### e2_128_16_4_no_path 2026-10-15T13:53:42Z
+k4full spec=star+three2,slice4+slice31+slice22+slice211 n=128 L=16/16 seed=4 cpu torch.float64: final 2.5819e-05 t=27s gpu_peak=0.0G host_maxrss=0.8G births=0G | 3.1e-08 1.6e-07 8.8e-07 2.3e-06 9.8e-06 2.6e-05
+       29.45 real        31.03 user         3.12 sys
+           876707840  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              255240  page reclaims
+                  52  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   1  signals received
+                1835  voluntary context switches
+              227621  involuntary context switches
+            17510201  instructions retired
+            10865894  cycles elapsed
+              983352  peak memory footprint

@@ -1,0 +1,9 @@
+births_held_as_pairs,units,without_kappa3_legs,raw_over_chain_B,units_over_tie,deletion_grid_units
+dense rule,20585.7,,0.614611,74.5214,
+non-tree rank 16,6321.35,,0.680583,25.3399,17492.1
+non-tree rank 4,3258.09,,0.78845,15.1305,14395.6
+non-tree rank 1,2492.81,,0.941739,13.8272,8194.24
+"births 4-6, both rank 8",13427.1,5237.07,0.820687,64.9043,14395.6
+"births 4-6, both rank 4",11926.4,3736.44,0.890198,62.5333,11296.3
+"births 4-13, both rank 8",33215.4,9345.41,0.554631,108.507,32686.5
+"births 4-13, both rank 4",29893.1,6023.1,0.63491,111.789,20585.7

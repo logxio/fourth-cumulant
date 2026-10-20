@@ -1,0 +1,21 @@
+### e2_192_16_602_truth 2026-10-15T13:45:38Z
+MC N=2.01e+07 t=134s avg final var 0.0796 noise-floor MSE~3.97e-09
+k3a: final MSE 4.272e-06 (norm 5.37e-05) t=15.2s | layers 1.7e-08 1.3e-07 5.6e-07 1.1e-06 3.6e-06 4.3e-06
+      153.97 real       226.65 user        13.81 sys
+          2290614272  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              759742  page reclaims
+                3300  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   1  signals received
+                1936  voluntary context switches
+             1638979  involuntary context switches
+            15569527  instructions retired
+            10753172  cycles elapsed
+              983352  peak memory footprint

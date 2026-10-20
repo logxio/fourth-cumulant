@@ -1,0 +1,1 @@
+k4full spec=full n=128 L=16/16 seed=5 cpu torch.float64: final 1.6041e-05 t=19s gpu_peak=0.0G host_maxrss=0.9G births=0G | 2.9e-08 6.4e-08 4.9e-07 1.2e-06 6.0e-06 1.6e-05

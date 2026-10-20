@@ -1,0 +1,111 @@
+{
+  "plan": {
+    "name": "full_s13",
+    "start": 13,
+    "last_birth": 13,
+    "life": {
+      "star": {
+        "13": 1
+      },
+      "ck3": {
+        "13": 1
+      },
+      "tree": {
+        "13": 1
+      },
+      "nontree": {
+        "13": 1
+      }
+    }
+  },
+  "index": 0,
+  "start": 13,
+  "synthetic": 0,
+  "bridge": {
+    "d3_max_abs": 2.9802322387695312e-08,
+    "d3_relative_norm": 5.157288001100824e-07,
+    "d21_max_abs_before_interface_clip": 0.017944911494851112
+  },
+  "seconds": 37.701138108968735,
+  "memory": "gpu_peak=64.3G host_maxrss=25.4G births=24G",
+  "layers": [
+    {
+      "layer": 13,
+      "seconds": 15.73102093511261,
+      "memory": "gpu_peak=64.3G host_maxrss=25.4G births=24G",
+      "dropped": 0,
+      "live": {
+        "seed": 1,
+        "star": 1,
+        "ck3": 1,
+        "tree": 2,
+        "nontree": 1
+      },
+      "split": {
+        "total": 0.7748761773109436,
+        "tree": 0.9559638500213623,
+        "non_tree": 1.071807622909546
+      },
+      "mse": 1.852644281553529e-08
+    },
+    {
+      "layer": 14,
+      "seconds": 5.048665110953152,
+      "memory": "gpu_peak=64.3G host_maxrss=25.4G births=24G",
+      "dropped": 0,
+      "live": {
+        "seed": 1,
+        "star": 1,
+        "ck3": 1,
+        "tree": 2,
+        "nontree": 1
+      },
+      "split": null,
+      "mse": 1.974409983507073e-08
+    },
+    {
+      "layer": 15,
+      "seconds": 5.0587164929602295,
+      "memory": "gpu_peak=64.3G host_maxrss=25.4G births=24G",
+      "dropped": 0,
+      "live": {
+        "seed": 1,
+        "star": 1,
+        "ck3": 1,
+        "tree": 2,
+        "nontree": 1
+      },
+      "split": null,
+      "mse": 2.3579989994751718e-08
+    }
+  ],
+  "mse": 2.3579989994751718e-08,
+  "per_layer_mse": [
+    6.978057368045576e-10,
+    7.61234102558489e-10,
+    1.191427828774723e-09,
+    2.2103505077081674e-09,
+    3.0673385363781516e-09,
+    4.427809094550738e-09,
+    5.5441042498352645e-09,
+    6.625792938643568e-09,
+    7.62161460804551e-09,
+    1.007088390150641e-08,
+    1.1919318169495994e-08,
+    1.3251418929385502e-08,
+    1.585011647015704e-08,
+    1.852644281553529e-08,
+    1.974409983507073e-08,
+    2.3579989994751718e-08
+  ],
+  "units": 4159.431948584351,
+  "unit_rows": {
+    "chain B (metered)": 168,
+    "K=4 sources": 7.309393028795187,
+    "young-leg transport": 0.0,
+    "feedback": 11.622555555555556,
+    "tree slice reads": 26.0,
+    "C.k3 births and crossing": 876.0,
+    "non-tree first reads": 3070.5
+  }
+}

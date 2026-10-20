@@ -1,0 +1,21 @@
+{
+  "name": "B_pre4_K4_shared128_m0_2_feedback128_m0f_1",
+  "width": 1024,
+  "layers": 16,
+  "index": 0,
+  "start": 4,
+  "seed_b_slices": true,
+  "spec": "star,three2,slice4+slice31,!slice22+slice211",
+  "old_source_m0": 2,
+  "old_source_rank": 128,
+  "old_feedback_m0f": 1,
+  "old_feedback_rank": 128,
+  "source_age_rule": "post-nonlinear layer-birth > m0, exactly the historical convention",
+  "feedback_age_rule": "at SK4._dslices read, layer-birth > m0f; project only old slice211 output",
+  "seed_birth_rule": "B preactivation seed has birth=start and age zero at switch",
+  "store": "host",
+  "chunk": 128,
+  "threads": 4,
+  "audit_layer": 6,
+  "dtype": "float32"
+}

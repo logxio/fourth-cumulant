@@ -1,0 +1,11 @@
+entry,recipe,adjusted_error,raw_error,C_over_B,ours_over_entry_adjusted,ours_over_entry_raw,ours_over_entry_C_over_B
+#336537,chain B with carried corrector,3.145e-09,1.853e-08,0.1698,,,
+#335301,chain B with corrector off,3.494e-09,2.09e-08,0.1673,0.900114,0.886603,1.01494
+#335413,hyojun_kwon's bound entry with learned corrector,3.343e-09,2.431e-08,0.1375,0.940772,0.762238,1.23491
+#334316,hyojun_kwon's corrector-off base,3.541e-09,2.578e-08,0.1373,0.8881671844111834,0.7187742435996898,1.2367079388201019
+#333534,"K=3 rewrite, scale-mixture K=4 closure and corrector",3.736e-09,2.032e-08,0.1839,0.841809,0.911909,0.923328
+#336225,"V29 with an all-distinct K=4 edge term and fitted (3,1) law",3.813e-09,2.099e-08,0.182,0.82481,0.882801,0.932967
+#336317,carried K=4 core and scale-mode extraction,5.176e-09,1.721e-08,0.3007,0.607612,1.0767,0.564682
+#334821,"V29 with two-term (3,1) closure",5.264e-09,2.072e-08,0.2542,0.597454,0.894305,0.667978
+#330093,V29 bound to the 504aldo write-up,5.418e-09,2.133e-08,0.2542,0.580472,0.868729,0.667978
+#335813,V29-route closure with exact cost cuts,2.733e-08,3.206e-08,0.8525,0.115075,0.577979,0.199179

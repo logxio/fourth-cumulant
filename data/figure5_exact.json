@@ -1,0 +1,8 @@
+{
+  "no_C_kappa3_with_star_mse": 1.1291812771489906e-08,
+  "late_start4_mse": 5.418048326111316e-09,
+  "source": [
+    "runs/cloud/k4s6/verified.json",
+    "runs/cloud/k4s5/runs/k4s5/B_seed_start4_mini0.json"
+  ]
+}

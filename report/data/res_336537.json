@@ -1,0 +1,8 @@
+{
+  "aggregates": {
+    "public": {
+      "adjusted_final_layer_score": 3.145e-09,
+      "final_layer_mse": 1.853e-08
+    }
+  }
+}

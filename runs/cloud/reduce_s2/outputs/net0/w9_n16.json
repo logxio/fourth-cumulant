@@ -1,0 +1,789 @@
+{
+  "plan": {
+    "name": "window_s4_b9_treeall",
+    "start": 4,
+    "last_birth": 13,
+    "life": {
+      "star": {
+        "4": 10,
+        "5": 9,
+        "6": 8,
+        "7": 7,
+        "8": 6,
+        "9": 5
+      },
+      "ck3": {},
+      "tree": {
+        "4": 10,
+        "5": 9,
+        "6": 8,
+        "7": 7,
+        "8": 6,
+        "9": 5,
+        "10": 4,
+        "11": 3,
+        "12": 2,
+        "13": 1
+      },
+      "nontree": {
+        "4": 10,
+        "5": 9,
+        "6": 8,
+        "7": 7,
+        "8": 6,
+        "9": 5
+      }
+    }
+  },
+  "index": 0,
+  "start": 4,
+  "synthetic": 0,
+  "bridge": {
+    "d3_max_abs": 4.0978193283081055e-08,
+    "d3_relative_norm": 4.645786191304069e-07,
+    "d21_max_abs_before_interface_clip": 0.03348434343934059
+  },
+  "seconds": 163.84154797298834,
+  "memory": "gpu_peak=65.0G host_maxrss=109.5G births=132G",
+  "layers": [
+    {
+      "layer": 4,
+      "seconds": 6.996209447039291,
+      "memory": "gpu_peak=64.4G host_maxrss=21.5G births=20G",
+      "dropped": 0,
+      "live": {
+        "seed": 1,
+        "star": 1,
+        "tree": 2,
+        "nontree": 1
+      },
+      "split": {
+        "total": 7.815281391143799,
+        "tree": 5.072250843048096,
+        "non_tree": 7.350091934204102
+      },
+      "mse": 3.088162497997317e-09
+    },
+    {
+      "layer": 5,
+      "seconds": 7.685284896986559,
+      "memory": "gpu_peak=64.5G host_maxrss=33.5G births=36G",
+      "dropped": 0,
+      "live": {
+        "seed": 1,
+        "star": 2,
+        "tree": 4,
+        "nontree": 2
+      },
+      "split": {
+        "total": 6.425941467285156,
+        "tree": 4.223758697509766,
+        "non_tree": 6.171734809875488
+      },
+      "mse": 4.327915062515796e-09
+    },
+    {
+      "layer": 6,
+      "seconds": 9.194854579982348,
+      "memory": "gpu_peak=64.6G host_maxrss=45.5G births=52G",
+      "dropped": 0,
+      "live": {
+        "seed": 1,
+        "star": 3,
+        "tree": 6,
+        "nontree": 3
+      },
+      "split": {
+        "total": 5.4055938720703125,
+        "tree": 3.436016082763672,
+        "non_tree": 5.168706893920898
+      },
+      "mse": 4.787333786010646e-09
+    },
+    {
+      "layer": 7,
+      "seconds": 10.726166666019708,
+      "memory": "gpu_peak=64.8G host_maxrss=57.5G births=68G",
+      "dropped": 0,
+      "live": {
+        "seed": 1,
+        "star": 4,
+        "tree": 8,
+        "nontree": 4
+      },
+      "split": {
+        "total": 4.0244221687316895,
+        "tree": 2.5512232780456543,
+        "non_tree": 3.7181804180145264
+      },
+      "mse": 5.428685533353457e-09
+    },
+    {
+      "layer": 8,
+      "seconds": 12.26763055298943,
+      "memory": "gpu_peak=64.9G host_maxrss=69.5G births=84G",
+      "dropped": 0,
+      "live": {
+        "seed": 1,
+        "star": 5,
+        "tree": 10,
+        "nontree": 5
+      },
+      "split": {
+        "total": 2.9769537448883057,
+        "tree": 1.7717311382293701,
+        "non_tree": 2.8751487731933594
+      },
+      "mse": 6.124488390730631e-09
+    },
+    {
+      "layer": 9,
+      "seconds": 13.796496764058247,
+      "memory": "gpu_peak=65.0G host_maxrss=81.5G births=100G",
+      "dropped": 0,
+      "live": {
+        "seed": 1,
+        "star": 6,
+        "tree": 12,
+        "nontree": 6
+      },
+      "split": {
+        "total": 2.687251567840576,
+        "tree": 1.5697999000549316,
+        "non_tree": 2.5849051475524902
+      },
+      "mse": 7.114004588458472e-09
+    },
+    {
+      "layer": 10,
+      "seconds": 13.175001012976281,
+      "memory": "gpu_peak=65.0G host_maxrss=85.5G births=108G",
+      "dropped": 0,
+      "live": {
+        "seed": 1,
+        "star": 6,
+        "tree": 14,
+        "nontree": 6
+      },
+      "split": {
+        "total": 2.469428539276123,
+        "tree": 1.5078445672988892,
+        "non_tree": 1.8099697828292847
+      },
+      "mse": 8.483771474207473e-09
+    },
+    {
+      "layer": 11,
+      "seconds": 14.705108525929973,
+      "memory": "gpu_peak=65.0G host_maxrss=93.5G births=116G",
+      "dropped": 0,
+      "live": {
+        "seed": 1,
+        "star": 6,
+        "tree": 16,
+        "nontree": 6
+      },
+      "split": {
+        "total": 2.080362319946289,
+        "tree": 1.2402400970458984,
+        "non_tree": 1.518455982208252
+      },
+      "mse": 9.239963618235253e-09
+    },
+    {
+      "layer": 12,
+      "seconds": 15.666968269040808,
+      "memory": "gpu_peak=65.0G host_maxrss=101.5G births=124G",
+      "dropped": 0,
+      "live": {
+        "seed": 1,
+        "star": 6,
+        "tree": 18,
+        "nontree": 6
+      },
+      "split": {
+        "total": 1.8271926641464233,
+        "tree": 1.055708408355713,
+        "non_tree": 1.3370214700698853
+      },
+      "mse": 1.1674691587355219e-08
+    },
+    {
+      "layer": 13,
+      "seconds": 16.59462548198644,
+      "memory": "gpu_peak=65.0G host_maxrss=109.5G births=132G",
+      "dropped": 0,
+      "live": {
+        "seed": 1,
+        "star": 6,
+        "tree": 20,
+        "nontree": 6
+      },
+      "split": {
+        "total": 1.676024317741394,
+        "tree": 0.9555049538612366,
+        "non_tree": 1.2221049070358276
+      },
+      "mse": 1.2789944378931137e-08
+    },
+    {
+      "layer": 14,
+      "seconds": 15.795160850975662,
+      "memory": "gpu_peak=65.0G host_maxrss=109.5G births=132G",
+      "dropped": 0,
+      "live": {
+        "seed": 1,
+        "star": 6,
+        "tree": 20,
+        "nontree": 6
+      },
+      "split": null,
+      "mse": 1.3753217668115747e-08
+    },
+    {
+      "layer": 15,
+      "seconds": 15.828035445068963,
+      "memory": "gpu_peak=65.0G host_maxrss=109.5G births=132G",
+      "dropped": 0,
+      "live": {
+        "seed": 1,
+        "star": 6,
+        "tree": 20,
+        "nontree": 6
+      },
+      "split": null,
+      "mse": 1.5385565125124054e-08
+    }
+  ],
+  "mse": 1.5385565125124054e-08,
+  "per_layer_mse": [
+    6.977247252182295e-10,
+    7.608055068656506e-10,
+    1.1891631126073319e-09,
+    2.2099546161665486e-09,
+    3.088162497997317e-09,
+    4.327915062515796e-09,
+    4.787333786010646e-09,
+    5.428685533353457e-09,
+    6.124488390730631e-09,
+    7.114004588458472e-09,
+    8.483771474207473e-09,
+    9.239963618235253e-09,
+    1.1674691587355219e-08,
+    1.2789944378931137e-08,
+    1.3753217668115747e-08,
+    1.5385565125124054e-08
+  ],
+  "units": 6321.351412675506,
+  "unit_rows": {
+    "chain B (metered)": 168,
+    "K=4 sources": 127.17582811133683,
+    "young-leg transport": 54.0,
+    "feedback": 383.5443333333333,
+    "tree slice reads": 1430.0,
+    "C.k3 births and crossing": 0.0,
+    "non-tree first reads": 0.0,
+    "nontree kernel compression + matrix-pair reads": 4158.631251230836
+  },
+  "ranks": {
+    "nontree": 16,
+    "ck3": 0
+  },
+  "compression": [
+    {
+      "family": "nontree",
+      "birth": 4,
+      "rank": 16,
+      "kept": 0.18868589401245117
+    },
+    {
+      "family": "nontree",
+      "birth": 5,
+      "rank": 16,
+      "kept": 0.2202589362859726
+    },
+    {
+      "family": "nontree",
+      "birth": 6,
+      "rank": 16,
+      "kept": 0.2537205219268799
+    },
+    {
+      "family": "nontree",
+      "birth": 7,
+      "rank": 16,
+      "kept": 0.2909058928489685
+    },
+    {
+      "family": "nontree",
+      "birth": 8,
+      "rank": 16,
+      "kept": 0.3185572922229767
+    },
+    {
+      "family": "nontree",
+      "birth": 9,
+      "rank": 16,
+      "kept": 0.34076061844825745
+    }
+  ],
+  "replacement_events": [
+    {
+      "family": "nontree",
+      "birth": 4,
+      "layer": 4,
+      "phase": "compress",
+      "flops": 216181733679.99997,
+      "units": 100.66746439784764
+    },
+    {
+      "family": "nontree",
+      "birth": 4,
+      "layer": 5,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 5,
+      "layer": 5,
+      "phase": "compress",
+      "flops": 216181733679.99997,
+      "units": 100.66746439784764
+    },
+    {
+      "family": "nontree",
+      "birth": 4,
+      "layer": 6,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 5,
+      "layer": 6,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 6,
+      "layer": 6,
+      "phase": "compress",
+      "flops": 216181733679.99997,
+      "units": 100.66746439784764
+    },
+    {
+      "family": "nontree",
+      "birth": 4,
+      "layer": 7,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 5,
+      "layer": 7,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 6,
+      "layer": 7,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 7,
+      "layer": 7,
+      "phase": "compress",
+      "flops": 216181733679.99997,
+      "units": 100.66746439784764
+    },
+    {
+      "family": "nontree",
+      "birth": 4,
+      "layer": 8,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 5,
+      "layer": 8,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 6,
+      "layer": 8,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 7,
+      "layer": 8,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 8,
+      "layer": 8,
+      "phase": "compress",
+      "flops": 216181733679.99997,
+      "units": 100.66746439784764
+    },
+    {
+      "family": "nontree",
+      "birth": 4,
+      "layer": 9,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 5,
+      "layer": 9,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 6,
+      "layer": 9,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 7,
+      "layer": 9,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 8,
+      "layer": 9,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 9,
+      "layer": 9,
+      "phase": "compress",
+      "flops": 216181733679.99997,
+      "units": 100.66746439784764
+    },
+    {
+      "family": "nontree",
+      "birth": 4,
+      "layer": 10,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 5,
+      "layer": 10,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 6,
+      "layer": 10,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 7,
+      "layer": 10,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 8,
+      "layer": 10,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 9,
+      "layer": 10,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 4,
+      "layer": 11,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 5,
+      "layer": 11,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 6,
+      "layer": 11,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 7,
+      "layer": 11,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 8,
+      "layer": 11,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 9,
+      "layer": 11,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 4,
+      "layer": 12,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 5,
+      "layer": 12,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 6,
+      "layer": 12,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 7,
+      "layer": 12,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 8,
+      "layer": 12,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 9,
+      "layer": 12,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 4,
+      "layer": 13,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 5,
+      "layer": 13,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 6,
+      "layer": 13,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 7,
+      "layer": 13,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 8,
+      "layer": 13,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 9,
+      "layer": 13,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 4,
+      "layer": 14,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 5,
+      "layer": 14,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 6,
+      "layer": 14,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 7,
+      "layer": 14,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 8,
+      "layer": 14,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 9,
+      "layer": 14,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 4,
+      "layer": 15,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 5,
+      "layer": 15,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 6,
+      "layer": 15,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 7,
+      "layer": 15,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 8,
+      "layer": 15,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    },
+    {
+      "family": "nontree",
+      "birth": 9,
+      "layer": 15,
+      "phase": "read",
+      "flops": 169633382400,
+      "units": 78.99169921875
+    }
+  ],
+  "unit_convention": "Table7a unchanged rows + measured shape ledger for replacement kernels; not full-chain flopscope cost"
+}

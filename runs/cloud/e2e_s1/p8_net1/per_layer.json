@@ -1,0 +1,137 @@
+[
+  {
+    "layer": 4,
+    "seconds": 987.6866829395294,
+    "units_linear": 0.0,
+    "units_nonlinear": 5410.16022522375,
+    "units_projection": 0.0,
+    "units_total_so_far": 17862.539742600173,
+    "host_peak_rss_gib": 57.147823333740234,
+    "mse": 2.70276462810787e-09,
+    "groups": {
+      "dense": 1,
+      "slice": 3,
+      "core": 0
+    },
+    "pair_kept": [
+      0.9980619549751282,
+      0.14770135283470154
+    ],
+    "feedback_reads": 0,
+    "projection": null,
+    "seconds_units_by_part": {
+      "read_slice_legs": [
+        47.409,
+        5140.52
+      ],
+      "read_slice_pairs": [
+        16.808,
+        26.557
+      ],
+      "birth_two_leg_store": [
+        2.527,
+        1.0
+      ],
+      "read_dense_age0": [
+        112.784,
+        7.014
+      ],
+      "birth_pairs_compress": [
+        9.309,
+        62.729
+      ]
+    }
+  },
+  {
+    "layer": 5,
+    "seconds": 1219.8271918296814,
+    "units_linear": 3167.55861424841,
+    "units_nonlinear": 14681.245682071894,
+    "units_projection": 0.0,
+    "units_total_so_far": 35711.34403987415,
+    "host_peak_rss_gib": 61.48119354248047,
+    "mse": 3.2041532081919114e-09,
+    "groups": {
+      "dense": 2,
+      "slice": 5,
+      "core": 0
+    },
+    "pair_kept": [
+      0.16756698489189148
+    ],
+    "feedback_reads": 0,
+    "projection": null,
+    "seconds_units_by_part": {
+      "read_slice_legs": [
+        62.509,
+        8231.044
+      ],
+      "read_slice_pairs": [
+        19.033,
+        43.589
+      ],
+      "read_dense_two_leg": [
+        85.81,
+        6163.508
+      ],
+      "birth_two_leg_store": [
+        1.866,
+        1.0
+      ],
+      "read_dense_age0": [
+        63.91,
+        7.014
+      ],
+      "birth_pairs_compress": [
+        7.071,
+        62.729
+      ]
+    }
+  },
+  {
+    "layer": 6,
+    "seconds": 1628.445971250534,
+    "units_linear": 3203.58009862341,
+    "units_nonlinear": 23952.33113892004,
+    "units_projection": 0.0,
+    "units_total_so_far": 62867.255278371274,
+    "host_peak_rss_gib": 65.75598907470703,
+    "mse": 3.752377286158118e-09,
+    "groups": {
+      "dense": 3,
+      "slice": 7,
+      "core": 0
+    },
+    "pair_kept": [
+      0.17982009053230286
+    ],
+    "feedback_reads": 0,
+    "projection": null,
+    "seconds_units_by_part": {
+      "read_slice_legs": [
+        110.203,
+        11321.568
+      ],
+      "read_slice_pairs": [
+        33.103,
+        60.622
+      ],
+      "read_dense_two_leg": [
+        264.47,
+        12327.017
+      ],
+      "birth_two_leg_store": [
+        2.092,
+        1.0
+      ],
+      "read_dense_age0": [
+        80.96,
+        7.014
+      ],
+      "birth_pairs_compress": [
+        8.612,
+        62.729
+      ]
+    }
+  }
+]
