@@ -174,8 +174,6 @@ The first run takes about six hours and peaks near 115 GiB RSS on the measured 5
 
 The code is MIT (`LICENSE`). Chain B builds on 504aldo's V29 ([whest-p2-cumulant-k3](https://github.com/504aldo/whest-p2-cumulant-k3), MIT), koushik_rudra's V34 pruning (MIT), cost blocks from acco-cyber's V37 and the SSC closure from Puffi's public Phase 1 report, with its 9 coefficients refit here. Their notices stay in `estimator.py`, `ablation/chain.py` and `LICENSE`. The corrector also trains on networks 0–2,047 of Keenan Pepper's [Phase 2 corpus](https://huggingface.co/datasets/keenanpepper/arc-whestbench-p2-d8b-corpus-14k); no corpus data ships here, and `lab/corpus_lt/fetch.py` downloads it. ARC's reference implementation (MIT) supplies the term tables and is fetched separately. The public seeds and truth in `data/` stay under AIcrowd's challenge terms. `THIRD_PARTY.md` lists the origin of each file.
 
-The author designed the methodology, propositions, and experimental architecture, led the research, approved every submission, and reviewed all experimental results and the report. LLM coding assistants were used for code implementation, cloud job orchestration, verification scripting, and manuscript editing (report §9).
-
 ## Cite
 
 ```bibtex
